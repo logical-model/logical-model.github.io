@@ -13,6 +13,8 @@
     nav a { font-weight: 500; }
     main { margin: 3.5rem auto; max-width: 52rem; padding: 0 1.5rem; }
     h1 { font-size: clamp(2rem, 5vw, 3.25rem); line-height: 1.1; }
+    .lede { font-size: 1.2rem; }
+    .equation { background: #edf3f6; border-left: .3rem solid #075a8c; border-radius: .25rem; margin: 1.25rem 0; padding: 1rem 1.25rem; }
     .card { border: 1px solid #bdc7ce; border-radius: .6rem; margin-top: 2rem; padding: 1.5rem; }
     .card a { color: #075a8c; font-size: 1.2rem; font-weight: 700; }
     footer { border-top: 1px solid #bdc7ce; color: #52616b; margin-top: 4rem; padding: 1.5rem max(6vw, 1.5rem); }
@@ -29,11 +31,36 @@
   </header>
   <main>
     <h1>A logical model of minority representation</h1>
-    <p>
-      Documentation for the <code>logical</code> R package, which computes and
-      visualizes predictions from Atsusaka's (2021) model of minority candidate
-      emergence and electoral success.
+    <p class="lede">
+      <code>logical</code> is an R package for examining quantitative
+      predictions from a logical model of minority representation. It connects
+      electoral conditions within a district to the probability that a minority
+      candidate emerges and wins.
     </p>
+    <section aria-labelledby="about-heading">
+      <h2 id="about-heading">What the model does</h2>
+      <p>
+        The model combines an adjusted racial margin of victory (<code>M</code>)
+        with the minority share of the electorate (<code>C</code>) to estimate
+        the probability of minority candidate emergence and electoral success.
+        It supports district-level predictions, turnout adjustments,
+        jurisdiction-level simulations, and comparisons of redistricting
+        scenarios.
+      </p>
+      <div class="equation" aria-label="Model prediction">
+        Pr(minority candidate emerges and wins) = Φ(√(M × C) − 50)
+      </div>
+      <ul>
+        <li><code>M</code> is derived from the top minority and White candidate vote shares in the previous election.</li>
+        <li><code>C</code> is the minority electorate percentage and may be adjusted for relative turnout.</li>
+        <li>Coethnic and crossover voting assumptions support prospective redistricting scenarios.</li>
+      </ul>
+      <p>
+        The package is designed to make model assumptions transparent. Results
+        should be interpreted as model-based predictions, not as a guaranteed
+        accuracy rate for every new election or district plan.
+      </p>
+    </section>
     <section id="vignettes" aria-labelledby="vignettes-heading">
       <h2 id="vignettes-heading">Vignettes</h2>
       <article class="card">
@@ -44,6 +71,16 @@
           spots.
         </p>
       </article>
+    </section>
+    <section aria-labelledby="citation-heading">
+      <h2 id="citation-heading">Citation</h2>
+      <p>
+        Atsusaka, Yuki. 2021. “A Logical Model for Predicting Minority
+        Representation: Application to Redistricting and Voting Rights Cases.”
+        <em>American Political Science Review</em> 115(4): 1210–1225.
+        <a href="https://doi.org/10.1017/S000305542100054X">https://doi.org/10.1017/S000305542100054X</a>
+      </p>
+      <p>For the R package citation, run <code>citation("logical")</code>.</p>
     </section>
   </main>
   <footer>
