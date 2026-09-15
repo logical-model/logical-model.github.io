@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>logical: a model of minority representation</title>
   <style>
-    :root { color-scheme: light dark; }
-    body { font-family: system-ui, sans-serif; line-height: 1.55; margin: 0; }
-    header { background: #172a3a; color: white; padding: 1rem max(6vw, 1.5rem); }
+    :root { color-scheme: light; }
+    body { background: #f4f7f9; color: #1e2b33; font-family: system-ui, sans-serif; line-height: 1.55; margin: 0; }
+    header { background: #2d6175; color: white; padding: 1rem max(6vw, 1.5rem); }
     header a { color: white; text-decoration: none; font-weight: 700; }
     nav { display: inline-flex; gap: 1.25rem; margin-left: 2rem; }
     nav a { font-weight: 500; }
@@ -15,17 +15,17 @@
     h1 { font-size: clamp(2rem, 5vw, 3.25rem); line-height: 1.1; }
     .lede { font-size: 1.2rem; }
     .equation { background: #edf3f6; border-left: .3rem solid #075a8c; border-radius: .25rem; margin: 1.25rem 0; padding: 1rem 1.25rem; }
-    .card { border: 1px solid #bdc7ce; border-radius: .6rem; margin-top: 2rem; padding: 1.5rem; }
+    .card { background: #fff; border: 1px solid #bdc7ce; border-radius: .6rem; margin-top: 2rem; padding: 1.5rem; }
     .card a { color: #075a8c; font-size: 1.2rem; font-weight: 700; }
     footer { border-top: 1px solid #bdc7ce; color: #52616b; margin-top: 4rem; padding: 1.5rem max(6vw, 1.5rem); }
-    @media (prefers-color-scheme: dark) { .card, footer { border-color: #50606c; } .card a { color: #69c4f1; } }
+    pre { background: #e8f0f3; border-radius: .4rem; overflow-x: auto; padding: 1rem; }
   </style>
 </head>
 <body>
   <header>
     <a href="./">logical</a>
     <nav aria-label="Main navigation">
-      <a href="#vignettes">Vignettes</a>
+      <a href="#usage">Usage</a>
       <a href="https://github.com/YukiAtsusaka/logical">Package source</a>
     </nav>
   </header>
@@ -61,16 +61,39 @@
         accuracy rate for every new election or district plan.
       </p>
     </section>
-    <section id="vignettes" aria-labelledby="vignettes-heading">
-      <h2 id="vignettes-heading">Vignettes</h2>
-      <article class="card">
-        <a href="articles/logical.html">Getting started with logical</a>
-        <p>
-          Learn the model inputs, district predictions, turnout adjustment,
-          jurisdiction-level simulation, redistricting scenarios, and sweet
-          spots.
-        </p>
-      </article>
+    <section id="usage" aria-labelledby="usage-heading">
+      <h2 id="usage-heading">Usage</h2>
+      <p>
+        Start with district-level values for <code>M</code> and <code>C</code>.
+        Both use a 0–100 scale. <code>minorep()</code> returns the predicted
+        probability for each district.
+      </p>
+      <pre><code>M &lt;- c(20, 50, 30)
+C &lt;- c(40, 70, 85)
+round(minorep(M = M, C = C), 4)
+# [1] 0.0000 1.0000 0.6906</code></pre>
+      <p>
+        To account for unequal turnout, provide minority and White turnout
+        rates (as proportions) through <code>gap</code>.
+      </p>
+      <pre><code>minorep(M = M, C = C, gap = c(0.5, 0.6))</code></pre>
+      <h3>Build and compare scenarios</h3>
+      <p>
+        Use <code>comp_M()</code> to derive the racial margin from observed
+        candidate vote shares, or <code>sim_M()</code> to model it using
+        coethnic and crossover voting assumptions. For redistricting work,
+        <code>sim_redistrict()</code> produces predictions over minority
+        electorate shares, and <code>plot_redistrict()</code> compares plans.
+      </p>
+      <pre><code>plan &lt;- sim_redistrict(coethnic = 0.9, crossover = 0.3)
+plot_redistrict(plans = cbind(&quot;Proposed plan&quot; = plan), range = c(44, 55))</code></pre>
+      <p>
+        To simulate a jurisdiction-wide count of minority officeholders, pass
+        district probabilities to <code>n_minorep()</code>. Set
+        <code>seed</code> when you need reproducible draws. Use
+        <code>plot_sweetspot()</code> to identify the first electorate share
+        at which a scenario reaches a chosen probability threshold.
+      </p>
     </section>
     <section aria-labelledby="citation-heading">
       <h2 id="citation-heading">Citation</h2>
@@ -83,9 +106,6 @@
       <p>For the R package citation, run <code>citation("logical")</code>.</p>
     </section>
   </main>
-  <footer>
-    Model: Atsusaka (2021), <em>American Political Science Review</em> 115(4):
-    1210–1225. <a href="https://doi.org/10.1017/S000305542100054X">DOI</a>.
-  </footer>
+  <footer>(c) 2026 Yuki Atsusaka and Kolbe Dumas</footer>
 </body>
 </html>
