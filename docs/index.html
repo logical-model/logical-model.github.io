@@ -17,6 +17,13 @@
     .equation { background: #edf3f6; border-left: .3rem solid #075a8c; border-radius: .25rem; margin: 1.25rem 0; padding: 1rem 1.25rem; }
     .card { background: #fff; border: 1px solid #bdc7ce; border-radius: .6rem; margin-top: 2rem; padding: 1.5rem; }
     .card a { color: #075a8c; font-size: 1.2rem; font-weight: 700; }
+    a { color: #075a8c; }
+    .badges { display: flex; flex-wrap: wrap; gap: .5rem; }
+    .badges img { height: 1.25rem; }
+    table { background: #fff; border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #bdc7ce; padding: .7rem; text-align: left; vertical-align: top; }
+    th { background: #e8f0f3; }
+    .example-plot { background: #fff; border: 1px solid #bdc7ce; display: block; height: auto; margin: 1.25rem auto 2rem; max-width: 100%; }
     footer { border-top: 1px solid #bdc7ce; color: #52616b; margin-top: 4rem; padding: 1.5rem max(6vw, 1.5rem); }
     pre { background: #e8f0f3; border-radius: .4rem; overflow-x: auto; padding: 1rem; }
   </style>
@@ -30,80 +37,162 @@
     </nav>
   </header>
   <main>
-    <h1>A logical model of minority representation</h1>
-    <p class="lede">
-      <code>logical</code> is an R package for examining quantitative
-      predictions from a logical model of minority representation. It connects
-      electoral conditions within a district to the probability that a minority
-      candidate emerges and wins.
-    </p>
-    <section aria-labelledby="about-heading">
-      <h2 id="about-heading">What the model does</h2>
-      <p>
-        The model combines an adjusted racial margin of victory (<code>M</code>)
-        with the minority share of the electorate (<code>C</code>) to estimate
-        the probability of minority candidate emergence and electoral success.
-        It supports district-level predictions, turnout adjustments,
-        jurisdiction-level simulations, and comparisons of redistricting
-        scenarios.
-      </p>
-      <div class="equation" aria-label="Model prediction">
-        Pr(minority candidate emerges and wins) = Φ(√(M × C) − 50)
-      </div>
+    <section aria-labelledby="readme-introduction-heading">
+      <h2 id="readme-introduction-heading">Introduction</h2>
+      <p><strong>This R package is for computing and visualizing the quantitative predictions of a logical model of minority representation.</strong> This quantitatively predictive logical model was developed in Atsusaka (2021) <a href="https://www.cambridge.org/core/journals/american-political-science-review/article/abs/logical-model-for-predicting-minority-representation-application-to-redistricting-and-voting-rights-cases/86C3B6E592B2B9111F58634AE656CD60?utm_source=hootsuite&amp;utm_medium=twitter&amp;utm_campaign=PSR_Jun21">“A Logical Model for Predicting Minority Representation: Application to Redistricting and Voting Rights Cases”</a> <em>American Political Science Review</em> 115 (4), 1210-1225.</p>
+      <p>For quantitatively predictive logical models more generally, please refer to:</p>
       <ul>
-        <li><code>M</code> is derived from the top minority and White candidate vote shares in the previous election.</li>
-        <li><code>C</code> is the minority electorate percentage and may be adjusted for relative turnout.</li>
-        <li>Coethnic and crossover voting assumptions support prospective redistricting scenarios.</li>
+        <li>Taagepera, Rein. 2007. <a href="https://books.google.com/books?id=T_YTDAAAQBAJ&amp;printsec=frontcover&amp;dq=rein+taagepera&amp;hl=ja&amp;sa=X&amp;ved=2ahUKEwjslpOhndnwAhURac0KHdMWD0AQ6AEwBHoECAUQAg#v=onepage&amp;q=rein%20taagepera&amp;f=false"><em>Predicting Party Sizes: The Logic of Simple Electoral Systems</em></a>. Oxford University Press.</li>
+        <li>Taagepera, Rein. 2008. <a href="https://books.google.com/books?id=l6tiJLcVZ8AC&amp;printsec=frontcover&amp;dq=rein+taagepera&amp;hl=ja&amp;sa=X&amp;ved=2ahUKEwjslpOhndnwAhURac0KHdMWD0AQ6AEwBnoECAcQAg#v=onepage&amp;q=rein%20taagepera&amp;f=false"><em>Making Social Sciences More Scientific: The Need for Predictive Models</em></a>. Oxford University Press.</li>
+        <li>Shugart, Matthew S. and Rein Taagepera. 2017. <a href="https://books.google.com/books?id=0S42DwAAQBAJ&amp;printsec=frontcover&amp;dq=rein+taagepera&amp;hl=ja&amp;sa=X&amp;ved=2ahUKEwjslpOhndnwAhURac0KHdMWD0AQ6AEwCHoECAsQAg#v=onepage&amp;q=rein%20taagepera&amp;f=false"><em>Votes from Seats: Logical Models of Electoral Systems</em></a>. Cambridge University Press.</li>
       </ul>
-      <p>
-        The package is designed to make model assumptions transparent. Results
-        should be interpreted as model-based predictions, not as a guaranteed
-        accuracy rate for every new election or district plan.
-      </p>
     </section>
-    <section id="usage" aria-labelledby="usage-heading">
-      <h2 id="usage-heading">Usage</h2>
-      <p>
-        Start with district-level values for <code>M</code> and <code>C</code>.
-        Both use a 0–100 scale. <code>minorep()</code> returns the predicted
-        probability for each district.
-      </p>
-      <pre><code>M &lt;- c(20, 50, 30)
-C &lt;- c(40, 70, 85)
-round(minorep(M = M, C = C), 4)
-# [1] 0.0000 1.0000 0.6906</code></pre>
-      <p>
-        To account for unequal turnout, provide minority and White turnout
-        rates (as proportions) through <code>gap</code>.
-      </p>
-      <pre><code>minorep(M = M, C = C, gap = c(0.5, 0.6))</code></pre>
-      <h3>Build and compare scenarios</h3>
-      <p>
-        Use <code>comp_M()</code> to derive the racial margin from observed
-        candidate vote shares, or <code>sim_M()</code> to model it using
-        coethnic and crossover voting assumptions. For redistricting work,
-        <code>sim_redistrict()</code> produces predictions over minority
-        electorate shares, and <code>plot_redistrict()</code> compares plans.
-      </p>
-      <pre><code>plan &lt;- sim_redistrict(coethnic = 0.9, crossover = 0.3)
-plot_redistrict(plans = cbind(&quot;Proposed plan&quot; = plan), range = c(44, 55))</code></pre>
-      <p>
-        To simulate a jurisdiction-wide count of minority officeholders, pass
-        district probabilities to <code>n_minorep()</code>. Set
-        <code>seed</code> when you need reproducible draws. Use
-        <code>plot_sweetspot()</code> to identify the first electorate share
-        at which a scenario reaches a chosen probability threshold.
-      </p>
+    <section aria-labelledby="logical-model-heading">
+      <h2 id="logical-model-heading">What is the Logical Model of Minority Representation?</h2>
+      <p>The logical model of minority representation is a simple mathematical formula introduced in Atsusaka (2021). Its main purpose is to logically explain and accurately predict when minority candidates run for office and win electoral contests. It has been shown that the model can predict over 90% of minority candidate emergence and over 95% of minority electoral success in actual elections.</p>
+      <p>The logical model states that the probability that a minority candidate runs for office in a particular district is equal to the estimated probability that she can win the election in the distirct. This estimated probability in turn is represented by the standard normal CDF (Cumulative Distribution Function) of a square-root of a product of two terms (<em>MC</em>) minus 50 (please see the original manuscript and its Online Appendix for derivation and explanations).</p>
+      <p>Semi-formally, the model tells that <strong>Pr(Minority Runs) = Pr(Minority Wins) = Φ( √(MC)- 50)</strong>,</p>
+      <p>where</p>
+      <ul>
+        <li><strong>C</strong> : % minority voters in the electorate
+          <ul><li>C represents the racial margin of victory (see below) in the presence of extreme racial polarization</li></ul>
+        </li>
+        <li><strong>M</strong> : (adjusted) racial margin of victory in the most recent election = (Vt-1M - Vt-1W) + 50
+          <ul>
+            <li><strong>Vt-1M</strong> : the vote share of the "top" (most vote-earning) minority candidate in the most recent election (at time "t-1")</li>
+            <li><strong>Vt-1W</strong> : the vote share of the "top" (most vote-earning) white candidate in the most recent election (at time "t-1")</li>
+            <li>M represents the past performance of minority candidates relative to their white counterparts</li>
+            <li>M quantifies how safely minority candidates secure their descriptive representation relative to their white counterparts</li>
+          </ul>
+        </li>
+      </ul>
+      <p>The core idea of the model is that future performance of minority candidates will be somewhere between the two logical bounds defined by <em>M</em> and <em>C</em>. In one extreme case, the results of upcoming elections will be identical to what happened in the most recent elections (<em>M</em>). In another extreme scenario, the results of upcoming elections will be equivalent to what we would have expected from district racial composition in the presence of perfect racially polarized voting. The notion of "somewhere between" is reflected by the geometric mean of the two bounds √(MC).</p>
     </section>
-    <section aria-labelledby="citation-heading">
-      <h2 id="citation-heading">Citation</h2>
-      <p>
-        Atsusaka, Yuki. 2021. “A Logical Model for Predicting Minority
-        Representation: Application to Redistricting and Voting Rights Cases.”
-        <em>American Political Science Review</em> 115(4): 1210–1225.
-        <a href="https://doi.org/10.1017/S000305542100054X">https://doi.org/10.1017/S000305542100054X</a>
-      </p>
-      <p>For the R package citation, run <code>citation("logical")</code>.</p>
+    <section aria-labelledby="applications-heading">
+      <h2 id="applications-heading">Key Applications</h2>
+      <p>The logical model can answer various questions that researchers and practicioners are often interested in redistricting and voting rights cases, including:</p>
+      <ul>
+        <li>Do minority voters have a viable chance of electing their candidate of choice in about 25% minority (<em>influence</em>) districts?</li>
+        <li>Does changing the percentage of minority voters from A (less than 50) to B (over 50) significantly increases the probability that minority candidates emerge?</li>
+        <li>What percentage of minority voters is sufficient for a given district to enable minority voters to elect their co-ethnic candidates?</li>
+        <li>Where is the "sweet spot" -- the point at which the probability of minority candidates becomes high enough with the minimum percentage of minority voters?</li>
+        <li>Does a given district plan have more minority voters than necessary to elect minority candidates, leading to a potential vote dilution?</li>
+        <li>How many minority representatives are likely to be elected under a given district plan?</li>
+      </ul>
+      <h3><strong>This README file explains how to apply the logical model to answer these questions in specific contexts using this R package</strong></h3>
+    </section>
+    <section id="installation">
+      <h2>Installation</h2>
+      <p>Install the development version from GitHub:</p>
+      <pre><code>install.packages("remotes")
+remotes::install_github("YukiAtsusaka/logical")</code></pre>
+      <p>Load the package:</p>
+      <pre><code>library(logical)</code></pre>
+    </section>
+    <section>
+      <h2>Main functions</h2>
+      <table><thead><tr><th>Function</th><th>Purpose</th></tr></thead><tbody>
+        <tr><td><code>comp_M()</code></td><td>Compute the adjusted racial margin of victory from observed candidate vote shares.</td></tr>
+        <tr><td><code>minorep()</code></td><td>Predict district-level minority candidate emergence and electoral success.</td></tr>
+        <tr><td><code>n_minorep()</code></td><td>Simulate the jurisdiction-level number of minority candidates or officeholders.</td></tr>
+        <tr><td><code>sim_M()</code></td><td>Simulate the adjusted racial margin from coethnic and crossover voting assumptions.</td></tr>
+        <tr><td><code>sim_redistrict()</code></td><td>Predict outcomes across minority electorate shares from 1 to 100 percent.</td></tr>
+        <tr><td><code>plot_redistrict()</code></td><td>Compare two redistricting scenarios over a selected range.</td></tr>
+        <tr><td><code>plot_sweetspot()</code></td><td>Find and visualize the electorate share at which a scenario reaches a probability threshold.</td></tr>
+      </tbody></table>
+    </section>
+    <section id="usage">
+      <h2>1. Predicting the Probability of Minority Electoral Success</h2>
+      <h3><code>minorep</code>: Predict the Probability of Minority Candidate Emergence and Electoral Success</h3>
+      <p><code>minorep</code> is a workhorse function of this package. It predicts a probability at which minority candidates run for office and win races in districts with specified values of <em>M</em> and <em>C</em>. For example, when one wants to predict the probability of minority candidate emergence and electoral success (equivalent in the logical model) for three districts for which she knows the percentage of minority voters and the (adjusted) racial margin of victory:</p>
+      <pre><code>rmargin &lt;- c(20, 50, 30)   # Half the Difference between the Top Minority and Top White Vote Shares
+VAP &lt;- c(40, 70, 85)       # Minority Voting-Age Population
+rep.prob &lt;- minorep(M=rmargin, C=VAP)
+rep.prob
+# [1] 0.9982217 1.0000000 1.0000000</code></pre>
+      <blockquote><h3>Motivating Examples (1): Influence Districts in <em>Hayes v. Louisiana</em> (1992)</h3><p>In <em>Heyes v. Louisiana</em> (1992), one of the main controversies was about the empirical validity of the claim that minority voters can influence electoral results (to elect minority candidates) in districts with about 20% minority voters. While the plaintiffs maintained that such districts can be minority <em>influence</em> districts, the state contended that "there was no evidence" to support such a theory given a strong racially polarized voting pattern (Enstrgom and Kirksey 1998, 250). The logical model offers one answer to this debate: the probability of minority candidate emergence in districts with 20% minority voters with a strong racially polarized voting pattern is almost 0. Other claims have been that 35% to 45% (<em>Heyes v. Louisiana</em> (1994))(Enstrgom and Kirksey 1998, 258) minority voters are sufficient to provide minority voters with a realistic chance to elect a candidate of their choice.</p></blockquote>
+      <h3><code>plot.minorep</code>: Visualize the Predicted Probability of Minority Representation</h3>
+      <pre><code>plot.minorep(M=margin, C=VAP)</code></pre>
+      <img class="example-plot" src="images/plot-minorep-sample.png" alt="Predicted probability of minority representation">
+    </section>
+    <section>
+      <h2>2. Simulating the Impact of Redistricting on Minority Representation</h2>
+      <h3><code>redistrict</code>: Simulated the Probability of Minority Representation in Varying District Racial Compositions</h3>
+      <p>Generate a probability of minority candidate emergence with specified levels of minority co-ethnic voting and White crossover voting as follows:</p>
+      <pre><code># Suppose we have two district plans for which we know the expected behaviors of minority and white voters
+# (from surveys, exit polls, ecological inference, historical analyses, etc)
+
+# Plan1
+# 90% of minority voters are expected to vote for the minority candidate (Strong Minority Bloc Voting)
+# 0% of white voters are expected to vote for the minority candidate (No White Crossover)
+
+# Plan2
+# 90% of minority voters are expected to vote for the minority candidate (Strong Minority Bloc Voting)
+# 30% of white voters are expected to vote for the minority candidate (Moderate White Crossover)
+
+plan1 &lt;- redistrict(coethnic=0.9, crossover=0)
+plan2 &lt;- redistrict(coethnic=0.9, crossover=0.3)</code></pre>
+      <h3><code>plot.redistrict</code></h3>
+      <pre><code>myplans = cbind(plan1, plan2)
+myrange = c(44,55) # From 44% to 55%
+plot.redistrict(plans=myplans, range=myrange)
+
+# To Add Title, etc.
+text(x=start, y=1.1, labels="Moderate white crossover",
+      cex=1, col="maroon", font=2)
+text(x=start+10, y=-0.09, labels="No white crossover",
+     cex=1, col="seagreen", font=2)
+ title("With Strong Minority Bloc Voting")</code></pre>
+      <img class="example-plot" src="images/redistricting-scenarios.png" alt="Redistricting scenario plot">
+    </section>
+    <section>
+      <h2>3. Finding Sufficient Percentage of Minority Voters and Sweet Spot</h2>
+      <p>Users can pre-specified a threshold as a probability of minority electoal success under given district plans. For example, one may be interested what percentage of minority voters is sufficient to yield 80% or higher chance of having a minority officeholder under two different plans (from the above examples). Under this option, a probability (from 0 to 1) must be input for the optional argument "threshold" as follows:</p>
+      <pre><code>myplans = cbind(plan1, plan2)                  # Same Plans from Above
+plot.redistrict(plans=myplans, threshold=0.8)  # Setting 0.8 as a threshold value
+
+# To Add Title, etc.
+text(x=start, y=1.1, labels="Moderate white crossover",
+      cex=1, col="maroon", font=2)
+text(x=start+10, y=-0.09, labels="No white crossover",
+     cex=1, col="seagreen", font=2)
+title("With Strong Minority Bloc Voting")</code></pre>
+      <img class="example-plot" src="images/sweet-spot.png" alt="Redistricting threshold plot">
+    </section>
+    <section>
+      <h2>4. Quantifying the Degree of Vote Dilution via Packing</h2>
+      <p>Building upon (2), one can also visualize the degree of potential vote dilution via "packing" of minority voters. For this option, one only needs to input a percentage point as an additional argument "C". Suppose that a district plan that one examines have 75% minority voters and she wants to know how many minority voters the district has beyond what is sufficient to elect a minority candidate with a probability of 0.8 and higher.</p>
+      <pre><code>myplans = cbind(plan1, plan2)                  # Same Plans from Above
+plot.redistrict(plans=myplans,
+                threshold=0.8,                 # Setting 0.8 as a threshold value
+                C=75)                          # A plan has 75% minority voters
+
+# To Add Title, etc.
+text(x=start, y=1.1, labels="Moderate white crossover",
+      cex=1, col="maroon", font=2)
+text(x=start+10, y=-0.09, labels="No white crossover",
+     cex=1, col="seagreen", font=2)
+title("With Strong Minority Bloc Voting")</code></pre>
+    </section>
+    <section>
+      <h2>5. Predicting the Number of Minority Officeholders</h2>
+      <h3>Extention I (Accounting for the Turnout Gap)</h3>
+      <p>To account for the turnout gap in simulating <em>M</em>, one can simply include a vector of proportions of minority and white voters who turn out as an additional argument. Suppose that one knows that, from exit polls, surveys, ecological inference, and/or historical studies, turnout rates are usually 0.5 for minority voters and 0.6 for white voters.</p>
+      <pre><code># Suppose we know/estimate that:
+# 90% of minority voters are expected to vote for the minority candidate
+# 30% of white voters are expected to vote for the minority candidate
+# Turnout Rates are 50% (minority voters) and 60% (white voters)
+
+plan3 &lt;- redistrict(coethnic=0.9, crossover=0.3, gap=c(0.5, 0.6))</code></pre>
+      <blockquote><h3>Motivating Example (3): Louisiana Congressional District 4 Plan in 1992</h3><p>Concerning the effectiveness of the plan for a new majority-minority District 4 supported by the Senate in the 1990 round of redistricting, "Sherman Copelin, the African-American representative who sponsored the [alternative] plan, complained that the new minority district in the plan passed by the Senate did not contain enough African-American voters to ensure that African-Americans would elect a candidate of their choice....The percentage of African-Americans among the registered voters in this district was 63.2, almost 4 percentage points higher than the second minority district in the other version" (Engstrom and Kirksey 1998, 245)</p></blockquote>
+    </section>
+    <section>
+      <h2>Citation</h2>
+      <pre><code>citation("logical")</code></pre>
+    </section>
+    <section>
+      <h2>Development status</h2>
+      <p>The package is being prepared for its first CRAN release. Please report problems through the <a href="https://github.com/YukiAtsusaka/logical/issues">GitHub issue tracker</a>.</p>
     </section>
   </main>
   <footer>(c) 2026 Yuki Atsusaka and Kolbe Dumas</footer>
