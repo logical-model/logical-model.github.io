@@ -20,6 +20,9 @@ against the package's raw files, resolves relative document links against the
 GitHub repository, and adds heading anchors. It preserves README content,
 including source typos and badges; it does not execute R code.
 
+The “On this page” panel is generated from README `##` and `###` headings.
+It stays visible as a sidebar on wide screens and collapses on smaller screens.
+
 Edit `docs/index.html` for styling and navigation. There is no generated homepage,
 Python build step, or local image-copy step. Existing articles remain available.
 JavaScript and access to GitHub's raw-content host are required to display the

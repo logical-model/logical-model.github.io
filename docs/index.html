@@ -9,8 +9,8 @@
     body { background: #f4f7f9; color: #1e2b33; font-family: system-ui, sans-serif; line-height: 1.55; margin: 0; }
     header { background: #2d6175; color: white; padding: 1rem max(6vw, 1.5rem); }
     header a { color: white; text-decoration: none; font-weight: 700; }
-    nav { display: inline-flex; gap: 1.25rem; margin-left: 2rem; }
-    nav a { font-weight: 500; }
+    header nav { display: inline-flex; gap: 1.25rem; margin-left: 2rem; }
+    header nav a { font-weight: 500; }
     main { margin: 3.5rem auto; max-width: 52rem; padding: 0 1.5rem; }
     h1 { font-size: clamp(2rem, 5vw, 3.25rem); line-height: 1.1; }
     .lede { font-size: 1.2rem; }
@@ -33,10 +33,25 @@
     h1 { overflow-wrap: anywhere; }
     code { font-size: .95em; }
     @media (max-width: 600px) {
-      nav { margin-left: 1rem; gap: .75rem; }
+      header nav { margin-left: 1rem; gap: .75rem; }
       main { margin-top: 2rem; }
       main img[align="right"] { float: none; display: block; margin: 1rem auto; max-height: 200px; }
       main img[width="45%"] { width: 100%; }
+    }
+    .readme-body { min-width: 0; }
+    .page-toc { background: #fff; border: 1px solid #bdc7ce; border-radius: .6rem; margin-bottom: 1.5rem; }
+    .page-toc summary { padding: .9rem 1rem; font-weight: 700; cursor: pointer; }
+    .page-toc nav { padding: 0 1rem 1rem; }
+    .page-toc ul { list-style: none; margin: 0; padding: 0; }
+    .page-toc li + li { margin-top: .65rem; }
+    .page-toc .toc-subsection { padding-left: 1rem; font-size: .9em; }
+    .page-toc a { display: block; text-decoration: none; overflow-wrap: anywhere; }
+    .page-toc a:hover { text-decoration: underline; }
+    .page-toc a:focus-visible, .page-toc summary:focus-visible { outline: 2px solid #075a8c; outline-offset: 3px; }
+    @media (min-width: 1100px) {
+      main.with-toc { max-width: 74rem; display: grid; grid-template-columns: 16rem minmax(0, 52rem); gap: 3rem; align-items: start; }
+      .page-toc { position: sticky; top: 1.5rem; max-height: calc(100vh - 3rem); overflow-y: auto; font-size: .9rem; }
+      .readme-body h1 { margin-top: 0; }
     }
   </style>
   <script defer src="vendor/marked.umd.js"></script>
@@ -52,11 +67,19 @@
     </nav>
   </header>
   <main id="usage">
+    <aside class="page-toc" id="page-toc" hidden>
+      <details id="toc-details">
+        <summary>On this page</summary>
+        <nav aria-label="On this page"><ul id="toc-list"></ul></nav>
+      </details>
+    </aside>
+    <div class="readme-body">
 
     <p id="readme-status" role="status">Loading the package README…</p>
     <p id="readme-fallback"><a href="https://github.com/YukiAtsusaka/logical/blob/master/README.md">Read the documentation on GitHub</a></p>
     <noscript><p>Enable JavaScript to display the README here, or use the GitHub link above.</p></noscript>
     <article id="readme-content" aria-label="Package README" aria-busy="true"></article>
+    </div>
   </main>
   <footer>Documentation from <a href="https://github.com/YukiAtsusaka/logical/blob/master/README.md">logical/README.md</a>. (c) 2026 Yuki Atsusaka and Kolbe Dumas</footer>
 </body>

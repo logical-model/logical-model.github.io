@@ -7,6 +7,32 @@
   const status = document.getElementById("readme-status");
   const fallback = document.getElementById("readme-fallback");
 
+  function populateContents() {
+    const headings = content.querySelectorAll("h2, h3");
+    if (!headings.length) return;
+    const list = document.getElementById("toc-list");
+    const details = document.getElementById("toc-details");
+    const desktop = window.matchMedia("(min-width: 1100px)");
+    const items = document.createDocumentFragment();
+    for (const heading of headings) {
+      const item = document.createElement("li");
+      if (heading.tagName === "H3") item.className = "toc-subsection";
+      const link = document.createElement("a");
+      link.textContent = heading.textContent;
+      link.href = `#${encodeURIComponent(heading.id)}`;
+      item.append(link);
+      items.append(item);
+    }
+    list.replaceChildren(items);
+    details.open = desktop.matches;
+    desktop.addEventListener("change", event => { details.open = event.matches; });
+    list.addEventListener("click", event => {
+      if (event.target.closest("a") && !desktop.matches) details.open = false;
+    });
+    document.getElementById("page-toc").hidden = false;
+    document.getElementById("usage").classList.add("with-toc");
+  }
+
   async function loadReadme() {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 15000);
@@ -52,6 +78,7 @@
         usedIds.add(id);
       }
       content.replaceChildren(fragment);
+      populateContents();
       status.hidden = true;
       fallback.hidden = true;
       if (location.hash) {
