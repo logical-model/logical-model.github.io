@@ -5,6 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>logical: a model of minority representation</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    main::after { content: ""; display: block; clear: both; }
+    main img { height: auto; max-width: 100%; }
+    main img[align="right"] { margin-left: 1rem; max-height: 200px; }
+    h1, h2, h3, h4 { scroll-margin-top: 1rem; }
+    h1 { overflow-wrap: anywhere; }
+    .readme-body { min-width: 0; }
+    .page-toc { background: #fff; border: 1px solid #bdc7ce; border-radius: .6rem; margin-bottom: 1.5rem; }
+    .page-toc summary { cursor: pointer; font-weight: 700; padding: .9rem 1rem; }
+    .page-toc nav { padding: 0 1rem 1rem; }
+    .page-toc ul { list-style: none; margin: 0; padding: 0; }
+    .page-toc li + li { margin-top: .65rem; }
+    .page-toc .toc-subsection { font-size: .9em; padding-left: 1rem; }
+    .page-toc a { display: block; overflow-wrap: anywhere; text-decoration: none; }
+    .page-toc a:hover { text-decoration: underline; }
+    .page-toc a:focus-visible, .page-toc summary:focus-visible { outline: 2px solid #075a8c; outline-offset: 3px; }
+    @media (min-width: 1100px) {
+      main.with-toc { align-items: start; display: grid; gap: 3rem; grid-template-columns: 16rem minmax(0, 52rem); max-width: 74rem; }
+      .page-toc { font-size: .9rem; max-height: calc(100vh - 3rem); overflow-y: auto; position: sticky; top: 1.5rem; }
+      .readme-body h1 { margin-top: 0; }
+    }
+  </style>
+  <script defer src="vendor/marked.umd.js"></script>
+  <script defer src="vendor/purify.min.js"></script>
+  <script defer src="js/readme.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -18,30 +43,23 @@
       <a href="articles/application-3-jurisdiction-counts.html">Application 3</a>
       <a href="articles/application-4-redistricting.html">Application 4</a>
       <a href="articles/application-5-sweet-spot.html">Application 5</a>
-      <a href="https://github.com/YukiAtsusaka/logical/tree/codex/cran-readiness">Package source</a>
+      <a href="https://github.com/YukiAtsusaka/logical/tree/master">Package source</a>
     </nav>
   </header>
-  <main>
-    <h1>logical</h1>
-    <p class="lede">Quantitative predictions from the logical model of minority representation.</p>
-    <p>The <code>logical</code> R package estimates and visualizes the probability that a minority candidate emerges and wins. It uses the adjusted racial margin of victory (<code>M</code>) and the minority share of the electorate (<code>C</code>).</p>
-    <div class="callout">Start with the overview and theory, then choose the application that matches your research question.</div>
-    <section class="card-grid" aria-label="Vignettes">
-      <article class="card"><h2><a href="articles/overview.html">Overview</a></h2><p>What logical models are and how the package is organized.</p></article>
-      <article class="card"><h2><a href="articles/theory.html">Theory</a></h2><p>The logical model of minority representation and its inputs.</p></article>
-      <article class="card"><h2><a href="articles/application-1-district-predictions.html">Application 1</a></h2><p>Make district-level predictions.</p></article>
-      <article class="card"><h2><a href="articles/application-2-racial-margin.html">Application 2</a></h2><p>Calculate or simulate the racial margin.</p></article>
-      <article class="card"><h2><a href="articles/application-3-jurisdiction-counts.html">Application 3</a></h2><p>Simulate jurisdiction-level counts.</p></article>
-      <article class="card"><h2><a href="articles/application-4-redistricting.html">Application 4</a></h2><p>Compare redistricting scenarios.</p></article>
-      <article class="card"><h2><a href="articles/application-5-sweet-spot.html">Application 5</a></h2><p>Find a scenario's sweet spot.</p></article>
-    </section>
-    <h2>Install and load</h2>
-    <pre><code>install.packages("remotes")
-remotes::install_github("YukiAtsusaka/logical", ref = "codex/cran-readiness")
-library(logical)</code></pre>
-    <p>These materials reflect the package's <a href="https://github.com/YukiAtsusaka/logical/tree/codex/cran-readiness">codex/cran-readiness</a> branch.</p>
-    <p>For the model and its empirical application, cite Atsusaka (2021), <em>American Political Science Review</em> 115(4): 1210–1225. <a href="https://doi.org/10.1017/S000305542100054X">https://doi.org/10.1017/S000305542100054X</a>.</p>
+  <main id="usage">
+    <aside class="page-toc" id="page-toc" hidden>
+      <details id="toc-details">
+        <summary>On this page</summary>
+        <nav aria-label="On this page"><ul id="toc-list"></ul></nav>
+      </details>
+    </aside>
+    <div class="readme-body">
+      <p id="readme-status" role="status">Loading the package README…</p>
+      <p id="readme-fallback"><a href="https://github.com/YukiAtsusaka/logical/blob/master/README.md">Read the documentation on GitHub</a></p>
+      <noscript><p>Enable JavaScript to display the README here, or use the GitHub link above.</p></noscript>
+      <article id="readme-content" aria-label="Package README" aria-busy="true"></article>
+    </div>
   </main>
-  <footer>© 2026 Yuki Atsusaka and Kolbe Dumas</footer>
+  <footer>Documentation from <a href="https://github.com/YukiAtsusaka/logical/blob/master/README.md">logical/README.md</a>. © 2026 Yuki Atsusaka and Kolbe Dumas</footer>
 </body>
 </html>
