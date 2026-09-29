@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Application 2 · logical</title><link rel="stylesheet" href="../styles.css"></head>
+<body><header class="site-header"><a class="site-brand" href="../">logical</a><nav class="site-nav" aria-label="Vignette navigation"><a href="../">Home</a><a href="overview.html">Overview</a><a href="theory.html">Theory</a><a href="application-1-district-predictions.html">Application 1</a><a aria-current="page" href="application-2-racial-margin.html">Application 2</a><a href="application-3-jurisdiction-counts.html">Application 3</a><a href="application-4-redistricting.html">Application 4</a><a href="application-5-sweet-spot.html">Application 5</a></nav></header>
+<main><h1>Application 2: calculating and simulating the racial margin</h1><p>The adjusted racial margin of victory, <code>M</code>, can be calculated from observed election returns or simulated from voting assumptions.</p>
+<h2>Observed vote shares</h2><pre><code>top_minority &lt;- c(18, 40, 85, 20)
+top_white &lt;- c(60, 40, 10, 34)
+observed_M &lt;- comp_M(Vm = top_minority, Vw = top_white)
+observed_M</code></pre>
+<h2>Prospective scenarios</h2><p><code>sim_M()</code> derives <code>M</code> from the minority electorate share, coethnic voting, and White crossover voting. The latter two inputs are proportions from 0 to 1.</p><pre><code>hypothetical_C &lt;- c(40, 50, 60)
+simulated_M &lt;- sim_M(
+  C = hypothetical_C, coethnic = 1, crossover = 0.3
+)
+round(minorep(M = simulated_M, C = hypothetical_C), digits = 4)</code></pre><p>Make voting assumptions explicit and substantively defensible; varying them reveals how a scenario depends on voting behavior.</p>
+</main><footer>© 2026 Yuki Atsusaka and Kolbe Dumas</footer></body></html>

@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Application 3 · logical</title><link rel="stylesheet" href="../styles.css"></head>
+<body><header class="site-header"><a class="site-brand" href="../">logical</a><nav class="site-nav" aria-label="Vignette navigation"><a href="../">Home</a><a href="overview.html">Overview</a><a href="theory.html">Theory</a><a href="application-1-district-predictions.html">Application 1</a><a href="application-2-racial-margin.html">Application 2</a><a aria-current="page" href="application-3-jurisdiction-counts.html">Application 3</a><a href="application-4-redistricting.html">Application 4</a><a href="application-5-sweet-spot.html">Application 5</a></nav></header>
+<main><h1>Application 3: jurisdiction-level counts</h1><p><code>n_minorep()</code> converts district-level probabilities into simulated counts of minority officeholders across a jurisdiction. It makes independent Bernoulli draws for every district in each simulation.</p>
+<pre><code>district_M &lt;- c(50, 40, 40, 35, 70, 85)
+district_C &lt;- c(50, 40, 60, 30, 50, 80)
+district_prediction &lt;- minorep(M = district_M, C = district_C)
+
+count_draws &lt;- n_minorep(
+  model_pred = district_prediction,
+  n_sim = 1000,
+  seed = 2026
+)
+summary(count_draws)
+hist(count_draws, xlab = "Simulated number of minority officeholders", main = "")</code></pre>
+<p><code>n_sim</code> controls the number of returned draws. Supplying <code>seed</code> makes a result reproducible without changing the caller's random-number state. The distribution represents uncertainty implied by the supplied district-level probabilities.</p>
+</main><footer>© 2026 Yuki Atsusaka and Kolbe Dumas</footer></body></html>

@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Application 5 · logical</title><link rel="stylesheet" href="../styles.css"></head>
+<body><header class="site-header"><a class="site-brand" href="../">logical</a><nav class="site-nav" aria-label="Vignette navigation"><a href="../">Home</a><a href="overview.html">Overview</a><a href="theory.html">Theory</a><a href="application-1-district-predictions.html">Application 1</a><a href="application-2-racial-margin.html">Application 2</a><a href="application-3-jurisdiction-counts.html">Application 3</a><a href="application-4-redistricting.html">Application 4</a><a aria-current="page" href="application-5-sweet-spot.html">Application 5</a></nav></header>
+<main><h1>Application 5: finding a scenario's sweet spot</h1><p>The sweet spot is the first minority electorate percentage at which a simulated scenario reaches a chosen probability threshold. Use <code>plot_sweetspot()</code> to display it alongside a district of interest.</p>
+<pre><code>plan &lt;- sim_redistrict(coethnic = 0.9, crossover = 0.2)
+
+plot_sweetspot(
+  plan = plan,
+  threshold = 0.8,
+  range = c(30, 70),
+  C.prime = 70
+)</code></pre>
+<p><code>threshold</code> is a probability from 0 to 1. <code>C.prime</code> marks a district of interest and must fall within the plot range. Below the sweet spot it represents a shortfall from the chosen threshold; above it, a surplus. The sweet spot is conditional on the plan and voting assumptions, not a universal electoral threshold.</p>
+</main><footer>© 2026 Yuki Atsusaka and Kolbe Dumas</footer></body></html>

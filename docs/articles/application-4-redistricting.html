@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Application 4 · logical</title><link rel="stylesheet" href="../styles.css"></head>
+<body><header class="site-header"><a class="site-brand" href="../">logical</a><nav class="site-nav" aria-label="Vignette navigation"><a href="../">Home</a><a href="overview.html">Overview</a><a href="theory.html">Theory</a><a href="application-1-district-predictions.html">Application 1</a><a href="application-2-racial-margin.html">Application 2</a><a href="application-3-jurisdiction-counts.html">Application 3</a><a aria-current="page" href="application-4-redistricting.html">Application 4</a><a href="application-5-sweet-spot.html">Application 5</a></nav></header>
+<main><h1>Application 4: comparing redistricting scenarios</h1><p><code>sim_redistrict()</code> calculates predictions as the minority electorate share changes from 1 to 100 percent in 0.1-point increments. Each vector has 991 values. Give each scenario a named column, then pass the matrix to <code>plot_redistrict()</code>.</p>
+<pre><code>plan_1 &lt;- sim_redistrict(coethnic = 0.9, crossover = 0)
+plan_2 &lt;- sim_redistrict(coethnic = 0.9, crossover = 0.3)
+plan_3 &lt;- sim_redistrict(coethnic = 0.9, crossover = 0.5)
+
+plans &lt;- cbind(
+  "No crossover" = plan_1,
+  "Moderate crossover" = plan_2,
+  "High crossover" = plan_3
+)
+plot_redistrict(plans = plans, range = c(44, 55))</code></pre>
+<p><code>range</code> uses electorate percentages, not vector positions. The plot uses the column names in its legend and can compare one or more scenarios.</p>
+</main><footer>© 2026 Yuki Atsusaka and Kolbe Dumas</footer></body></html>

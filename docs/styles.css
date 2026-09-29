@@ -1,0 +1,22 @@
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body { background: #f4f7f9; color: #1e2b33; font-family: system-ui, sans-serif; line-height: 1.55; margin: 0; }
+a { color: #075a8c; }
+.site-header { background: #2d6175; color: #fff; padding: 1rem max(5vw, 1.25rem); }
+.site-header a { color: #fff; text-decoration: none; }
+.site-brand { font-size: 1.15rem; font-weight: 700; }
+.site-nav { display: flex; flex-wrap: wrap; gap: .25rem .5rem; margin-top: .75rem; }
+.site-nav a { border-radius: .3rem; font-size: .92rem; font-weight: 600; padding: .3rem .45rem; }
+.site-nav a:hover, .site-nav a[aria-current="page"] { background: rgb(255 255 255 / 20%); }
+main { margin: 3rem auto; max-width: 54rem; padding: 0 1.5rem; }
+h1 { font-size: clamp(2rem, 5vw, 3.25rem); line-height: 1.1; }
+h2 { margin-top: 2.25rem; }
+.lede { font-size: 1.2rem; }
+.card-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); margin: 2rem 0; }
+.card { background: #fff; border: 1px solid #bdc7ce; border-radius: .6rem; padding: 1.25rem; }
+.card h2 { font-size: 1.2rem; margin: 0 0 .5rem; }
+.card a { font-weight: 700; }
+.callout { background: #edf3f6; border-left: .3rem solid #075a8c; border-radius: .25rem; margin: 1.25rem 0; padding: 1rem 1.25rem; }
+pre { background: #e8f0f3; border-radius: .4rem; overflow-x: auto; padding: 1rem; }
+code { font-size: .92em; }
+footer { border-top: 1px solid #bdc7ce; color: #52616b; margin-top: 4rem; padding: 1.5rem max(5vw, 1.25rem); }
