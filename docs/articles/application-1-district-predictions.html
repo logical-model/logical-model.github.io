@@ -1,13 +1,77 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Application 1 · logical</title><link rel="stylesheet" href="../styles.css"></head>
-<body><header class="site-header"><a class="site-brand" href="../">logical</a><nav class="site-nav" aria-label="Vignette navigation"><a href="../">Home</a><a href="overview.html">Overview</a><a href="theory.html">Theory</a><a aria-current="page" href="application-1-district-predictions.html">Application 1</a><a href="application-2-racial-margin.html">Application 2</a><a href="application-3-jurisdiction-counts.html">Application 3</a><a href="application-4-redistricting.html">Application 4</a><a href="application-5-sweet-spot.html">Application 5</a></nav></header>
-<main><h1>Application 1: district-level predictions</h1><p>Use <code>minorep()</code> when the adjusted racial margin of victory (<code>M</code>) and minority electorate share (<code>C</code>) are known for one or more districts. Both are percentages from 0 to 100.</p>
-<pre><code>M &lt;- c(20, 50, 30)
-C &lt;- c(40, 70, 85)
-prediction &lt;- minorep(M = M, C = C)
-round(prediction, digits = 4)</code></pre>
-<h2>Adjusting for turnout differences</h2><p>If minority and White turnout rates are known, pass them in that order through <code>gap</code>. Rates are proportions, not percentages.</p><pre><code>prediction_with_gap &lt;- minorep(
-  M = M, C = C, gap = c(0.5, 0.6)
-)
-round(prediction_with_gap, digits = 4)</code></pre><p>The turnout adjustment changes the effective minority share of the electorate before the model calculates the probability.</p>
-</main><footer>© 2026 Yuki Atsusaka and Kolbe Dumas</footer></body></html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Application 1: district-level predictions · logical</title>
+<link rel="stylesheet" href="../styles.css">
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script></head>
+<body><header class="site-header"><a class="site-brand" href="../">logical</a>
+<nav class="site-nav" aria-label="Vignette navigation"><a href="../">Home</a><a href="overview.html">Overview</a><a href="theory.html">Theory</a><a aria-current="page" href="application-1-district-predictions.html">Application 1</a><a href="application-2-racial-margin.html">Application 2</a><a href="application-3-jurisdiction-counts.html">Application 3</a><a href="application-4-redistricting.html">Application 4</a><a href="application-5-sweet-spot.html">Application 5</a></nav></header>
+<main><h1>Application 1: district-level predictions</h1>
+<p>Use <code>minorep()</code> when the adjusted racial margin of victory
+(<code>M</code>) and minority electorate share (<code>C</code>) are
+known for one or more districts. Both are percentages from 0 to 100.</p>
+<h2
+id="motivating-example-influence-districts-online-appendix-c.1">Motivating
+example: influence districts (Online Appendix C.1)</h2>
+<p>Louisiana redistricting disputes raised the question of whether
+districts with about 20% minority voters could elect minority candidates
+under strongly polarized voting. The scenario in <a
+href="https://static.cambridge.org/content/id/urn:cambridge.org:id:article:S000305542100054X/resource/name/S000305542100054Xsup001.pdf#page=18">Online
+Appendix C.1 of Atsusaka (2021)</a> predicts a probability close to zero
+under those voting assumptions.</p>
+<p>A second example considers a district with 40% minority voters.
+Assuming all minority voters support the minority candidate and 30% of
+White voters do so, <code>sim_M()</code> gives <code>M = 58</code>.
+Holding that margin fixed, <code>minorep()</code> predicts about a 3.3%
+chance with equal turnout, about 91.1% when minority turnout is 50% and
+White turnout is 40%, and almost zero when those turnout rates are
+reversed.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>influence_M <span class="ot">&lt;-</span> <span class="fu">sim_M</span>(<span class="at">C =</span> <span class="dv">40</span>, <span class="at">coethnic =</span> <span class="dv">1</span>, <span class="at">crossover =</span> <span class="fl">0.3</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>influence_predictions <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;Equal turnout&quot;</span> <span class="ot">=</span> <span class="fu">minorep</span>(<span class="at">M =</span> influence_M, <span class="at">C =</span> <span class="dv">40</span>),</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;Higher minority turnout&quot;</span> <span class="ot">=</span> <span class="fu">minorep</span>(</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">M =</span> influence_M, <span class="at">C =</span> <span class="dv">40</span>, <span class="at">gap =</span> <span class="fu">c</span>(<span class="fl">0.5</span>, <span class="fl">0.4</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;Lower minority turnout&quot;</span> <span class="ot">=</span> <span class="fu">minorep</span>(</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">M =</span> influence_M, <span class="at">C =</span> <span class="dv">40</span>, <span class="at">gap =</span> <span class="fu">c</span>(<span class="fl">0.4</span>, <span class="fl">0.5</span>)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">round</span>(influence_predictions, <span class="at">digits =</span> <span class="dv">4</span>)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;           Equal turnout Higher minority turnout  Lower minority turnout </span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;                  0.0334                  0.9108                  0.0000</span></span></code></pre></div>
+<p>The same district composition can therefore produce very different
+predictions. This comparison holds past performance (<code>M</code>)
+fixed while changing turnout in the election being predicted. All
+probabilities are conditional on the supplied assumptions, and this
+comparison alone does not establish legal vote dilution. See <a
+href="application-2-racial-margin.html">Application 2</a> for
+constructing <code>M</code>.</p>
+<h2 id="predicting-several-districts">Predicting several districts</h2>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>M <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">20</span>, <span class="dv">50</span>, <span class="dv">30</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>C <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">40</span>, <span class="dv">70</span>, <span class="dv">85</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>prediction <span class="ot">&lt;-</span> <span class="fu">minorep</span>(<span class="at">M =</span> M, <span class="at">C =</span> C)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">round</span>(prediction, <span class="at">digits =</span> <span class="dv">4</span>)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] 0.0000 1.0000 0.6906</span></span></code></pre></div>
+<p>The result contains one probability per district.
+<code>minorep()</code> returns full-precision values, so retain
+<code>prediction</code> rather than its rounded display for later
+analysis.</p>
+<h2 id="adjusting-for-turnout-differences">Adjusting for turnout
+differences</h2>
+<p>If the minority and White turnout rates are 0.5 and 0.6,
+respectively, provide them in that order with <code>gap</code>. Rates
+are proportions, not percentages.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>prediction_with_gap <span class="ot">&lt;-</span> <span class="fu">minorep</span>(</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">M =</span> M,</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">C =</span> C,</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">gap =</span> <span class="fu">c</span>(<span class="fl">0.5</span>, <span class="fl">0.6</span>)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="fu">round</span>(prediction_with_gap, <span class="at">digits =</span> <span class="dv">4</span>)</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] 0.0000 1.0000 0.4039</span></span></code></pre></div>
+<p>The adjustment changes the effective minority share of the electorate
+before the model calculates the probability. Use turnout rates that
+match the election or scenario under study.</p>
+</main>
+<footer>Built from <a href="https://github.com/YukiAtsusaka/logical/blob/0dc92c9d9ff30473eb8bd049685fd768b234a116/vignettes/application-1-district-predictions.Rmd">package source 0dc92c9</a>.</footer>
+</body></html>

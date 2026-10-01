@@ -1,8 +1,63 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Theory · logical</title><link rel="stylesheet" href="../styles.css"></head>
-<body><header class="site-header"><a class="site-brand" href="../">logical</a><nav class="site-nav" aria-label="Vignette navigation"><a href="../">Home</a><a href="overview.html">Overview</a><a aria-current="page" href="theory.html">Theory</a><a href="application-1-district-predictions.html">Application 1</a><a href="application-2-racial-margin.html">Application 2</a><a href="application-3-jurisdiction-counts.html">Application 3</a><a href="application-4-redistricting.html">Application 4</a><a href="application-5-sweet-spot.html">Application 5</a></nav></header>
-<main><h1>Theory: the logical model of minority representation</h1><p>The logical model formalizes a simple claim: minority representation requires a minority candidate to emerge and to win. Those outcomes reflect both a district's prior racial electoral environment and the minority group's share of the electorate.</p>
-<div class="callout"><strong>Pr(minority candidate emerges and wins) = Φ(√(MC) − 50)</strong></div><p>Here, Φ is the standard normal cumulative distribution function; <code>M</code> is the adjusted racial margin of victory; and <code>C</code> is the minority share of the electorate. Both are expressed from 0 to 100.</p>
-<h2>The adjusted racial margin of victory</h2><p>If <code>Vm</code> and <code>Vw</code> are the vote shares of the top minority and White candidates, respectively, then <code>M = (Vm - Vw) / 2 + 50</code>. Use <code>comp_M()</code> when vote shares are observed and <code>sim_M()</code> for prospective scenarios.</p>
-<h2>Interpreting predictions</h2><p>A prediction is conditional on the supplied inputs and assumptions, not a deterministic forecast. The published article evaluates the model using Louisiana mayoral and state legislative elections; its results are not a universal accuracy guarantee for future elections or district plans.</p>
-</main><footer>© 2026 Yuki Atsusaka and Kolbe Dumas</footer></body></html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Theory: the logical model of minority representation · logical</title>
+<link rel="stylesheet" href="../styles.css">
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script></head>
+<body><header class="site-header"><a class="site-brand" href="../">logical</a>
+<nav class="site-nav" aria-label="Vignette navigation"><a href="../">Home</a><a href="overview.html">Overview</a><a aria-current="page" href="theory.html">Theory</a><a href="application-1-district-predictions.html">Application 1</a><a href="application-2-racial-margin.html">Application 2</a><a href="application-3-jurisdiction-counts.html">Application 3</a><a href="application-4-redistricting.html">Application 4</a><a href="application-5-sweet-spot.html">Application 5</a></nav></header>
+<main><h1>Theory: the logical model of minority representation</h1>
+<h2 id="what-is-the-logical-model-of-minority-representation">What is
+the logical model of minority representation?</h2>
+<p>The logical model formalizes a simple claim: minority representation
+requires a minority candidate to emerge and to win. Whether that occurs
+reflects both the district’s prior racial electoral environment and the
+minority group’s share of the electorate. The model combines those
+quantities to produce a district-level probability of minority candidate
+emergence and electoral success.</p>
+<p>The package calculates</p>
+<p>[ () = ( - 50), ]</p>
+<p>where () is the standard normal cumulative distribution function,
+<code>M</code> is the adjusted racial margin of victory, and
+<code>C</code> is the minority share of the electorate. Both
+<code>M</code> and <code>C</code> are expressed from 0 to 100.</p>
+<h2 id="the-adjusted-racial-margin-of-victory-m">The adjusted racial
+margin of victory (<code>M</code>)</h2>
+<p><code>M</code> summarizes the electoral environment from the vote
+shares of the top minority and White candidates in a previous election.
+If those vote shares are <code>Vm</code> and <code>Vw</code>,
+respectively, then</p>
+<p>[ M = + 50. ]</p>
+<p>Larger values indicate a more favorable prior environment for the
+minority candidate. Use <code>comp_M()</code> when the relevant vote
+shares are observed, or <code>sim_M()</code> when constructing a
+prospective scenario from voting assumptions.</p>
+<h2 id="minority-electorate-share-c-and-turnout">Minority electorate
+share (<code>C</code>) and turnout</h2>
+<p><code>C</code> is the minority percentage of the electorate. If the
+available value is a population or voting-age-population percentage and
+minority and White turnout rates differ, use
+<code>gap = c(minority_turnout, white_turnout)</code>. Each turnout rate
+is a proportion from 0 to 1. <code>minorep()</code> and
+<code>sim_redistrict()</code> apply the turnout adjustment before
+calculating their predictions.</p>
+<h2 id="interpreting-a-prediction">Interpreting a prediction</h2>
+<p>The output is a model-based probability, conditional on the inputs
+and assumptions supplied. It is not a deterministic forecast and should
+be read with the model’s scope in mind. The published article evaluates
+the model with Louisiana mayoral elections and state legislative
+elections; those results do not establish a universal accuracy guarantee
+for other places or future plans.</p>
+<p>The application vignettes show how to choose inputs, calculate
+predictions, and use simulations and plots to compare scenarios.</p>
+<h2 id="reference">Reference</h2>
+<blockquote>
+<p>Atsusaka, Yuki. 2021. “A Logical Model for Predicting Minority
+Representation: Application to Redistricting and Voting Rights Cases.”
+<em>American Political Science Review</em> 115 (4): 1210–1225. <a
+href="https://doi.org/10.1017/S000305542100054X"
+class="uri">https://doi.org/10.1017/S000305542100054X</a></p>
+</blockquote>
+</main>
+<footer>Built from <a href="https://github.com/YukiAtsusaka/logical/blob/0dc92c9d9ff30473eb8bd049685fd768b234a116/vignettes/theory.Rmd">package source 0dc92c9</a>.</footer>
+</body></html>

@@ -1,16 +1,73 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Application 4 · logical</title><link rel="stylesheet" href="../styles.css"></head>
-<body><header class="site-header"><a class="site-brand" href="../">logical</a><nav class="site-nav" aria-label="Vignette navigation"><a href="../">Home</a><a href="overview.html">Overview</a><a href="theory.html">Theory</a><a href="application-1-district-predictions.html">Application 1</a><a href="application-2-racial-margin.html">Application 2</a><a href="application-3-jurisdiction-counts.html">Application 3</a><a aria-current="page" href="application-4-redistricting.html">Application 4</a><a href="application-5-sweet-spot.html">Application 5</a></nav></header>
-<main><h1>Application 4: comparing redistricting scenarios</h1><p><code>sim_redistrict()</code> calculates predictions as the minority electorate share changes from 1 to 100 percent in 0.1-point increments. Each vector has 991 values. Give each scenario a named column, then pass the matrix to <code>plot_redistrict()</code>.</p>
-<pre><code>plan_1 &lt;- sim_redistrict(coethnic = 0.9, crossover = 0)
-plan_2 &lt;- sim_redistrict(coethnic = 0.9, crossover = 0.3)
-plan_3 &lt;- sim_redistrict(coethnic = 0.9, crossover = 0.5)
-
-plans &lt;- cbind(
-  "No crossover" = plan_1,
-  "Moderate crossover" = plan_2,
-  "High crossover" = plan_3
-)
-plot_redistrict(plans = plans, range = c(44, 55))</code></pre>
-<p><code>range</code> uses electorate percentages, not vector positions. The plot uses the column names in its legend and can compare one or more scenarios.</p>
-</main><footer>© 2026 Yuki Atsusaka and Kolbe Dumas</footer></body></html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Application 4: comparing redistricting scenarios · logical</title>
+<link rel="stylesheet" href="../styles.css">
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script></head>
+<body><header class="site-header"><a class="site-brand" href="../">logical</a>
+<nav class="site-nav" aria-label="Vignette navigation"><a href="../">Home</a><a href="overview.html">Overview</a><a href="theory.html">Theory</a><a href="application-1-district-predictions.html">Application 1</a><a href="application-2-racial-margin.html">Application 2</a><a href="application-3-jurisdiction-counts.html">Application 3</a><a aria-current="page" href="application-4-redistricting.html">Application 4</a><a href="application-5-sweet-spot.html">Application 5</a></nav></header>
+<main><h1>Application 4: comparing redistricting scenarios</h1>
+<h2
+id="motivating-example-two-proposed-districts-online-appendix-c.2">Motivating
+example: two proposed districts (Online Appendix C.2)</h2>
+<p><a
+href="https://static.cambridge.org/content/id/urn:cambridge.org:id:article:S000305542100054X/resource/name/S000305542100054Xsup001.pdf#page=19">Online
+Appendix C.2 of Atsusaka (2021)</a> compares two proposed Louisiana
+districts with minority shares of 59.2% and 63.2%. It assumes all
+minority voters support the minority candidate, no White voters do so,
+and minority and White turnout rates are 50% and 60%, respectively.
+Under these assumptions, both plans yield probabilities very close to
+one, so the additional four percentage points make little difference to
+the prediction.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>appendix_C <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="at">from =</span> <span class="dv">1</span>, <span class="at">to =</span> <span class="dv">100</span>, <span class="at">by =</span> <span class="fl">0.1</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>louisiana_plan <span class="ot">&lt;-</span> <span class="fu">sim_redistrict</span>(</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">coethnic =</span> <span class="dv">1</span>, <span class="at">crossover =</span> <span class="dv">0</span>, <span class="at">gap =</span> <span class="fu">c</span>(<span class="fl">0.5</span>, <span class="fl">0.6</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>proposed_C <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fl">59.2</span>, <span class="fl">63.2</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>proposed_index <span class="ot">&lt;-</span> <span class="fu">vapply</span>(</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  proposed_C, <span class="cf">function</span>(value) <span class="fu">which.min</span>(<span class="fu">abs</span>(appendix_C <span class="sc">-</span> value)), <span class="fu">integer</span>(<span class="dv">1</span>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">data.frame</span>(</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">minority_share =</span> proposed_C,</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">predicted_probability =</span> louisiana_plan[proposed_index]</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   minority_share predicted_probability</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1           59.2             0.9999989</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2           63.2             1.0000000</span></span></code></pre></div>
+<p><code>sim_redistrict()</code> and <code>plot_redistrict()</code> let
+users examine the composition range where a change would matter under
+their own assumptions. These are conditional model predictions;
+comparisons of district plans do not by themselves establish legal vote
+dilution.</p>
+<h2 id="comparing-voting-scenarios">Comparing voting scenarios</h2>
+<p><code>sim_redistrict()</code> calculates model predictions as the
+minority electorate share changes from 1 to 100 percent in 0.1-point
+increments. Each returned vector has 991 values. Give each scenario a
+named column, then pass the resulting matrix to
+<code>plot_redistrict()</code>.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>plan_1 <span class="ot">&lt;-</span> <span class="fu">sim_redistrict</span>(<span class="at">coethnic =</span> <span class="fl">0.9</span>, <span class="at">crossover =</span> <span class="dv">0</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>plan_2 <span class="ot">&lt;-</span> <span class="fu">sim_redistrict</span>(<span class="at">coethnic =</span> <span class="fl">0.9</span>, <span class="at">crossover =</span> <span class="fl">0.3</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>plan_3 <span class="ot">&lt;-</span> <span class="fu">sim_redistrict</span>(<span class="at">coethnic =</span> <span class="fl">0.9</span>, <span class="at">crossover =</span> <span class="fl">0.5</span>)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>plans <span class="ot">&lt;-</span> <span class="fu">cbind</span>(</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;No crossover&quot;</span> <span class="ot">=</span> plan_1,</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;Moderate crossover&quot;</span> <span class="ot">=</span> plan_2,</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;High crossover&quot;</span> <span class="ot">=</span> plan_3</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="fu">plot_redistrict</span>(<span class="at">plans =</span> plans, <span class="at">range =</span> <span class="fu">c</span>(<span class="dv">44</span>, <span class="dv">55</span>))</span></code></pre></div>
+<figure>
+<img
+src="figure/application-4-redistricting-redistricting-scenarios-1.png"
+alt="plot of chunk redistricting-scenarios" />
+<figcaption aria-hidden="true">plot of chunk
+redistricting-scenarios</figcaption>
+</figure>
+<p><code>range</code> is expressed in electorate percentages, not vector
+positions. The plot uses column names in its legend and can compare one
+or more scenarios. Choose coethnic and crossover assumptions that are
+appropriate to the setting, then compare how they change the
+relationship between electorate composition and predicted success.</p>
+</main>
+<footer>Built from <a href="https://github.com/YukiAtsusaka/logical/blob/0dc92c9d9ff30473eb8bd049685fd768b234a116/vignettes/application-4-redistricting.Rmd">package source 0dc92c9</a>.</footer>
+</body></html>

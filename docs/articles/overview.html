@@ -1,9 +1,95 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Overview · logical</title><link rel="stylesheet" href="../styles.css"></head>
-<body><header class="site-header"><a class="site-brand" href="../">logical</a><nav class="site-nav" aria-label="Vignette navigation"><a href="../">Home</a><a aria-current="page" href="overview.html">Overview</a><a href="theory.html">Theory</a><a href="application-1-district-predictions.html">Application 1</a><a href="application-2-racial-margin.html">Application 2</a><a href="application-3-jurisdiction-counts.html">Application 3</a><a href="application-4-redistricting.html">Application 4</a><a href="application-5-sweet-spot.html">Application 5</a></nav></header>
-<main><h1>Overview of logical</h1><p class="lede"><code>logical</code> produces quantitative predictions from the logical model of minority representation developed in Atsusaka (2021).</p>
-<h2>What are logical models?</h2><p>A logical model starts with a transparent account of the conditions that make an outcome possible. Here, candidate emergence and electoral success depend on the electoral environment facing a minority candidate and the minority share of the electorate. The package turns those quantities and explicit assumptions into probabilities, simulations, and visual comparisons; it does not replace substantive knowledge about local candidates, institutions, or elections.</p>
-<p>The core inputs are <code>M</code>, the adjusted racial margin of victory, and <code>C</code>, the minority share of the electorate. Both use a 0–100 scale. Turnout rates, coethnic voting, and White crossover voting use a 0–1 scale.</p>
-<h2>First prediction</h2><pre><code>library(logical)
-minorep(M = 50, C = 70)</code></pre><p><code>minorep()</code> returns a full-precision probability. Continue to <a href="theory.html">Theory</a> for the model, or select an application tab for a focused workflow.</p>
-</main><footer>© 2026 Yuki Atsusaka and Kolbe Dumas</footer></body></html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Overview: Computing and Visualizing Quantitative Predictions of Logical Models · logical</title>
+<link rel="stylesheet" href="../styles.css">
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script></head>
+<body><header class="site-header"><a class="site-brand" href="../">logical</a>
+<nav class="site-nav" aria-label="Vignette navigation"><a href="../">Home</a><a aria-current="page" href="overview.html">Overview</a><a href="theory.html">Theory</a><a href="application-1-district-predictions.html">Application 1</a><a href="application-2-racial-margin.html">Application 2</a><a href="application-3-jurisdiction-counts.html">Application 3</a><a href="application-4-redistricting.html">Application 4</a><a href="application-5-sweet-spot.html">Application 5</a></nav></header>
+<main><h1>Overview: Computing and Visualizing Quantitative Predictions of Logical Models</h1>
+<p><strong>logical</strong> is open-source software for computing and
+visualizing the quantitative predictions of a logical model of minority
+representation. The logical model is a parsimonious mathematical model
+for explaining the emergence and electoral victory of minority
+candidates at the district level. Theoretically, it assumes that
+minority candidates strategically decide whether to run for office
+depending on the likely probability of winning in a given district.
+Empirically, the model predicts the probability that a district has
+minority candidacy as well as electoral victory just with two variables
+(predictors).</p>
+<p>Practically, the logical model can be a useful tool for answering
+common questions regarding race and representation, redistricting, and
+voting rights. In contrast to other empirical models that require data
+to answer such questions, the logical model seeks to provide
+quantitative predictions based on theory.</p>
+<p>For theory and existing applications, see</p>
+<ul>
+<li>Atsusaka (2021) <a
+href="https://doi.org/10.1017/S000305542100054X">“A Logical Model for
+Predicting Minority Representation: Application to Redistricting and
+Voting Rights Cases”</a> <em>American Political Science Review</em> 115
+(4), 1210-1225.</li>
+<li>Hankinson, Loffredo, &amp; Magazinnik (2026). <a
+href="https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=7154498">“Assessing
+District Elections as a Remedy in State Voting Rights Acts”</a>.
+Available at SSRN 7154498.</li>
+</ul>
+<h3 id="what-are-logical-models">What Are Logical Models?</h3>
+<p>Before introducing <em>this</em> logical model, let us briefly
+explain what logical models are in the first place.
+<strong>Quantitatively predictive logical models</strong> (or logical
+models in short) are mathematical models that are designed to explain
+and predict political outcomes. Logical models are constructed based on
+the logical bounds of target outcomes (e.g., minimum and maximum
+possible values) and generate quantitative predictions about them. This
+methodological approach was developed by Rein Taagepera and Matthew
+Shugart in the literature of electoral systems, though it can be applied
+to any outcomes in social science.</p>
+<p>To learn more about this approach, see</p>
+<ul>
+<li>Taagepera (2007). <a
+href="https://books.google.com/books?id=T_YTDAAAQBAJ&amp;printsec=frontcover&amp;dq=rein+taagepera&amp;hl=ja&amp;sa=X&amp;ved=2ahUKEwjslpOhndnwAhURac0KHdMWD0AQ6AEwBHoECAUQAg#v=onepage&amp;q=rein%20taagepera&amp;f=false"><em>Predicting
+Party Sizes: The Logic of Simple Electoral Systems</em></a>.</li>
+<li>Taagepera (2008). <a
+href="https://books.google.com/books?id=l6tiJLcVZ8AC&amp;printsec=frontcover&amp;dq=rein+taagepera&amp;hl=ja&amp;sa=X&amp;ved=2ahUKEwjslpOhndnwAhURac0KHdMWD0AQ6AEwBnoECAcQAg#v=onepage&amp;q=rein%20taagepera&amp;f=false"><em>Making
+Social Sciences More Scientific: The Need for Predictive
+Models</em></a>.</li>
+<li>Shugart &amp; Taagepera (2017). <a
+href="https://books.google.com/books?id=0S42DwAAQBAJ&amp;printsec=frontcover&amp;dq=rein+taagepera&amp;hl=ja&amp;sa=X&amp;ved=2ahUKEwjslpOhndnwAhURac0KHdMWD0AQ6AEwCHoECAsQAg#v=onepage&amp;q=rein%20taagepera&amp;f=false"><em>Votes
+from Seats: Logical Models of Electoral Systems</em></a>.</li>
+</ul>
+<h2 id="the-vignette-series">The vignette series</h2>
+<p>The next vignette, <a href="theory.html">Theory</a>, explains the
+logical model and its quantities. The five application vignettes then
+demonstrate how to:</p>
+<ol type="1">
+<li>make district-level predictions;</li>
+<li>calculate or simulate <code>M</code>;</li>
+<li>simulate jurisdiction-level counts;</li>
+<li>compare redistricting scenarios; and</li>
+<li>find a scenario’s sweet spot.</li>
+</ol>
+<p>The package also includes the Louisiana mayoral and state legislative
+datasets used to evaluate the model. Load <code>louisiana</code> or
+<code>state_legislative</code> with <code>data()</code> and consult
+<code>?louisiana</code> or <code>?state_legislative</code> for their
+codebooks.</p>
+<h2 id="a-first-prediction">A first prediction</h2>
+<p>For a district with <code>M = 50</code> and <code>C = 70</code>,
+calculate the probability of minority candidate emergence and electoral
+success as follows:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">minorep</span>(<span class="at">M =</span> <span class="dv">50</span>, <span class="at">C =</span> <span class="dv">70</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] 1</span></span></code></pre></div>
+<p><code>minorep()</code> returns a full-precision probability. Round it
+only when presenting the result in a table, figure, or narrative.</p>
+<h2 id="reference">Reference</h2>
+<blockquote>
+<p>Atsusaka, Yuki. 2021. “A Logical Model for Predicting Minority
+Representation: Application to Redistricting and Voting Rights Cases.”
+<em>American Political Science Review</em> 115 (4): 1210–1225. <a
+href="https://doi.org/10.1017/S000305542100054X"
+class="uri">https://doi.org/10.1017/S000305542100054X</a></p>
+</blockquote>
+</main>
+<footer>Built from <a href="https://github.com/YukiAtsusaka/logical/blob/0dc92c9d9ff30473eb8bd049685fd768b234a116/vignettes/overview.Rmd">package source 0dc92c9</a>.</footer>
+</body></html>

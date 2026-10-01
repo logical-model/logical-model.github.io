@@ -19,4 +19,7 @@ h2 { margin-top: 2.25rem; }
 .callout { background: #edf3f6; border-left: .3rem solid #075a8c; border-radius: .25rem; margin: 1.25rem 0; padding: 1rem 1.25rem; }
 pre { background: #e8f0f3; border-radius: .4rem; overflow-x: auto; padding: 1rem; }
 code { font-size: .92em; }
+main img { max-width: 100%; height: auto; }
+h1, h2, h3 { overflow-wrap: anywhere; }
+.math.display { display: block; overflow-x: auto; }
 footer { border-top: 1px solid #bdc7ce; color: #52616b; margin-top: 4rem; padding: 1.5rem max(5vw, 1.25rem); }

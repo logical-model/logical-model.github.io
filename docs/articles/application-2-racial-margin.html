@@ -1,14 +1,49 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Application 2 · logical</title><link rel="stylesheet" href="../styles.css"></head>
-<body><header class="site-header"><a class="site-brand" href="../">logical</a><nav class="site-nav" aria-label="Vignette navigation"><a href="../">Home</a><a href="overview.html">Overview</a><a href="theory.html">Theory</a><a href="application-1-district-predictions.html">Application 1</a><a aria-current="page" href="application-2-racial-margin.html">Application 2</a><a href="application-3-jurisdiction-counts.html">Application 3</a><a href="application-4-redistricting.html">Application 4</a><a href="application-5-sweet-spot.html">Application 5</a></nav></header>
-<main><h1>Application 2: calculating and simulating the racial margin</h1><p>The adjusted racial margin of victory, <code>M</code>, can be calculated from observed election returns or simulated from voting assumptions.</p>
-<h2>Observed vote shares</h2><pre><code>top_minority &lt;- c(18, 40, 85, 20)
-top_white &lt;- c(60, 40, 10, 34)
-observed_M &lt;- comp_M(Vm = top_minority, Vw = top_white)
-observed_M</code></pre>
-<h2>Prospective scenarios</h2><p><code>sim_M()</code> derives <code>M</code> from the minority electorate share, coethnic voting, and White crossover voting. The latter two inputs are proportions from 0 to 1.</p><pre><code>hypothetical_C &lt;- c(40, 50, 60)
-simulated_M &lt;- sim_M(
-  C = hypothetical_C, coethnic = 1, crossover = 0.3
-)
-round(minorep(M = simulated_M, C = hypothetical_C), digits = 4)</code></pre><p>Make voting assumptions explicit and substantively defensible; varying them reveals how a scenario depends on voting behavior.</p>
-</main><footer>© 2026 Yuki Atsusaka and Kolbe Dumas</footer></body></html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Application 2: calculating and simulating the racial margin · logical</title>
+<link rel="stylesheet" href="../styles.css">
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script></head>
+<body><header class="site-header"><a class="site-brand" href="../">logical</a>
+<nav class="site-nav" aria-label="Vignette navigation"><a href="../">Home</a><a href="overview.html">Overview</a><a href="theory.html">Theory</a><a href="application-1-district-predictions.html">Application 1</a><a aria-current="page" href="application-2-racial-margin.html">Application 2</a><a href="application-3-jurisdiction-counts.html">Application 3</a><a href="application-4-redistricting.html">Application 4</a><a href="application-5-sweet-spot.html">Application 5</a></nav></header>
+<main><h1>Application 2: calculating and simulating the racial margin</h1>
+<p>The adjusted racial margin of victory, <code>M</code>, can come from
+observed election returns or from a prospective voting scenario. This
+vignette demonstrates both paths.</p>
+<h2 id="calculate-m-from-observed-vote-shares">Calculate <code>M</code>
+from observed vote shares</h2>
+<p><code>comp_M()</code> accepts the vote shares, on a 0–100 scale, of
+the top minority and top White candidates.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>top_minority <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">18</span>, <span class="dv">40</span>, <span class="dv">85</span>, <span class="dv">20</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>top_white <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">60</span>, <span class="dv">40</span>, <span class="dv">10</span>, <span class="dv">34</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>observed_M <span class="ot">&lt;-</span> <span class="fu">comp_M</span>(<span class="at">Vm =</span> top_minority, <span class="at">Vw =</span> top_white)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>observed_M</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] 29.0 50.0 87.5 43.0</span></span></code></pre></div>
+<p>Pass the resulting margins to <code>minorep()</code> with the
+corresponding electorate shares to make predictions.</p>
+<h2 id="simulate-m-from-voting-assumptions">Simulate <code>M</code> from
+voting assumptions</h2>
+<p>For a prospective scenario, <code>sim_M()</code> derives
+<code>M</code> from the minority electorate share, coethnic voting, and
+White crossover voting. <code>coethnic</code> is the share of minority
+voters expected to support the minority candidate;
+<code>crossover</code> is the analogous White-voter share. Both are
+proportions from 0 to 1.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>hypothetical_C <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">40</span>, <span class="dv">50</span>, <span class="dv">60</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>simulated_M <span class="ot">&lt;-</span> <span class="fu">sim_M</span>(</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">C =</span> hypothetical_C,</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">coethnic =</span> <span class="dv">1</span>,</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">crossover =</span> <span class="fl">0.3</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>simulated_M</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] 58 65 72</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="fu">round</span>(<span class="fu">minorep</span>(<span class="at">M =</span> simulated_M, <span class="at">C =</span> hypothetical_C), <span class="at">digits =</span> <span class="dv">4</span>)</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] 0.0334 1.0000 1.0000</span></span></code></pre></div>
+<p>These assumptions should be explicit and substantively defensible.
+Varying them is often a useful way to understand how a scenario depends
+on voting behavior.</p>
+</main>
+<footer>Built from <a href="https://github.com/YukiAtsusaka/logical/blob/0dc92c9d9ff30473eb8bd049685fd768b234a116/vignettes/application-2-racial-margin.Rmd">package source 0dc92c9</a>.</footer>
+</body></html>

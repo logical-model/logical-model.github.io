@@ -44,5 +44,23 @@ Open <http://127.0.0.1:8765/>.
 The site can be published directly from the default branch's `docs/` folder
 with GitHub Pages. Alternatively, select **GitHub Actions** in **Settings >
 Pages > Build and deployment > Source** to use the included **Publish
-documentation** workflow. It uploads `docs/` without a build step on website
-pushes to the default branch, or on a manual run.
+documentation** workflow. Each run checks out the latest package `master`,
+installs that package, executes all seven vignettes with knitr, and uses Pandoc to
+rebuild the articles with code output and figures before uploading `docs/`.
+The homepage and navigation are preserved. Articles link to the exact source
+commit used for the build. R example errors stop deployment.
+
+After package vignette changes, run **Publish documentation** from this repository's
+Actions tab. Website pushes also trigger a build. Package pushes alone do not
+trigger the workflow in this separate repository.
+
+To rebuild locally, install R, Pandoc, and the R package `knitr`, then run from
+this repository (using a current package checkout):
+
+```sh
+R CMD INSTALL ../logical
+Rscript scripts/build-articles.R ../logical
+```
+
+Commit rebuilt `docs/articles/` files and figures when publishing directly from
+the branch's `docs/` folder. Actions rebuilds them again for every deployment.

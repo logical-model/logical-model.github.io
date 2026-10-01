@@ -1,17 +1,80 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Application 3 · logical</title><link rel="stylesheet" href="../styles.css"></head>
-<body><header class="site-header"><a class="site-brand" href="../">logical</a><nav class="site-nav" aria-label="Vignette navigation"><a href="../">Home</a><a href="overview.html">Overview</a><a href="theory.html">Theory</a><a href="application-1-district-predictions.html">Application 1</a><a href="application-2-racial-margin.html">Application 2</a><a aria-current="page" href="application-3-jurisdiction-counts.html">Application 3</a><a href="application-4-redistricting.html">Application 4</a><a href="application-5-sweet-spot.html">Application 5</a></nav></header>
-<main><h1>Application 3: jurisdiction-level counts</h1><p><code>n_minorep()</code> converts district-level probabilities into simulated counts of minority officeholders across a jurisdiction. It makes independent Bernoulli draws for every district in each simulation.</p>
-<pre><code>district_M &lt;- c(50, 40, 40, 35, 70, 85)
-district_C &lt;- c(50, 40, 60, 30, 50, 80)
-district_prediction &lt;- minorep(M = district_M, C = district_C)
-
-count_draws &lt;- n_minorep(
-  model_pred = district_prediction,
-  n_sim = 1000,
-  seed = 2026
-)
-summary(count_draws)
-hist(count_draws, xlab = "Simulated number of minority officeholders", main = "")</code></pre>
-<p><code>n_sim</code> controls the number of returned draws. Supplying <code>seed</code> makes a result reproducible without changing the caller's random-number state. The distribution represents uncertainty implied by the supplied district-level probabilities.</p>
-</main><footer>© 2026 Yuki Atsusaka and Kolbe Dumas</footer></body></html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Application 3: jurisdiction-level counts · logical</title>
+<link rel="stylesheet" href="../styles.css">
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script></head>
+<body><header class="site-header"><a class="site-brand" href="../">logical</a>
+<nav class="site-nav" aria-label="Vignette navigation"><a href="../">Home</a><a href="overview.html">Overview</a><a href="theory.html">Theory</a><a href="application-1-district-predictions.html">Application 1</a><a href="application-2-racial-margin.html">Application 2</a><a aria-current="page" href="application-3-jurisdiction-counts.html">Application 3</a><a href="application-4-redistricting.html">Application 4</a><a href="application-5-sweet-spot.html">Application 5</a></nav></header>
+<main><h1>Application 3: jurisdiction-level counts</h1>
+<h2
+id="motivating-example-at-large-versus-district-elections-online-appendix-c.4">Motivating
+example: at-large versus district elections (Online Appendix C.4)</h2>
+<p><a
+href="https://static.cambridge.org/content/id/urn:cambridge.org:id:article:S000305542100054X/resource/name/S000305542100054Xsup001.pdf#page=21">Online
+Appendix C.4 of Atsusaka (2021)</a> considers a jurisdiction with six
+seats and a jurisdiction-wide minority share of 47.5%. It compares an
+at-large arrangement with six single-member districts whose minority
+shares are <code>c(50, 40, 60, 30, 50, 80)</code> and whose adjusted
+racial margins are <code>c(30, 40, 50, 65, 70, 30)</code>. Under this
+hypothetical comparison, the simulations concentrate on zero minority
+officeholders at large and two or three under district elections.</p>
+<p><code>minorep()</code> supplies the seat-level probabilities and
+<code>n_minorep()</code> converts them into a distribution of counts,
+using independent draws across seats. The district component can be
+reproduced directly from the appendix inputs:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>appendix_M <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">30</span>, <span class="dv">40</span>, <span class="dv">50</span>, <span class="dv">65</span>, <span class="dv">70</span>, <span class="dv">30</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>appendix_C <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">50</span>, <span class="dv">40</span>, <span class="dv">60</span>, <span class="dv">30</span>, <span class="dv">50</span>, <span class="dv">80</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>appendix_prediction <span class="ot">&lt;-</span> <span class="fu">minorep</span>(<span class="at">M =</span> appendix_M, <span class="at">C =</span> appendix_C)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>appendix_counts <span class="ot">&lt;-</span> <span class="fu">n_minorep</span>(</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">model_pred =</span> appendix_prediction, <span class="at">n_sim =</span> <span class="dv">1000</span>, <span class="at">seed =</span> <span class="dv">2026</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">prop.table</span>(<span class="fu">table</span>(appendix_counts))</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; appendix_counts</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;     2     3 </span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 0.836 0.164</span></span></code></pre></div>
+<p>The electoral-rule comparison is conditional on the voting
+assumptions and the independence of seat outcomes. It does not by itself
+establish legal vote dilution. The example below illustrates the same
+workflow with a different set of district margins.</p>
+<h2 id="simulating-jurisdiction-totals">Simulating jurisdiction
+totals</h2>
+<p><code>n_minorep()</code> converts district-level probabilities into
+simulated counts of minority officeholders across a jurisdiction. It
+makes independent Bernoulli draws for each district in every
+simulation.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>district_M <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">50</span>, <span class="dv">40</span>, <span class="dv">40</span>, <span class="dv">35</span>, <span class="dv">70</span>, <span class="dv">85</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>district_C <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">50</span>, <span class="dv">40</span>, <span class="dv">60</span>, <span class="dv">30</span>, <span class="dv">50</span>, <span class="dv">80</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>district_prediction <span class="ot">&lt;-</span> <span class="fu">minorep</span>(<span class="at">M =</span> district_M, <span class="at">C =</span> district_C)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>count_draws <span class="ot">&lt;-</span> <span class="fu">n_minorep</span>(</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">model_pred =</span> district_prediction,</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">n_sim =</span> <span class="dv">1000</span>,</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">seed =</span> <span class="dv">2026</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(count_draws)</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. </span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   2.000   2.000   3.000   2.659   3.000   4.000</span></span></code></pre></div>
+<p><code>n_sim</code> controls the number of returned draws. Supplying
+<code>seed</code> makes the result reproducible without changing the
+caller’s random-number state.</p>
+<h2 id="inspect-the-simulation-distribution">Inspect the simulation
+distribution</h2>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  count_draws,</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">xlab =</span> <span class="st">&quot;Simulated number of minority officeholders&quot;</span>,</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">main =</span> <span class="st">&quot;&quot;</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+<figure>
+<img
+src="figure/application-3-jurisdiction-counts-count-histogram-1.png"
+alt="plot of chunk count-histogram" />
+<figcaption aria-hidden="true">plot of chunk
+count-histogram</figcaption>
+</figure>
+<p>The distribution represents uncertainty implied by the supplied
+district-level probabilities. It should be interpreted alongside the
+assumptions used to construct those probabilities.</p>
+</main>
+<footer>Built from <a href="https://github.com/YukiAtsusaka/logical/blob/0dc92c9d9ff30473eb8bd049685fd768b234a116/vignettes/application-3-jurisdiction-counts.Rmd">package source 0dc92c9</a>.</footer>
+</body></html>
