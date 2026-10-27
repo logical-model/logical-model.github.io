@@ -21,13 +21,6 @@
     .page-toc a { display: block; overflow-wrap: anywhere; text-decoration: none; }
     .page-toc a:hover { text-decoration: underline; }
     .page-toc a:focus-visible, .page-toc summary:focus-visible { outline: 2px solid #075a8c; outline-offset: 3px; }
-    .application-menu { position: relative; }
-    .application-menu summary { border-radius: .3rem; cursor: pointer; font-size: .92rem; font-weight: 600; list-style: none; padding: .3rem .45rem; }
-    .application-menu summary::-webkit-details-marker { display: none; }
-    .application-menu summary::after { content: " ▾"; }
-    .application-menu summary:hover, .application-menu[open] summary { background: rgb(255 255 255 / 20%); }
-    .application-menu__links { background: #2d6175; border: 1px solid rgb(255 255 255 / 35%); border-radius: .3rem; box-shadow: 0 .3rem .8rem rgb(0 0 0 / 20%); display: grid; gap: .1rem; left: 0; min-width: max-content; padding: .35rem; position: absolute; top: calc(100% + .25rem); z-index: 1; }
-    .application-menu__links a { padding: .3rem .45rem; }
     @media (min-width: 1100px) {
       main.with-toc { align-items: start; display: grid; gap: 3rem; grid-template-columns: 16rem minmax(0, 52rem); max-width: 74rem; }
       .page-toc { font-size: .9rem; max-height: calc(100vh - 3rem); overflow-y: auto; position: sticky; top: 1.5rem; }

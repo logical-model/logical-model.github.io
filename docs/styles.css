@@ -8,6 +8,13 @@ a { color: #075a8c; }
 .site-nav { display: flex; flex-wrap: wrap; gap: .25rem .5rem; margin-top: .75rem; }
 .site-nav a { border-radius: .3rem; font-size: .92rem; font-weight: 600; padding: .3rem .45rem; }
 .site-nav a:hover, .site-nav a[aria-current="page"] { background: rgb(255 255 255 / 20%); }
+.application-menu { position: relative; }
+.application-menu summary { border-radius: .3rem; cursor: pointer; font-size: .92rem; font-weight: 600; list-style: none; padding: .3rem .45rem; }
+.application-menu summary::-webkit-details-marker { display: none; }
+.application-menu summary::after { content: " ▾"; }
+.application-menu summary:hover, .application-menu[open] summary { background: rgb(255 255 255 / 20%); }
+.application-menu__links { background: #2d6175; border: 1px solid rgb(255 255 255 / 35%); border-radius: .3rem; box-shadow: 0 .3rem .8rem rgb(0 0 0 / 20%); display: grid; gap: .1rem; left: 0; min-width: max-content; padding: .35rem; position: absolute; top: calc(100% + .25rem); z-index: 1; }
+.application-menu__links a { padding: .3rem .45rem; }
 main { margin: 3rem auto; max-width: 54rem; padding: 0 1.5rem; }
 h1 { font-size: clamp(2rem, 5vw, 3.25rem); line-height: 1.1; }
 h2 { margin-top: 2.25rem; }
