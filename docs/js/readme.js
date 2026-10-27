@@ -3,6 +3,9 @@
   "use strict";
   const rawBase = "https://raw.githubusercontent.com/YukiAtsusaka/logical/master/";
   const sourceBase = "https://github.com/YukiAtsusaka/logical/blob/master/";
+  const bundledImages = new Map([
+    ["man/figures/pexels-mathias-pr-reding-4394233.jpg", "images/pexels-mathias-pr-reding-4394240.jpg"]
+  ]);
   const content = document.getElementById("readme-content");
   const status = document.getElementById("readme-status");
   const fallback = document.getElementById("readme-fallback");
@@ -58,7 +61,11 @@
       });
       // Both Markdown images and inline HTML images become img elements.
       for (const image of fragment.querySelectorAll("img[src]")) {
-        image.setAttribute("src", new URL(image.getAttribute("src"), rawBase).href);
+        const source = image.getAttribute("src");
+        const bundledImage = bundledImages.get(source);
+        image.setAttribute("src", bundledImage
+          ? new URL(bundledImage, window.location.href).href
+          : new URL(source, rawBase).href);
       }
       for (const link of fragment.querySelectorAll("a[href]")) {
         const href = link.getAttribute("href");
