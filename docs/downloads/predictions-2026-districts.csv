@@ -1,0 +1,1741 @@
+seat_id,state,district,cvap_column,group_cvap,race,margin_column,racial_margin,adjusted_margin,election_probability
+0101,Alabama,01,asian_cvap_pct_119,1.0015462,Asian,racial_margin_asian,-39.202040905,10.797959095000003,0
+0101,Alabama,01,black_cvap_pct_119,15.56338091,Black,racial_margin_black,-39.202040905,10.797959095000003,1.481995445801836e-300
+0101,Alabama,01,latino_cvap_pct_119,3.18196037,Latino,racial_margin_latino,-39.202040905,10.797959095000003,0
+0101,Alabama,01,white_cvap_pct_119,77.44116832,White,racial_margin_white,39.202040905,89.20204090499999,1
+0102,Alabama,02,asian_cvap_pct_119,1.2568254,Asian,racial_margin_asian,-27.27911376,22.72088624,0
+0102,Alabama,02,black_cvap_pct_119,50.20744718,Black,racial_margin_black,4.596028635,54.596028634999996,0.9907579565360488
+0102,Alabama,02,latino_cvap_pct_119,2.11930501,Latino,racial_margin_latino,-27.27911376,22.72088624,0
+0102,Alabama,02,white_cvap_pct_119,44.14860727,White,racial_margin_white,-4.596028635,45.403971365000004,8.562563389371119e-8
+0103,Alabama,03,asian_cvap_pct_119,0.80742313,Asian,racial_margin_asian,-48.96388871,1.036111290000001,0
+0103,Alabama,03,black_cvap_pct_119,19.76519476,Black,racial_margin_black,-48.96388871,1.036111290000001,0
+0103,Alabama,03,latino_cvap_pct_119,2.04257974,Latino,racial_margin_latino,-48.96388871,1.036111290000001,0
+0103,Alabama,03,white_cvap_pct_119,74.91287575,White,racial_margin_white,48.96388871,98.96388870999999,1
+0104,Alabama,04,asian_cvap_pct_119,0.43532017,Asian,racial_margin_asian,-49.392885935,0.6071140649999975,0
+0104,Alabama,04,black_cvap_pct_119,6.70972504,Black,racial_margin_black,-49.392885935,0.6071140649999975,0
+0104,Alabama,04,latino_cvap_pct_119,3.6421849,Latino,racial_margin_latino,-49.392885935,0.6071140649999975,0
+0104,Alabama,04,white_cvap_pct_119,87.04078243,White,racial_margin_white,49.392885935,99.39288593500001,1
+0105,Alabama,05,asian_cvap_pct_119,1.28348819,Asian,racial_margin_asian,-47.69673412,2.303265879999998,0
+0105,Alabama,05,black_cvap_pct_119,17.96954513,Black,racial_margin_black,-47.69673412,2.303265879999998,0
+0105,Alabama,05,latino_cvap_pct_119,3.80073073,Latino,racial_margin_latino,-47.69673412,2.303265879999998,0
+0105,Alabama,05,white_cvap_pct_119,73.15118908,White,racial_margin_white,47.69673412,97.69673412,1
+0106,Alabama,06,asian_cvap_pct_119,1.30560614,Asian,racial_margin_asian,-35.159177785,14.840822215000003,0
+0106,Alabama,06,black_cvap_pct_119,18.10231363,Black,racial_margin_black,-35.159177785,14.840822215000003,6.12316475388055e-248
+0106,Alabama,06,latino_cvap_pct_119,2.76752117,Latino,racial_margin_latino,-35.159177785,14.840822215000003,0
+0106,Alabama,06,white_cvap_pct_119,75.92898899,White,racial_margin_white,35.159177785,85.159177785,1
+0107,Alabama,07,asian_cvap_pct_119,0.83724265,Asian,racial_margin_asian,-31.84008594,18.15991406,0
+0107,Alabama,07,black_cvap_pct_119,52.55794826,Black,racial_margin_black,13.71171816,63.711718160000004,0.9999999999999982
+0107,Alabama,07,latino_cvap_pct_119,1.86318789,Latino,racial_margin_latino,-31.84008594,18.15991406,0
+0107,Alabama,07,white_cvap_pct_119,42.70283254,White,racial_margin_white,-13.71171816,36.288281839999996,1.0254279894036507e-26
+0200,Alaska,00,asian_cvap_pct_119,5.31848357,Asian,racial_margin_asian,-24.20688504,25.79311496,0
+0200,Alaska,00,black_cvap_pct_119,3.07747128,Black,racial_margin_black,-24.20688504,25.79311496,0
+0200,Alaska,00,latino_cvap_pct_119,6.05138275,Latino,racial_margin_latino,-24.20688504,25.79311496,3.5893483981650625e-308
+0200,Alaska,00,white_cvap_pct_119,64.463948,White,racial_margin_white,24.20688504,74.20688504,1
+0401,Arizona,01,asian_cvap_pct_119,3.13898818,Asian,racial_margin_asian,-1.9070020099999991,48.09299799,0
+0401,Arizona,01,black_cvap_pct_119,3.23833446,Black,racial_margin_black,-25.953501005,24.046498995,0
+0401,Arizona,01,latino_cvap_pct_119,12.79280585,Latino,racial_margin_latino,-25.953501005,24.046498995,1.9045106275532484e-231
+0401,Arizona,01,white_cvap_pct_119,76.78919911,White,racial_margin_white,1.9070020099999991,51.90700201,1
+0402,Arizona,02,asian_cvap_pct_119,1.01215691,Asian,racial_margin_asian,-27.238694885,22.761305115,0
+0402,Arizona,02,black_cvap_pct_119,2.31102597,Black,racial_margin_black,-27.238694885,22.761305115,0
+0402,Arizona,02,latino_cvap_pct_119,14.1542858,Latino,racial_margin_latino,-27.238694885,22.761305115,1.0662640307550596e-225
+0402,Arizona,02,white_cvap_pct_119,61.65272227,White,racial_margin_white,27.238694885,77.238694885,1
+0403,Arizona,03,asian_cvap_pct_119,2.56498801,Asian,racial_margin_asian,-35.467795015,14.532204985,0
+0403,Arizona,03,black_cvap_pct_119,11.96738609,Black,racial_margin_black,-35.467795015,14.532204985,5.8442979189766115e-297
+0403,Arizona,03,latino_cvap_pct_119,50.8819611,Latino,racial_margin_latino,-35.467795015,14.532204985,1.9275102220748853e-115
+0403,Arizona,03,white_cvap_pct_119,29.42776446,White,racial_margin_white,35.467795015,85.46779501500001,0.5600252744697222
+0404,Arizona,04,asian_cvap_pct_119,4.12315384,Asian,racial_margin_asian,-26.368351045,23.631648955,0
+0404,Arizona,04,black_cvap_pct_119,5.17137294,Black,racial_margin_black,-26.368351045,23.631648955,0
+0404,Arizona,04,latino_cvap_pct_119,20.66440493,Latino,racial_margin_latino,-26.368351045,23.631648955,1.2714324280372056e-171
+0404,Arizona,04,white_cvap_pct_119,64.41377786,White,racial_margin_white,26.368351045,76.368351045,1
+0405,Arizona,05,asian_cvap_pct_119,4.63775575,Asian,racial_margin_asian,-30.194090355,19.805909645,0
+0405,Arizona,05,black_cvap_pct_119,3.53270859,Black,racial_margin_black,-30.194090355,19.805909645,0
+0405,Arizona,05,latino_cvap_pct_119,15.30355794,Latino,racial_margin_latino,-30.194090355,19.805909645,2.822533106981332e-233
+0405,Arizona,05,white_cvap_pct_119,72.35594115,White,racial_margin_white,30.194090355,80.194090355,1
+0406,Arizona,06,asian_cvap_pct_119,2.58642423,Asian,racial_margin_asian,-24.9983767,25.0016233,0
+0406,Arizona,06,black_cvap_pct_119,3.39410078,Black,racial_margin_black,-24.9983767,25.0016233,0
+0406,Arizona,06,latino_cvap_pct_119,21.19922478,Latino,racial_margin_latino,1.2548119300000025,51.25481193,2.1844392990248055e-65
+0406,Arizona,06,white_cvap_pct_119,68.78801248,White,racial_margin_white,-1.2548119300000025,48.74518807,0.9999999999999987
+0407,Arizona,07,asian_cvap_pct_119,1.75142973,Asian,racial_margin_asian,-31.724542545,18.275457455,0
+0407,Arizona,07,black_cvap_pct_119,3.89139375,Black,racial_margin_black,-31.724542545,18.275457455,0
+0407,Arizona,07,latino_cvap_pct_119,51.72053401,Latino,racial_margin_latino,13.449085089999995,63.44908509,0.9999999999998397
+0407,Arizona,07,white_cvap_pct_119,37.29269156,White,racial_margin_white,-13.449085089999995,36.55091491,2.140520779023545e-39
+0408,Arizona,08,asian_cvap_pct_119,3.21845067,Asian,racial_margin_asian,-28.250360135,21.749639865,0
+0408,Arizona,08,black_cvap_pct_119,3.84010577,Black,racial_margin_black,-28.250360135,21.749639865,0
+0408,Arizona,08,latino_cvap_pct_119,16.98099979,Latino,racial_margin_latino,-6.500720270000002,43.49927973,1.3969102533030878e-115
+0408,Arizona,08,white_cvap_pct_119,71.74240376,White,racial_margin_white,6.500720270000002,56.50072027,1
+0409,Arizona,09,asian_cvap_pct_119,1.82363433,Asian,racial_margin_asian,-32.648872515,17.351127485,0
+0409,Arizona,09,black_cvap_pct_119,4.538725,Black,racial_margin_black,-32.648872515,17.351127485,0
+0409,Arizona,09,latino_cvap_pct_119,24.74406932,Latino,racial_margin_latino,-32.648872515,17.351127485,9.44880256423594e-189
+0409,Arizona,09,white_cvap_pct_119,64.47480152,White,racial_margin_white,32.648872515,82.648872515,1
+0501,Arkansas,01,asian_cvap_pct_119,0.40597896,Asian,racial_margin_asian,-36.43857817,13.56142183,0
+0501,Arkansas,01,black_cvap_pct_119,15.94372534,Black,racial_margin_black,-24.440352275,25.559647725,1.3262668054908427e-195
+0501,Arkansas,01,latino_cvap_pct_119,2.44325521,Latino,racial_margin_latino,-36.43857817,13.56142183,0
+0501,Arkansas,01,white_cvap_pct_119,78.39576798,White,racial_margin_white,24.440352275,74.440352275,1
+0502,Arkansas,02,asian_cvap_pct_119,1.02555906,Asian,racial_margin_asian,-29.46739322,20.53260678,0
+0502,Arkansas,02,black_cvap_pct_119,20.17149441,Black,racial_margin_black,-29.46739322,20.53260678,1.759855699622263e-193
+0502,Arkansas,02,latino_cvap_pct_119,3.44692525,Latino,racial_margin_latino,-29.46739322,20.53260678,0
+0502,Arkansas,02,white_cvap_pct_119,72.75427331,White,racial_margin_white,29.46739322,79.46739322,1
+0503,Arkansas,03,asian_cvap_pct_119,2.43615539,Asian,racial_margin_asian,-31.901562355,18.098437645,0
+0503,Arkansas,03,black_cvap_pct_119,2.67325439,Black,racial_margin_black,-31.901562355,18.098437645,0
+0503,Arkansas,03,latino_cvap_pct_119,9.75272121,Latino,racial_margin_latino,-31.901562355,18.098437645,2.157020436296873e-295
+0503,Arkansas,03,white_cvap_pct_119,80.42773543,White,racial_margin_white,31.901562355,81.901562355,1
+0504,Arkansas,04,asian_cvap_pct_119,0.51137662,Asian,racial_margin_asian,-36.45583953,13.544160470000001,0
+0504,Arkansas,04,black_cvap_pct_119,19.51647799,Black,racial_margin_black,-22.911679059999997,27.088320940000003,6.081363845046729e-161
+0504,Arkansas,04,latino_cvap_pct_119,4.19591076,Latino,racial_margin_latino,-36.45583953,13.544160470000001,0
+0504,Arkansas,04,white_cvap_pct_119,72.99945602,White,racial_margin_white,22.911679059999997,72.91167906,1
+0601,California,01,asian_cvap_pct_119,5.03978442,Asian,racial_margin_asian,-15.34263912,34.65736088,1.6707263792343135e-296
+0601,California,01,black_cvap_pct_119,1.99650407,Black,racial_margin_black,-32.67131956,17.32868044,0
+0601,California,01,latino_cvap_pct_119,17.21363413,Latino,racial_margin_latino,-32.67131956,17.32868044,3.0272643162774452e-235
+0601,California,01,white_cvap_pct_119,70.49343603,White,racial_margin_white,15.34263912,65.34263912,1
+0602,California,02,asian_cvap_pct_119,3.80334712,Asian,racial_margin_asian,-35.94188353,14.058116470000002,0
+0602,California,02,black_cvap_pct_119,1.68851659,Black,racial_margin_black,-35.94188353,14.058116470000002,0
+0602,California,02,latino_cvap_pct_119,13.87568159,Latino,racial_margin_latino,-35.94188353,14.058116470000002,1.2549514092403023e-284
+0602,California,02,white_cvap_pct_119,75.25723078,White,racial_margin_white,35.94188353,85.94188353,1
+0603,California,03,asian_cvap_pct_119,6.14013716,Asian,racial_margin_asian,-27.73369515,22.26630485,0
+0603,California,03,black_cvap_pct_119,1.85372918,Black,racial_margin_black,-27.73369515,22.26630485,0
+0603,California,03,latino_cvap_pct_119,12.08229331,Latino,racial_margin_latino,-27.73369515,22.26630485,8.993436234713292e-248
+0603,California,03,white_cvap_pct_119,75.58325169,White,racial_margin_white,27.73369515,77.73369515,1
+0604,California,04,asian_cvap_pct_119,7.77987299,Asian,racial_margin_asian,-33.227792695,16.772207305000002,0
+0604,California,04,black_cvap_pct_119,3.01417825,Black,racial_margin_black,-33.227792695,16.772207305000002,0
+0604,California,04,latino_cvap_pct_119,23.96812039,Latino,racial_margin_latino,-33.227792695,16.772207305000002,2.1930236929324492e-197
+0604,California,04,white_cvap_pct_119,60.59808949,White,racial_margin_white,33.227792695,83.227792695,1
+0605,California,05,asian_cvap_pct_119,5.08645604,Asian,racial_margin_asian,-30.882592345,19.117407655,0
+0605,California,05,black_cvap_pct_119,2.44689229,Black,racial_margin_black,-30.882592345,19.117407655,0
+0605,California,05,latino_cvap_pct_119,21.98845378,Latino,racial_margin_latino,-30.882592345,19.117407655,1.560670864636165e-191
+0605,California,05,white_cvap_pct_119,66.20022361,White,racial_margin_white,30.882592345,80.882592345,1
+0606,California,06,asian_cvap_pct_119,11.05742946,Asian,racial_margin_asian,7.618994540000003,57.61899454,1.2461409696520585e-135
+0606,California,06,black_cvap_pct_119,9.87402045,Black,racial_margin_black,-28.80949727,21.19050273,7.076415630779143e-277
+0606,California,06,latino_cvap_pct_119,18.87851446,Latino,racial_margin_latino,-28.80949727,21.19050273,5.0761322577840855e-198
+0606,California,06,white_cvap_pct_119,54.1142075,White,racial_margin_white,-7.618994540000003,42.38100546,0.01741228861977658
+0607,California,07,asian_cvap_pct_119,21.88853367,Asian,racial_margin_asian,16.750853699999997,66.7508537,2.596562509909001e-32
+0607,California,07,black_cvap_pct_119,11.0351249,Black,racial_margin_black,-16.750853699999997,33.24914630000001,3.253863309690761e-209
+0607,California,07,latino_cvap_pct_119,22.47873565,Latino,racial_margin_latino,-33.37542685,16.624573150000003,7.444473359145977e-207
+0607,California,07,white_cvap_pct_119,37.84407329,White,racial_margin_white,-33.37542685,16.624573150000003,2.4157176580302324e-137
+0608,California,08,asian_cvap_pct_119,19.2340134,Asian,racial_margin_asian,-23.970625940000005,26.029374059999995,2.8021801162326357e-168
+0608,California,08,black_cvap_pct_119,16.52965914,Black,racial_margin_black,-36.98531297,13.014687029999997,9.22851377505792e-274
+0608,California,08,latino_cvap_pct_119,26.30584568,Latino,racial_margin_latino,-36.98531297,13.014687029999997,4.779570889178341e-218
+0608,California,08,white_cvap_pct_119,31.72116581,White,racial_margin_white,23.970625940000005,73.97062594,0.059381026693682046
+0609,California,09,asian_cvap_pct_119,16.57438759,Asian,racial_margin_asian,-25.896036315,24.103963685,3.391709996753805e-198
+0609,California,09,black_cvap_pct_119,8.12608948,Black,racial_margin_black,-1.7920726299999998,48.20792737,9.431872134029854e-201
+0609,California,09,latino_cvap_pct_119,33.56254596,Latino,racial_margin_latino,-25.896036315,24.103963685,2.2639179932351995e-103
+0609,California,09,white_cvap_pct_119,37.28853138,White,racial_margin_white,1.7920726299999998,51.79207263,7.064335679859747e-10
+0610,California,10,asian_cvap_pct_119,19.2424789,Asian,racial_margin_asian,-33.236728625,16.763271375000002,1.519952008867743e-225
+0610,California,10,black_cvap_pct_119,5.55094265,Black,racial_margin_black,-33.236728625,16.763271375000002,0
+0610,California,10,latino_cvap_pct_119,14.94560912,Latino,racial_margin_latino,-33.236728625,16.763271375000002,3.191374117167213e-256
+0610,California,10,white_cvap_pct_119,55.40348888,White,racial_margin_white,33.236728625,83.236728625,1
+0611,California,11,asian_cvap_pct_119,31.15624022,Asian,racial_margin_asian,-31.034233630000003,18.965766369999997,7.26882517289162e-146
+0611,California,11,black_cvap_pct_119,5.42906694,Black,racial_margin_black,-40.517116815,9.482883184999999,0
+0611,California,11,latino_cvap_pct_119,11.96904551,Latino,racial_margin_latino,-40.517116815,9.482883184999999,0
+0611,California,11,white_cvap_pct_119,46.42414909,White,racial_margin_white,31.034233630000003,81.03423363,1
+0612,California,12,asian_cvap_pct_119,20.5812888,Asian,racial_margin_asian,-15.427435740000004,34.57256425999999,1.2321172536892043e-120
+0612,California,12,black_cvap_pct_119,17.12426721,Black,racial_margin_black,15.427435740000004,65.42743574,1.1596922421257691e-61
+0612,California,12,latino_cvap_pct_119,16.51521948,Latino,racial_margin_latino,-32.71371787,17.286282129999996,1.316802188594654e-240
+0612,California,12,white_cvap_pct_119,40.15171557,White,racial_margin_white,-32.71371787,17.286282129999996,5.277376984752622e-124
+0613,California,13,asian_cvap_pct_119,7.26181842,Asian,racial_margin_asian,-25.022164695,24.977835305,1.7160763598713067e-292
+0613,California,13,black_cvap_pct_119,3.80856416,Black,racial_margin_black,-25.022164695,24.977835305,0
+0613,California,13,latino_cvap_pct_119,54.61374967,Latino,racial_margin_latino,-0.04432939000000147,49.95567061,0.9872192771291848
+0613,California,13,white_cvap_pct_119,30.9888541,White,racial_margin_white,0.04432939000000147,50.04432939,1.2080557079353758e-26
+0614,California,14,asian_cvap_pct_119,35.14370634,Asian,racial_margin_asian,-33.87683257,16.123167430000002,1.4736408908228786e-151
+0614,California,14,black_cvap_pct_119,6.33626985,Black,racial_margin_black,-33.87683257,16.123167430000002,0
+0614,California,14,latino_cvap_pct_119,20.67970895,Latino,racial_margin_latino,-17.75366514,32.246334860000005,1.958091708137901e-129
+0614,California,14,white_cvap_pct_119,32.7948539,White,racial_margin_white,17.75366514,67.75366514,0.0021035116571061275
+0615,California,15,asian_cvap_pct_119,37.43838738,Asian,racial_margin_asian,-23.09700771,26.90299229,8.077806130987624e-75
+0615,California,15,black_cvap_pct_119,3.08298326,Black,racial_margin_black,-36.548503855,13.451496145,0
+0615,California,15,latino_cvap_pct_119,20.53208765,Latino,racial_margin_latino,-36.548503855,13.451496145,1.2884991753504938e-244
+0615,California,15,white_cvap_pct_119,34.8006512,White,racial_margin_white,23.09700771,73.09700771,0.6687016470670408
+0616,California,16,asian_cvap_pct_119,27.92073008,Asian,racial_margin_asian,-8.216198339999998,41.78380166,7.736531284562066e-57
+0616,California,16,black_cvap_pct_119,2.19387829,Black,racial_margin_black,-29.10809917,20.89190083,0
+0616,California,16,latino_cvap_pct_119,15.38804481,Latino,racial_margin_latino,8.216198339999998,58.21619834,6.815356438159263e-90
+0616,California,16,white_cvap_pct_119,50.60227973,White,racial_margin_white,-29.10809917,20.89190083,9.202192831579477e-69
+0617,California,17,asian_cvap_pct_119,49.11121213,Asian,racial_margin_asian,33.83239759,83.83239759,1
+0617,California,17,black_cvap_pct_119,2.60123844,Black,racial_margin_black,-33.83239759,16.16760241,0
+0617,California,17,latino_cvap_pct_119,15.89101367,Latino,racial_margin_latino,-33.83239759,16.16760241,2.957921815474817e-253
+0617,California,17,white_cvap_pct_119,28.72479491,White,racial_margin_white,-33.83239759,16.16760241,2.450366833770853e-178
+0618,California,18,asian_cvap_pct_119,13.92269417,Asian,racial_margin_asian,-32.31293708,17.687062920000002,3.023019044621445e-258
+0618,California,18,black_cvap_pct_119,2.88124974,Black,racial_margin_black,-32.31293708,17.687062920000002,0
+0618,California,18,latino_cvap_pct_119,52.48102913,Latino,racial_margin_latino,-14.62587416,35.37412584,2.368855670966379e-12
+0618,California,18,white_cvap_pct_119,27.65283735,White,racial_margin_white,14.62587416,64.62587416,5.547751935058732e-15
+0619,California,19,asian_cvap_pct_119,17.59567665,Asian,racial_margin_asian,-34.647837065,15.352162935000003,2.7830905630221782e-247
+0619,California,19,black_cvap_pct_119,2.2521754,Black,racial_margin_black,-34.647837065,15.352162935000003,0
+0619,California,19,latino_cvap_pct_119,19.15981098,Latino,racial_margin_latino,-34.647837065,15.352162935000003,5.816678486851379e-237
+0619,California,19,white_cvap_pct_119,56.80029376,White,racial_margin_white,34.647837065,84.647837065,1
+0620,California,20,asian_cvap_pct_119,6.93263791,Asian,racial_margin_asian,15.05187196,65.05187196,3.0539674398879737e-182
+0620,California,20,black_cvap_pct_119,3.29302166,Black,racial_margin_black,-32.52593598,17.47406402,0
+0620,California,20,latino_cvap_pct_119,30.80438672,Latino,racial_margin_latino,-32.52593598,17.47406402,1.6513513956624692e-158
+0620,California,20,white_cvap_pct_119,55.31261601,White,racial_margin_white,-15.05187196,34.94812804,8.033187813781293e-10
+0621,California,21,asian_cvap_pct_119,9.66775678,Asian,racial_margin_asian,-26.28688034,23.71311966,1.560240758905966e-266
+0621,California,21,black_cvap_pct_119,5.46078824,Black,racial_margin_black,-26.28688034,23.71311966,0
+0621,California,21,latino_cvap_pct_119,56.77239227,Latino,racial_margin_latino,2.5737606799999995,52.57376068,0.9999981958622557
+0621,California,21,white_cvap_pct_119,25.73471062,White,racial_margin_white,-2.5737606799999995,47.42623932,1.3896979127842548e-51
+0622,California,22,asian_cvap_pct_119,4.20046872,Asian,racial_margin_asian,-26.71052553,23.28947447,0
+0622,California,22,black_cvap_pct_119,5.98762094,Black,racial_margin_black,-26.71052553,23.28947447,0
+0622,California,22,latino_cvap_pct_119,63.58007331,Latino,racial_margin_latino,26.71052553,76.71052553,1
+0622,California,22,white_cvap_pct_119,23.7187669,White,racial_margin_white,-26.71052553,23.28947447,5.267338868463065e-155
+0623,California,23,asian_cvap_pct_119,4.09426834,Asian,racial_margin_asian,-30.071097115,19.928902885,0
+0623,California,23,black_cvap_pct_119,8.58372954,Black,racial_margin_black,-30.071097115,19.928902885,1.0698695363667748e-298
+0623,California,23,latino_cvap_pct_119,37.37013209,Latino,racial_margin_latino,-30.071097115,19.928902885,1.785427619070077e-114
+0623,California,23,white_cvap_pct_119,45.66664389,White,racial_margin_white,30.071097115,80.071097115,1
+0624,California,24,asian_cvap_pct_119,4.82903503,Asian,racial_margin_asian,-31.34849144,18.65150856,0
+0624,California,24,black_cvap_pct_119,1.86590346,Black,racial_margin_black,-31.34849144,18.65150856,0
+0624,California,24,latino_cvap_pct_119,28.59546967,Latino,racial_margin_latino,12.69698288,62.69698288,9.44663204088503e-15
+0624,California,24,white_cvap_pct_119,61.11416881,White,racial_margin_white,-12.69698288,37.30301712,0.012118643427687105
+0625,California,25,asian_cvap_pct_119,2.95890769,Asian,racial_margin_asian,-28.126441145,21.873558855,0
+0625,California,25,black_cvap_pct_119,5.38466413,Black,racial_margin_black,-28.126441145,21.873558855,0
+0625,California,25,latino_cvap_pct_119,57.08847899,Latino,racial_margin_latino,6.252882290000002,56.25288229,0.9999999999871347
+0625,California,25,white_cvap_pct_119,31.51950152,White,racial_margin_white,-6.252882290000002,43.74711771,3.4682593299782195e-38
+0626,California,26,asian_cvap_pct_119,7.80269411,Asian,racial_margin_asian,-28.027166725,21.972833275,1.8369050481485483e-298
+0626,California,26,black_cvap_pct_119,2.16237491,Black,racial_margin_black,-28.027166725,21.972833275,0
+0626,California,26,latino_cvap_pct_119,34.8502888,Latino,racial_margin_latino,-28.027166725,21.972833275,9.95886156534471e-111
+0626,California,26,white_cvap_pct_119,51.77065601,White,racial_margin_white,28.027166725,78.027166725,1
+0627,California,27,asian_cvap_pct_119,9.80914559,Asian,racial_margin_asian,-25.665633645,24.334366355,7.101661440908051e-262
+0627,California,27,black_cvap_pct_119,10.60822043,Black,racial_margin_black,-25.665633645,24.334366355,1.0817737163283055e-252
+0627,California,27,latino_cvap_pct_119,37.77174568,Latino,racial_margin_latino,-1.3312672899999995,48.66873271,5.220525510992341e-13
+0627,California,27,white_cvap_pct_119,38.75312201,White,racial_margin_white,1.3312672899999995,51.33126729,3.3501795388605305e-8
+0628,California,28,asian_cvap_pct_119,35.19845358,Asian,racial_margin_asian,14.928685729999998,64.92868573,0.014108569718097982
+0628,California,28,black_cvap_pct_119,4.66550145,Black,racial_margin_black,-32.464342865,17.535657135,0
+0628,California,28,latino_cvap_pct_119,25.08034987,Latino,racial_margin_latino,-32.464342865,17.535657135,1.4341652882831458e-185
+0628,California,28,white_cvap_pct_119,32.09017706,White,racial_margin_white,-14.928685729999998,35.07131427,4.033680476544873e-61
+0629,California,29,asian_cvap_pct_119,9.30340309,Asian,racial_margin_asian,-34.888356875,15.111643125,0
+0629,California,29,black_cvap_pct_119,5.64604894,Black,racial_margin_black,-34.888356875,15.111643125,0
+0629,California,29,latino_cvap_pct_119,55.48117193,Latino,racial_margin_latino,34.888356875,84.888356875,1
+0629,California,29,white_cvap_pct_119,27.23397619,White,racial_margin_white,-34.888356875,15.111643125,2.58492658398678e-194
+0630,California,30,asian_cvap_pct_119,11.817112120000001,Asian,racial_margin_asian,-34.188006765,15.811993235000003,2.6590192645131083e-289
+0630,California,30,black_cvap_pct_119,4.64016605,Black,racial_margin_black,-34.188006765,15.811993235000003,0
+0630,California,30,latino_cvap_pct_119,19.87253978,Latino,racial_margin_latino,-34.188006765,15.811993235000003,8.202917728576987e-229
+0630,California,30,white_cvap_pct_119,59.82006475,White,racial_margin_white,18.37601353,68.37601353,1
+0631,California,31,asian_cvap_pct_119,20.05025272,Asian,racial_margin_asian,-29.863763405,20.136236595,8.026438091980151e-197
+0631,California,31,black_cvap_pct_119,3.30976261,Black,racial_margin_black,-29.863763405,20.136236595,0
+0631,California,31,latino_cvap_pct_119,55.79448053,Latino,racial_margin_latino,9.72752681,59.72752681,0.9999999999999946
+0631,California,31,white_cvap_pct_119,18.5101693,White,racial_margin_white,-9.72752681,40.27247319,2.3946338369323294e-114
+0632,California,32,asian_cvap_pct_119,11.59735166,Asian,racial_margin_asian,-33.10077881,16.89922119,4.1090666416378e-284
+0632,California,32,black_cvap_pct_119,4.99726122,Black,racial_margin_black,-33.10077881,16.89922119,0
+0632,California,32,latino_cvap_pct_119,21.54242902,Latino,racial_margin_latino,-33.10077881,16.89922119,3.226590313433454e-210
+0632,California,32,white_cvap_pct_119,58.05917969,White,racial_margin_white,33.10077881,83.10077881000001,1
+0633,California,33,asian_cvap_pct_119,6.71296393,Asian,racial_margin_asian,-29.40670882,20.59329118,0
+0633,California,33,black_cvap_pct_119,11.45398949,Black,racial_margin_black,-29.40670882,20.59329118,2.9714832419084246e-263
+0633,California,33,latino_cvap_pct_119,56.41468404,Latino,racial_margin_latino,8.813417639999997,58.81341764,0.9999999999999853
+0633,California,33,white_cvap_pct_119,22.62823744,White,racial_margin_white,-8.813417639999997,41.18658236,9.549734060592162e-85
+0634,California,34,asian_cvap_pct_119,19.48670484,Asian,racial_margin_asian,-5.642138379999999,44.35786162,1.386044764617111e-94
+0634,California,34,black_cvap_pct_119,6.606652,Black,racial_margin_black,-27.82106919,22.17893081,0
+0634,California,34,latino_cvap_pct_119,54.13157026,Latino,racial_margin_latino,5.642138379999999,55.64213838,0.9999994740105695
+0634,California,34,white_cvap_pct_119,16.83418371,White,racial_margin_white,-27.82106919,22.17893081,5.7042257026353444e-207
+0635,California,35,asian_cvap_pct_119,11.70844872,Asian,racial_margin_asian,-29.20361371,20.79638629,1.460680321083187e-259
+0635,California,35,black_cvap_pct_119,7.60269607,Black,racial_margin_black,-29.20361371,20.79638629,7.415168151074529e-307
+0635,California,35,latino_cvap_pct_119,59.2705993,Latino,racial_margin_latino,8.407227419999998,58.40722742,1
+0635,California,35,white_cvap_pct_119,18.82083703,White,racial_margin_white,-8.407227419999998,41.59277258,9.012399978508978e-108
+0636,California,36,asian_cvap_pct_119,16.3732266,Asian,racial_margin_asian,18.71813781,68.71813781,3.740046126479556e-61
+0636,California,36,black_cvap_pct_119,4.56035023,Black,racial_margin_black,-34.359068905,15.640931095,0
+0636,California,36,latino_cvap_pct_119,14.66143213,Latino,racial_margin_latino,-18.71813781,31.28186219,5.2821482277441415e-180
+0636,California,36,white_cvap_pct_119,59.51037429,White,racial_margin_white,-34.359068905,15.640931095,6.541928253304474e-85
+0637,California,37,asian_cvap_pct_119,7.1284896699999996,Asian,racial_margin_asian,-39.148691005,10.851308994999997,0
+0637,California,37,black_cvap_pct_119,30.75541464,Black,racial_margin_black,28.297382010000003,78.29738201,0.17672298428854014
+0637,California,37,latino_cvap_pct_119,40.23921998,Latino,racial_margin_latino,-28.297382010000003,21.702617989999997,3.1032151948830788e-93
+0637,California,37,white_cvap_pct_119,18.4072467,White,racial_margin_white,-39.148691005,10.851308994999997,5.002466590408291e-282
+0638,California,38,asian_cvap_pct_119,21.42039352,Asian,racial_margin_asian,-9.838073700000002,40.1619263,3.266357633362488e-95
+0638,California,38,black_cvap_pct_119,2.3918891,Black,racial_margin_black,-29.91903685,20.08096315,0
+0638,California,38,latino_cvap_pct_119,57.07605451,Latino,racial_margin_latino,9.838073700000002,59.8380737,1
+0638,California,38,white_cvap_pct_119,17.2212862,White,racial_margin_white,-29.91903685,20.08096315,8.988157225950547e-217
+0639,California,39,asian_cvap_pct_119,6.63619261,Asian,racial_margin_asian,6.688583119999997,56.68858312,5.37794249231744e-206
+0639,California,39,black_cvap_pct_119,10.12460517,Black,racial_margin_black,-28.34429156,21.65570844,1.2919523993460367e-271
+0639,California,39,latino_cvap_pct_119,55.92964629,Latino,racial_margin_latino,-28.34429156,21.65570844,1.8296869390298886e-52
+0639,California,39,white_cvap_pct_119,24.53679916,White,racial_margin_white,-6.688583119999997,43.31141688,4.085068382940303e-68
+0640,California,40,asian_cvap_pct_119,18.83496988,Asian,racial_margin_asian,5.260338599999997,55.2603386,1.0640923876831318e-70
+0640,California,40,black_cvap_pct_119,1.90265561,Black,racial_margin_black,-27.6301693,22.3698307,0
+0640,California,40,latino_cvap_pct_119,20.908007,Latino,racial_margin_latino,-27.6301693,22.3698307,2.1515688664853327e-177
+0640,California,40,white_cvap_pct_119,54.74640869,White,racial_margin_white,-5.260338599999997,44.7396614,0.3052936409237652
+0641,California,41,asian_cvap_pct_119,7.85451653,Asian,racial_margin_asian,-25.84547673,24.15452327,1.184861741970676e-287
+0641,California,41,black_cvap_pct_119,5.75693831,Black,racial_margin_black,-25.84547673,24.15452327,0
+0641,California,41,latino_cvap_pct_119,33.64238996,Latino,racial_margin_latino,-25.84547673,24.15452327,8.93873507756043e-103
+0641,California,41,white_cvap_pct_119,49.42407637,White,racial_margin_white,25.84547673,75.84547673,1
+0642,California,42,asian_cvap_pct_119,8.71273425,Asian,racial_margin_asian,-34.070679005,15.929320994999998,0
+0642,California,42,black_cvap_pct_119,7.24576159,Black,racial_margin_black,-34.070679005,15.929320994999998,0
+0642,California,42,latino_cvap_pct_119,55.77082946,Latino,racial_margin_latino,18.141358010000005,68.14135801,1
+0642,California,42,white_cvap_pct_119,25.49636076,White,racial_margin_white,-18.141358010000005,31.858641989999995,7.871476330064646e-103
+0643,California,43,asian_cvap_pct_119,9.95273451,Asian,racial_margin_asian,-25.07315975,24.92684025,2.2474832246874705e-257
+0643,California,43,black_cvap_pct_119,29.88379017,Black,racial_margin_black,25.07315975,75.07315975,0.004210440983753443
+0643,California,43,latino_cvap_pct_119,47.25874132,Latino,racial_margin_latino,-37.536579875,12.463420124999999,2.6600675887464055e-146
+0643,California,43,white_cvap_pct_119,10.02484229,White,racial_margin_white,-37.536579875,12.463420124999999,0
+0644,California,44,asian_cvap_pct_119,13.33931877,Asian,racial_margin_asian,-35.686283855,14.313716145,5.827601427188197e-287
+0644,California,44,black_cvap_pct_119,13.08433043,Black,racial_margin_black,-35.686283855,14.313716145,4.729130394228083e-289
+0644,California,44,latino_cvap_pct_119,52.95465064,Latino,racial_margin_latino,21.37256771,71.37256771,1
+0644,California,44,white_cvap_pct_119,17.28735258,White,racial_margin_white,-21.37256771,28.62743229,7.834928372992657e-170
+0645,California,45,asian_cvap_pct_119,38.59279829,Asian,racial_margin_asian,25.051681835,75.051681835,0.9999329265251411
+0645,California,45,black_cvap_pct_119,2.26889374,Black,racial_margin_black,-25.051681835,24.948318165,0
+0645,California,45,latino_cvap_pct_119,24.6736,Latino,racial_margin_latino,-25.051681835,24.948318165,2.615647502731955e-140
+0645,California,45,white_cvap_pct_119,31.29574902,White,racial_margin_white,-25.051681835,24.948318165,4.035504353223528e-108
+0646,California,46,asian_cvap_pct_119,19.56588338,Asian,racial_margin_asian,-13.42549647,36.57450353,7.269092959381553e-120
+0646,California,46,black_cvap_pct_119,2.12202013,Black,racial_margin_black,-31.712748235,18.287251765,0
+0646,California,46,latino_cvap_pct_119,53.8481613,Latino,racial_margin_latino,13.42549647,63.42549647,1
+0646,California,46,white_cvap_pct_119,22.04577173,White,racial_margin_white,-31.712748235,18.287251765,5.2086566921006554e-197
+0647,California,47,asian_cvap_pct_119,20.35401718,Asian,racial_margin_asian,1.438963979999997,51.43896398,5.7812827002783506e-70
+0647,California,47,black_cvap_pct_119,1.90503361,Black,racial_margin_black,-25.71948199,24.28051801,0
+0647,California,47,latino_cvap_pct_119,14.67739241,Latino,racial_margin_latino,-25.71948199,24.28051801,6.048676441148463e-213
+0647,California,47,white_cvap_pct_119,58.64613109,White,racial_margin_white,-1.438963979999997,48.56103602,0.9996184971144659
+0648,California,48,asian_cvap_pct_119,6.71036419,Asian,racial_margin_asian,-29.64625718,20.35374282,0
+0648,California,48,black_cvap_pct_119,3.49976677,Black,racial_margin_black,-29.64625718,20.35374282,0
+0648,California,48,latino_cvap_pct_119,24.65335918,Latino,racial_margin_latino,-29.64625718,20.35374282,5.660921385460231e-168
+0648,California,48,white_cvap_pct_119,60.57595992,White,racial_margin_white,29.64625718,79.64625717999999,1
+0649,California,49,asian_cvap_pct_119,6.90889671,Asian,racial_margin_asian,-26.08676691,23.91323309,2.502379666721368e-302
+0649,California,49,black_cvap_pct_119,2.71468297,Black,racial_margin_black,-26.08676691,23.91323309,0
+0649,California,49,latino_cvap_pct_119,21.36001179,Latino,racial_margin_latino,2.173533820000003,52.17353382,2.6264383354817577e-62
+0649,California,49,white_cvap_pct_119,64.86805031,White,racial_margin_white,-2.173533820000003,47.82646618,0.9999999939842197
+0650,California,50,asian_cvap_pct_119,11.70045904,Asian,racial_margin_asian,-32.137401405,17.862598595,5.301294899906392e-277
+0650,California,50,black_cvap_pct_119,3.1796368,Black,racial_margin_black,-32.137401405,17.862598595,0
+0650,California,50,latino_cvap_pct_119,18.53963709,Latino,racial_margin_latino,-32.137401405,17.862598595,3.0339488041884575e-222
+0650,California,50,white_cvap_pct_119,62.01685781,White,racial_margin_white,32.137401405,82.13740140499999,1
+0651,California,51,asian_cvap_pct_119,14.85008037,Asian,racial_margin_asian,-30.348704455,19.651295545,6.243787390642567e-238
+0651,California,51,black_cvap_pct_119,6.07642258,Black,racial_margin_black,-30.348704455,19.651295545,0
+0651,California,51,latino_cvap_pct_119,21.63536705,Latino,racial_margin_latino,-30.348704455,19.651295545,4.870957602731721e-190
+0651,California,51,white_cvap_pct_119,52.50116252,White,racial_margin_white,30.348704455,80.348704455,1
+0652,California,52,asian_cvap_pct_119,15.68791551,Asian,racial_margin_asian,-16.309227699999997,33.690772300000006,5.631617107021474e-161
+0652,California,52,black_cvap_pct_119,8.73727459,Black,racial_margin_black,-33.15461385,16.845386150000003,0
+0652,California,52,latino_cvap_pct_119,52.73338543,Latino,racial_margin_latino,16.309227699999997,66.3092277,1
+0652,California,52,white_cvap_pct_119,19.07985288,White,racial_margin_white,-33.15461385,16.845386150000003,5.3905569655151506e-226
+0801,Colorado,01,asian_cvap_pct_119,3.1167979,Asian,racial_margin_asian,-38.26716994,11.732830059999998,0
+0801,Colorado,01,black_cvap_pct_119,8.51396384,Black,racial_margin_black,-37.67654417,12.32345583,0
+0801,Colorado,01,latino_cvap_pct_119,20.20813058,Latino,racial_margin_latino,-27.478849405,22.521150595,4.966004458271923e-181
+0801,Colorado,01,white_cvap_pct_119,64.39717332,White,racial_margin_white,27.478849405,77.478849405,1
+0802,Colorado,02,asian_cvap_pct_119,2.42725717,Asian,racial_margin_asian,-34.179483245,15.820516755,0
+0802,Colorado,02,black_cvap_pct_119,0.86975981,Black,racial_margin_black,19.71190287,69.71190287,0
+0802,Colorado,02,latino_cvap_pct_119,10.49931896,Latino,racial_margin_latino,-34.179483245,15.820516755,9.049781765407791e-302
+0802,Colorado,02,white_cvap_pct_119,83.40108509,White,racial_margin_white,-19.71190287,30.28809713,0.6025395893473495
+0803,Colorado,03,asian_cvap_pct_119,0.6542566,Asian,racial_margin_asian,-25.05703642,24.94296358,0
+0803,Colorado,03,black_cvap_pct_119,0.90096698,Black,racial_margin_black,-25.39925494,24.60074506,0
+0803,Colorado,03,latino_cvap_pct_119,21.07915664,Latino,racial_margin_latino,-25.39925494,24.60074506,1.5132135393770886e-163
+0803,Colorado,03,white_cvap_pct_119,73.99307637,White,racial_margin_white,25.05703642,75.05703642,1
+0804,Colorado,04,asian_cvap_pct_119,2.68807541,Asian,racial_margin_asian,-26.821041205,23.178958795,0
+0804,Colorado,04,black_cvap_pct_119,1.87059851,Black,racial_margin_black,-26.821041205,23.178958795,0
+0804,Colorado,04,latino_cvap_pct_119,11.78852728,Latino,racial_margin_latino,-26.821041205,23.178958795,6.619085512289257e-246
+0804,Colorado,04,white_cvap_pct_119,80.84141883,White,racial_margin_white,26.660704275,76.660704275,1
+0805,Colorado,05,asian_cvap_pct_119,2.60595658,Asian,racial_margin_asian,-27.331151525,22.668848475,0
+0805,Colorado,05,black_cvap_pct_119,5.76544921,Black,racial_margin_black,-26.765814655,23.234185345,0
+0805,Colorado,05,latino_cvap_pct_119,14.91882574,Latino,racial_margin_latino,-27.331151525,22.668848475,1.3459569448124036e-219
+0805,Colorado,05,white_cvap_pct_119,72.22744965,White,racial_margin_white,26.765814655,76.765814655,1
+0806,Colorado,06,asian_cvap_pct_119,4.77845765,Asian,racial_margin_asian,-29.484087385,20.515912615,0
+0806,Colorado,06,black_cvap_pct_119,9.55335209,Black,racial_margin_black,-29.484087385,20.515912615,4.159742250611534e-284
+0806,Colorado,06,latino_cvap_pct_119,15.34950105,Latino,racial_margin_latino,-29.484087385,20.515912615,1.5298172969427097e-228
+0806,Colorado,06,white_cvap_pct_119,66.45162057,White,racial_margin_white,10.25715624,60.25715624,1
+0807,Colorado,07,asian_cvap_pct_119,2.43300074,Asian,racial_margin_asian,-27.66511881,22.33488119,0
+0807,Colorado,07,black_cvap_pct_119,1.24667591,Black,racial_margin_black,-27.66511881,22.33488119,0
+0807,Colorado,07,latino_cvap_pct_119,12.62641986,Latino,racial_margin_latino,-27.66511881,22.33488119,4.285568129826666e-242
+0807,Colorado,07,white_cvap_pct_119,80.87027301,White,racial_margin_white,27.66511881,77.66511881,1
+0808,Colorado,08,asian_cvap_pct_119,2.67353446,Asian,racial_margin_asian,-24.4772433,25.5227567,0
+0808,Colorado,08,black_cvap_pct_119,1.89813826,Black,racial_margin_black,-24.4772433,25.5227567,0
+0808,Colorado,08,latino_cvap_pct_119,30.66810669,Latino,racial_margin_latino,23.616822935,73.616822935,0.00648012933823921
+0808,Colorado,08,white_cvap_pct_119,61.98501428,White,racial_margin_white,-23.616822935,26.383177065,5.865373903964056e-22
+0901,Connecticut,01,asian_cvap_pct_119,3.73061997,Asian,racial_margin_asian,-31.567377345,18.432622655,0
+0901,Connecticut,01,black_cvap_pct_119,13.83255807,Black,racial_margin_black,-31.567377345,18.432622655,3.720483059951464e-254
+0901,Connecticut,01,latino_cvap_pct_119,15.73622582,Latino,racial_margin_latino,-30.5434184,19.4565816,4.963912875052253e-232
+0901,Connecticut,01,white_cvap_pct_119,64.40137564,White,racial_margin_white,30.5434184,80.54341840000001,1
+0902,Connecticut,02,asian_cvap_pct_119,2.71822412,Asian,racial_margin_asian,-29.007278345,20.992721655,0
+0902,Connecticut,02,black_cvap_pct_119,3.36383987,Black,racial_margin_black,-29.007278345,20.992721655,0
+0902,Connecticut,02,latino_cvap_pct_119,7.44709023,Latino,racial_margin_latino,-29.007278345,20.992721655,5.22954924187761e-308
+0902,Connecticut,02,white_cvap_pct_119,83.86490265,White,racial_margin_white,29.007278345,79.007278345,1
+0903,Connecticut,03,asian_cvap_pct_119,3.16945213,Asian,racial_margin_asian,-29.442149075,20.557850925,0
+0903,Connecticut,03,black_cvap_pct_119,13.02915315,Black,racial_margin_black,-8.903451570000001,41.09654843,3.2109465920541693e-159
+0903,Connecticut,03,latino_cvap_pct_119,13.50729059,Latino,racial_margin_latino,-29.442149075,20.557850925,5.7649791879974117e-244
+0903,Connecticut,03,white_cvap_pct_119,68.19044644,White,racial_margin_white,8.903451570000001,58.90345157,1
+0904,Connecticut,04,asian_cvap_pct_119,4.81642668,Asian,racial_margin_asian,-30.52861882,19.47138118,0
+0904,Connecticut,04,black_cvap_pct_119,11.23036788,Black,racial_margin_black,-30.52861882,19.47138118,6.440836711792152e-272
+0904,Connecticut,04,latino_cvap_pct_119,16.49934883,Latino,racial_margin_latino,-30.52861882,19.47138118,4.745268229889082e-226
+0904,Connecticut,04,white_cvap_pct_119,65.7120228,White,racial_margin_white,30.52861882,80.52861881999999,1
+0905,Connecticut,05,asian_cvap_pct_119,3.19038607,Asian,racial_margin_asian,-26.698064305,23.301935695,0
+0905,Connecticut,05,black_cvap_pct_119,8.23732021,Black,racial_margin_black,26.68680855,76.68680855,8.5776437277254285e-137
+0905,Connecticut,05,latino_cvap_pct_119,16.07986374,Latino,racial_margin_latino,-26.698064305,23.301935695,1.635931953818475e-206
+0905,Connecticut,05,white_cvap_pct_119,70.17940954,White,racial_margin_white,-26.68680855,23.31319145,6.410579950295551e-22
+1000,Delaware,00,asian_cvap_pct_119,2.97822053,Asian,racial_margin_asian,-28.931360015,21.068639985,0
+1000,Delaware,00,black_cvap_pct_119,21.10784516,Black,racial_margin_black,-28.931360015,21.068639985,4.246754159486766e-184
+1000,Delaware,00,latino_cvap_pct_119,6.84832368,Latino,racial_margin_latino,-28.931360015,21.068639985,0
+1000,Delaware,00,white_cvap_pct_119,66.18528125,White,racial_margin_white,28.931360015,78.931360015,1
+1201,Florida,01,asian_cvap_pct_119,2.28831161,Asian,racial_margin_asian,-33.01805882,16.98194118,0
+1201,Florida,01,black_cvap_pct_119,12.35911452,Black,racial_margin_black,-33.01805882,16.98194118,1.564874097496283e-276
+1201,Florida,01,latino_cvap_pct_119,5.96420047,Latino,racial_margin_latino,-33.01805882,16.98194118,0
+1201,Florida,01,white_cvap_pct_119,75.13420242,White,racial_margin_white,33.01805882,83.01805882,1
+1202,Florida,02,asian_cvap_pct_119,1.50739569,Asian,racial_margin_asian,-11.63791389,38.36208611,0
+1202,Florida,02,black_cvap_pct_119,22.44544988,Black,racial_margin_black,-30.818956945,19.181043055,2.1898038694866193e-188
+1202,Florida,02,latino_cvap_pct_119,5.59565028,Latino,racial_margin_latino,-30.818956945,19.181043055,0
+1202,Florida,02,white_cvap_pct_119,67.51823751,White,racial_margin_white,11.63791389,61.63791389,1
+1203,Florida,03,asian_cvap_pct_119,2.25436301,Asian,racial_margin_asian,-30.804660535,19.195339465,0
+1203,Florida,03,black_cvap_pct_119,14.77596187,Black,racial_margin_black,-30.804660535,19.195339465,2.1220414796361117e-241
+1203,Florida,03,latino_cvap_pct_119,10.36017761,Latino,racial_margin_latino,-30.804660535,19.195339465,1.642664243975878e-282
+1203,Florida,03,white_cvap_pct_119,69.8686046,White,racial_margin_white,30.804660535,80.804660535,1
+1204,Florida,04,asian_cvap_pct_119,2.28003596,Asian,racial_margin_asian,-28.629402935,21.370597065,0
+1204,Florida,04,black_cvap_pct_119,29.40845677,Black,racial_margin_black,-7.268204630000003,42.73179537,2.9043347041096144e-48
+1204,Florida,04,latino_cvap_pct_119,7.84778883,Latino,racial_margin_latino,-28.629402935,21.370597065,9.10143717868373e-301
+1204,Florida,04,white_cvap_pct_119,57.6401914,White,racial_margin_white,7.268204630000003,57.26820463,0.9999999999999547
+1205,Florida,05,asian_cvap_pct_119,4.70580621,Asian,racial_margin_asian,-31.536631265,18.463368735,0
+1205,Florida,05,black_cvap_pct_119,11.6970574,Black,racial_margin_black,-31.536631265,18.463368735,2.5329307807775482e-273
+1205,Florida,05,latino_cvap_pct_119,10.11191578,Latino,racial_margin_latino,-31.536631265,18.463368735,2.172036114334814e-289
+1205,Florida,05,white_cvap_pct_119,70.60335615,White,racial_margin_white,31.536631265,81.536631265,1
+1206,Florida,06,asian_cvap_pct_119,1.27361921,Asian,racial_margin_asian,-16.534806795,33.465193205,0
+1206,Florida,06,black_cvap_pct_119,10.29294789,Black,racial_margin_black,-33.266818565,16.733181435,5.559714525708643e-298
+1206,Florida,06,latino_cvap_pct_119,9.88455408,Latino,racial_margin_latino,-33.266818565,16.733181435,3.274196533286795e-302
+1206,Florida,06,white_cvap_pct_119,76.36175119,White,racial_margin_white,16.534806795,66.53480679500001,1
+1207,Florida,07,asian_cvap_pct_119,2.96167334,Asian,racial_margin_asian,-28.263228095,21.736771905,0
+1207,Florida,07,black_cvap_pct_119,9.06774921,Black,racial_margin_black,-28.263228095,21.736771905,1.7256247303604445e-283
+1207,Florida,07,latino_cvap_pct_119,19.38854598,Latino,racial_margin_latino,-28.263228095,21.736771905,3.3994586149661706e-191
+1207,Florida,07,white_cvap_pct_119,66.56736334,White,racial_margin_white,28.263228095,78.263228095,1
+1208,Florida,08,asian_cvap_pct_119,1.93385418,Asian,racial_margin_asian,-31.11924129,18.88075871,0
+1208,Florida,08,black_cvap_pct_119,8.40844927,Black,racial_margin_black,-31.11924129,18.88075871,1.9476028899317753e-306
+1208,Florida,08,latino_cvap_pct_119,10.35903933,Latino,racial_margin_latino,-31.11924129,18.88075871,2.4559773916145795e-284
+1208,Florida,08,white_cvap_pct_119,76.73102941,White,racial_margin_white,31.11924129,81.11924129,1
+1209,Florida,09,asian_cvap_pct_119,3.81685737,Asian,racial_margin_asian,-27.567049985,22.432950015,0
+1209,Florida,09,black_cvap_pct_119,10.36732748,Black,racial_margin_black,-6.276964160000002,43.723035839999994,1.457377007460376e-181
+1209,Florida,09,latino_cvap_pct_119,48.51908521,Latino,racial_margin_latino,6.276964160000002,56.276964160000006,0.987909830609266
+1209,Florida,09,white_cvap_pct_119,35.32131453,White,racial_margin_white,-26.424185795,23.575814205,1.60171040462258e-99
+1210,Florida,10,asian_cvap_pct_119,4.71814548,Asian,racial_margin_asian,-31.18694464,18.81305536,0
+1210,Florida,10,black_cvap_pct_119,23.775678,Black,racial_margin_black,31.18694464,81.18694464000001,6.593212582877959e-10
+1210,Florida,10,latino_cvap_pct_119,26.82781628,Latino,racial_margin_latino,-31.18694464,18.81305536,3.42318518107848e-167
+1210,Florida,10,white_cvap_pct_119,42.18887828,White,racial_margin_white,-31.18694464,18.81305536,6.389027787100515e-106
+1211,Florida,11,asian_cvap_pct_119,3.45576881,Asian,racial_margin_asian,-30.187801425,19.812198575,0
+1211,Florida,11,black_cvap_pct_119,12.0612947,Black,racial_margin_black,-30.187801425,19.812198575,9.51399214311084e-262
+1211,Florida,11,latino_cvap_pct_119,16.22839121,Latino,racial_margin_latino,-30.187801425,19.812198575,5.9623739593826264e-226
+1211,Florida,11,white_cvap_pct_119,66.24321054,White,racial_margin_white,30.187801425,80.187801425,1
+1212,Florida,12,asian_cvap_pct_119,1.62688179,Asian,racial_margin_asian,-35.519404965,14.480595035,0
+1212,Florida,12,black_cvap_pct_119,4.44496825,Black,racial_margin_black,-35.519404965,14.480595035,0
+1212,Florida,12,latino_cvap_pct_119,12.37145105,Latino,racial_margin_latino,-35.519404965,14.480595035,8.117259699948608e-294
+1212,Florida,12,white_cvap_pct_119,79.29807746,White,racial_margin_white,35.519404965,85.519404965,1
+1213,Florida,13,asian_cvap_pct_119,3.11148732,Asian,racial_margin_asian,-27.41008715,22.58991285,0
+1213,Florida,13,black_cvap_pct_119,6.37231315,Black,racial_margin_black,-27.41008715,22.58991285,0
+1213,Florida,13,latino_cvap_pct_119,8.93906892,Latino,racial_margin_latino,4.82345424,54.823454240000004,3.804495529352292e-171
+1213,Florida,13,white_cvap_pct_119,79.54480719,White,racial_margin_white,-4.82345424,45.176545759999996,1
+1214,Florida,14,asian_cvap_pct_119,3.29573088,Asian,racial_margin_asian,-28.473949485,21.526050515,0
+1214,Florida,14,black_cvap_pct_119,16.70527944,Black,racial_margin_black,-28.473949485,21.526050515,8.567029381808936e-212
+1214,Florida,14,latino_cvap_pct_119,22.58045973,Latino,racial_margin_latino,-28.473949485,21.526050515,3.02667504490273e-172
+1214,Florida,14,white_cvap_pct_119,54.64328765,White,racial_margin_white,28.473949485,78.47394948499999,1
+1215,Florida,15,asian_cvap_pct_119,3.82291264,Asian,racial_margin_asian,-28.08984886,21.91015114,0
+1215,Florida,15,black_cvap_pct_119,13.90203355,Black,racial_margin_black,-28.08984886,21.91015114,1.1420092690331383e-232
+1215,Florida,15,latino_cvap_pct_119,22.06607665,Latino,racial_margin_latino,-28.08984886,21.91015114,5.798649475287085e-173
+1215,Florida,15,white_cvap_pct_119,57.68824844,White,racial_margin_white,28.08984886,78.08984886,1
+1216,Florida,16,asian_cvap_pct_119,2.32318699,Asian,racial_margin_asian,-29.739439275,20.260560725,0
+1216,Florida,16,black_cvap_pct_119,11.6420048,Black,racial_margin_black,-29.739439275,20.260560725,2.9654671173590156e-263
+1216,Florida,16,latino_cvap_pct_119,15.79783653,Latino,racial_margin_latino,-29.739439275,20.260560725,1.6289001496554648e-226
+1216,Florida,16,white_cvap_pct_119,67.86543995,White,racial_margin_white,29.739439275,79.739439275,1
+1217,Florida,17,asian_cvap_pct_119,1.46018196,Asian,racial_margin_asian,-31.951478435,18.048521565,0
+1217,Florida,17,black_cvap_pct_119,4.83985052,Black,racial_margin_black,-31.951478435,18.048521565,0
+1217,Florida,17,latino_cvap_pct_119,10.31902395,Latino,racial_margin_latino,-13.903834215,36.096165785,2.8169732818487555e-207
+1217,Florida,17,white_cvap_pct_119,81.82377031,White,racial_margin_white,13.903834215,63.903834215,1
+1218,Florida,18,asian_cvap_pct_119,1.27619817,Asian,racial_margin_asian,-32.6515993,17.3484007,0
+1218,Florida,18,black_cvap_pct_119,12.57579584,Black,racial_margin_black,-32.6515993,17.3484007,3.544507082039279e-272
+1218,Florida,18,latino_cvap_pct_119,22.1603286,Latino,racial_margin_latino,-32.6515993,17.3484007,3.429734921725533e-203
+1218,Florida,18,white_cvap_pct_119,61.98003468,White,racial_margin_white,32.6515993,82.6515993,1
+1219,Florida,19,asian_cvap_pct_119,1.55704496,Asian,racial_margin_asian,-33.158226415,16.841773585,0
+1219,Florida,19,black_cvap_pct_119,5.29798674,Black,racial_margin_black,16.316452830000003,66.31645283,9.299776605205148e-215
+1219,Florida,19,latino_cvap_pct_119,13.11042421,Latino,racial_margin_latino,-33.158226415,16.841773585,8.099387420208317e-271
+1219,Florida,19,white_cvap_pct_119,78.44132228,White,racial_margin_white,-16.316452830000003,33.68354717,0.9195661565096792
+1220,Florida,20,asian_cvap_pct_119,2.77145371,Asian,racial_margin_asian,0,50,0
+1220,Florida,20,black_cvap_pct_119,48.6787852,Black,racial_margin_black,0,50,0.25301563666804916
+1220,Florida,20,latino_cvap_pct_119,21.04000537,Latino,racial_margin_latino,0,50,2.265579879532328e-69
+1220,Florida,20,white_cvap_pct_119,25.13819784,White,racial_margin_white,0,50,3.047707632618369e-48
+1221,Florida,21,asian_cvap_pct_119,1.90931252,Asian,racial_margin_asian,-30.9108756,19.0891244,0
+1221,Florida,21,black_cvap_pct_119,11.81350629,Black,racial_margin_black,-30.9108756,19.0891244,2.038295963440786e-268
+1221,Florida,21,latino_cvap_pct_119,13.99821914,Latino,racial_margin_latino,11.823868115,61.823868114999996,1.9933235226308298e-94
+1221,Florida,21,white_cvap_pct_119,70.41003508,White,racial_margin_white,-11.823868115,38.176131885000004,0.9675364381958118
+1222,Florida,22,asian_cvap_pct_119,2.58743898,Asian,racial_margin_asian,-27.477811455,22.522188545,0
+1222,Florida,22,black_cvap_pct_119,14.79774696,Black,racial_margin_black,-27.477811455,22.522188545,1.9146233408776326e-221
+1222,Florida,22,latino_cvap_pct_119,20.44829886,Latino,racial_margin_latino,-27.477811455,22.522188545,1.880146106038675e-179
+1222,Florida,22,white_cvap_pct_119,60.51063487,White,racial_margin_white,27.477811455,77.477811455,1
+1223,Florida,23,asian_cvap_pct_119,3.12921252,Asian,racial_margin_asian,-26.222560025,23.777439975,0
+1223,Florida,23,black_cvap_pct_119,12.54726574,Black,racial_margin_black,-26.222560025,23.777439975,3.1811735535639114e-235
+1223,Florida,23,latino_cvap_pct_119,19.691704090000002,Latino,racial_margin_latino,-26.222560025,23.777439975,3.006660272617246e-177
+1223,Florida,23,white_cvap_pct_119,62.37925977,White,racial_margin_white,26.222560025,76.222560025,1
+1224,Florida,24,asian_cvap_pct_119,1.60099466,Asian,racial_margin_asian,-34.11803017,15.881969830000003,0
+1224,Florida,24,black_cvap_pct_119,43.64233539,Black,racial_margin_black,18.239912039999997,68.23991204,0.999997589394313
+1224,Florida,24,latino_cvap_pct_119,34.91478009,Latino,racial_margin_latino,-18.239912039999997,31.760087960000003,6.563945663067942e-63
+1224,Florida,24,white_cvap_pct_119,18.44563021,White,racial_margin_white,-34.11417847,15.885821530000001,1.9838882360703974e-237
+1225,Florida,25,asian_cvap_pct_119,4.26087989,Asian,racial_margin_asian,-27.235854085,22.764145915,0
+1225,Florida,25,black_cvap_pct_119,16.88121885,Black,racial_margin_black,-27.235854085,22.764145915,3.0299037999791703e-203
+1225,Florida,25,latino_cvap_pct_119,39.41960958,Latino,racial_margin_latino,-27.235854085,22.764145915,1.1354349405801975e-89
+1225,Florida,25,white_cvap_pct_119,37.1328044,White,racial_margin_white,27.235854085,77.235854085,0.9998099732516031
+1226,Florida,26,asian_cvap_pct_119,0.97002007,Asian,racial_margin_asian,-20.917259549999997,29.082740450000003,0
+1226,Florida,26,black_cvap_pct_119,5.72392356,Black,racial_margin_black,-35.458629775,14.541370225000001,0
+1226,Florida,26,latino_cvap_pct_119,66.39700476,Latino,racial_margin_latino,20.917259549999997,70.91725955,1
+1226,Florida,26,white_cvap_pct_119,26.07887717,White,racial_margin_white,-35.458629775,14.541370225000001,5.823960326237816e-205
+1227,Florida,27,asian_cvap_pct_119,1.97309342,Asian,racial_margin_asian,-30.18777265,19.81222735,0
+1227,Florida,27,black_cvap_pct_119,5.96680946,Black,racial_margin_black,-30.18777265,19.81222735,0
+1227,Florida,27,latino_cvap_pct_119,70.43220041,Latino,racial_margin_latino,30.18777265,80.18777265,1
+1227,Florida,27,white_cvap_pct_119,20.22389205,White,racial_margin_white,-30.18777265,19.81222735,8.174905559113184e-198
+1228,Florida,28,asian_cvap_pct_119,1.48383441,Asian,racial_margin_asian,-32.282986565,17.717013435,0
+1228,Florida,28,black_cvap_pct_119,9.42232819,Black,racial_margin_black,-32.282986565,17.717013435,2.989960134020492e-301
+1228,Florida,28,latino_cvap_pct_119,69.41830685,Latino,racial_margin_latino,14.565973130000003,64.56597313,1
+1228,Florida,28,white_cvap_pct_119,18.52680793,White,racial_margin_white,-14.565973130000003,35.43402687,1.4584122629847176e-131
+1301,Georgia,01,asian_cvap_pct_119,1.47268058,Asian,racial_margin_asian,-30.992224405,19.007775595,0
+1301,Georgia,01,black_cvap_pct_119,28.43074064,Black,racial_margin_black,-30.992224405,19.007775595,5.6387654813188585e-158
+1301,Georgia,01,latino_cvap_pct_119,5.59639192,Latino,racial_margin_latino,-30.992224405,19.007775595,0
+1301,Georgia,01,white_cvap_pct_119,61.63590797,White,racial_margin_white,30.992224405,80.992224405,1
+1302,Georgia,02,asian_cvap_pct_119,1.18366594,Asian,racial_margin_asian,-28.164389875,21.835610125,0
+1302,Georgia,02,black_cvap_pct_119,49.64693949,Black,racial_margin_black,6.3287797500000025,56.32877975,0.9980269029069296
+1302,Georgia,02,latino_cvap_pct_119,3.64994698,Latino,racial_margin_latino,-28.164389875,21.835610125,0
+1302,Georgia,02,white_cvap_pct_119,43.08792288,White,racial_margin_white,-6.3287797500000025,43.67122025,1.778956945863082e-11
+1303,Georgia,03,asian_cvap_pct_119,1.27343882,Asian,racial_margin_asian,-33.15273747,16.847262530000002,0
+1303,Georgia,03,black_cvap_pct_119,23.49359405,Black,racial_margin_black,-33.15273747,16.847262530000002,2.0707701520398464e-199
+1303,Georgia,03,latino_cvap_pct_119,4.43679658,Latino,racial_margin_latino,-33.15273747,16.847262530000002,0
+1303,Georgia,03,white_cvap_pct_119,68.2646231,White,racial_margin_white,33.15273747,83.15273747,1
+1304,Georgia,04,asian_cvap_pct_119,7.63592309,Asian,racial_margin_asian,-25.583216039999996,24.416783960000004,1.5460894129056594e-289
+1304,Georgia,04,black_cvap_pct_119,55.83665853,Black,racial_margin_black,25.583216039999996,75.58321604,1
+1304,Georgia,04,latino_cvap_pct_119,8.13922525,Latino,racial_margin_latino,-37.79160802,12.208391980000002,0
+1304,Georgia,04,white_cvap_pct_119,25.98205919,White,racial_margin_white,-37.79160802,12.208391980000002,1.2213779910920665e-227
+1305,Georgia,05,asian_cvap_pct_119,4.72750964,Asian,racial_margin_asian,-42.83935279,7.1606472100000005,0
+1305,Georgia,05,black_cvap_pct_119,50.10072618,Black,racial_margin_black,35.67870558,85.67870558,1
+1305,Georgia,05,latino_cvap_pct_119,6.16698476,Latino,racial_margin_latino,-42.83935279,7.1606472100000005,0
+1305,Georgia,05,white_cvap_pct_119,35.83892286,White,racial_margin_white,-35.67870558,14.321294420000001,6.232101335503089e-165
+1306,Georgia,06,asian_cvap_pct_119,2.55647082,Asian,racial_margin_asian,-37.341616885,12.658383115,0
+1306,Georgia,06,black_cvap_pct_119,52.92282908,Black,racial_margin_black,24.68323377,74.68323377,1
+1306,Georgia,06,latino_cvap_pct_119,7.52691473,Latino,racial_margin_latino,-37.341616885,12.658383115,0
+1306,Georgia,06,white_cvap_pct_119,34.33382759,White,racial_margin_white,-24.68323377,25.31676623,7.521767174594864e-94
+1307,Georgia,07,asian_cvap_pct_119,8.47667458,Asian,racial_margin_asian,-32.4259241,17.574075899999997,0
+1307,Georgia,07,black_cvap_pct_119,8.60216061,Black,racial_margin_black,-32.4259241,17.574075899999997,0
+1307,Georgia,07,latino_cvap_pct_119,7.19428233,Latino,racial_margin_latino,-32.4259241,17.574075899999997,0
+1307,Georgia,07,white_cvap_pct_119,73.21772387,White,racial_margin_white,32.4259241,82.4259241,1
+1308,Georgia,08,asian_cvap_pct_119,1.10444627,Asian,racial_margin_asian,-34.458347345,15.541652655,0
+1308,Georgia,08,black_cvap_pct_119,30.30508996,Black,racial_margin_black,-18.91669469,31.08330531,2.288288175868896e-83
+1308,Georgia,08,latino_cvap_pct_119,4.53415292,Latino,racial_margin_latino,-34.458347345,15.541652655,0
+1308,Georgia,08,white_cvap_pct_119,61.89424503,White,racial_margin_white,18.91669469,68.91669469,1
+1309,Georgia,09,asian_cvap_pct_119,5.45183973,Asian,racial_margin_asian,-34.502413345,15.497586655,0
+1309,Georgia,09,black_cvap_pct_119,12.43473507,Black,racial_margin_black,-34.502413345,15.497586655,5.905446426924317e-286
+1309,Georgia,09,latino_cvap_pct_119,9.62933862,Latino,racial_margin_latino,-34.502413345,15.497586655,0
+1309,Georgia,09,white_cvap_pct_119,70.13147128,White,racial_margin_white,34.502413345,84.50241334500001,1
+1310,Georgia,10,asian_cvap_pct_119,1.83798767,Asian,racial_margin_asian,-31.52592964,18.47407036,0
+1310,Georgia,10,black_cvap_pct_119,24.8719165,Black,racial_margin_black,-31.52592964,18.47407036,9.308367761076629e-180
+1310,Georgia,10,latino_cvap_pct_119,5.07961856,Latino,racial_margin_latino,-31.52592964,18.47407036,0
+1310,Georgia,10,white_cvap_pct_119,65.27540274,White,racial_margin_white,31.52592964,81.52592964,1
+1311,Georgia,11,asian_cvap_pct_119,3.19494852,Asian,racial_margin_asian,-33.65430904,16.34569096,0
+1311,Georgia,11,black_cvap_pct_119,12.39530272,Black,racial_margin_black,-33.65430904,16.34569096,1.8730035523118898e-280
+1311,Georgia,11,latino_cvap_pct_119,7.2919729,Latino,racial_margin_latino,-33.65430904,16.34569096,0
+1311,Georgia,11,white_cvap_pct_119,74.65671051,White,racial_margin_white,33.65430904,83.65430904,1
+1312,Georgia,12,asian_cvap_pct_119,1.46593651,Asian,racial_margin_asian,-30.159611565,19.840388435,0
+1312,Georgia,12,black_cvap_pct_119,36.60676485,Black,racial_margin_black,-10.319223129999996,39.68077687,6.897000472606287e-33
+1312,Georgia,12,latino_cvap_pct_119,4.0508586,Latino,racial_margin_latino,-30.159611565,19.840388435,0
+1312,Georgia,12,white_cvap_pct_119,55.1412758,White,racial_margin_white,10.319223129999996,60.31922313,0.9999999999999916
+1313,Georgia,13,asian_cvap_pct_119,5.99918031,Asian,racial_margin_asian,-35.917087955,14.082912045,0
+1313,Georgia,13,black_cvap_pct_119,54.02000782,Black,racial_margin_black,21.83417591,71.83417591,1
+1313,Georgia,13,latino_cvap_pct_119,8.44576091,Latino,racial_margin_latino,-21.83417591,28.16582409,2.841481511324215e-262
+1313,Georgia,13,white_cvap_pct_119,28.49065743,White,racial_margin_white,-35.917087955,14.082912045,1.2354399806739027e-197
+1314,Georgia,14,asian_cvap_pct_119,1.26801132,Asian,racial_margin_asian,-32.18439735,17.815602650000002,0
+1314,Georgia,14,black_cvap_pct_119,12.50881302,Black,racial_margin_black,-14.3687947,35.6312053,8.375335686996233e-184
+1314,Georgia,14,latino_cvap_pct_119,7.52126638,Latino,racial_margin_latino,-32.18439735,17.815602650000002,0
+1314,Georgia,14,white_cvap_pct_119,76.1403776,White,racial_margin_white,14.3687947,64.3687947,1
+1501,Hawaii,01,asian_cvap_pct_119,50.99865981,Asian,racial_margin_asian,-35.92078212,14.079217880000002,2.0705395956257647e-119
+1501,Hawaii,01,black_cvap_pct_119,2.20149346,Black,racial_margin_black,-35.92078212,14.079217880000002,0
+1501,Hawaii,01,latino_cvap_pct_119,7.00100848,Latino,racial_margin_latino,-35.92078212,14.079217880000002,0
+1501,Hawaii,01,white_cvap_pct_119,17.29205628,White,racial_margin_white,35.92078212,85.92078212,1.1148076861216273e-30
+1502,Hawaii,02,asian_cvap_pct_119,24.9280186,Asian,racial_margin_asian,32.33062569,82.33062569,1.3184531699080456e-6
+1502,Hawaii,02,black_cvap_pct_119,1.76264816,Black,racial_margin_black,-33.229464815,16.770535185,0
+1502,Hawaii,02,latino_cvap_pct_119,9.41531855,Latino,racial_margin_latino,-33.229464815,16.770535185,5.433695842834506e-307
+1502,Hawaii,02,white_cvap_pct_119,31.9903094,White,racial_margin_white,-33.229464815,16.770535185,5.878262533879205e-159
+1601,Idaho,01,asian_cvap_pct_119,1.02373031,Asian,racial_margin_asian,-35.50184239,14.49815761,0
+1601,Idaho,01,black_cvap_pct_119,0.55203026,Black,racial_margin_black,-35.50184239,14.49815761,0
+1601,Idaho,01,latino_cvap_pct_119,8.87497961,Latino,racial_margin_latino,-35.50184239,14.49815761,0
+1601,Idaho,01,white_cvap_pct_119,86.14907147,White,racial_margin_white,35.50184239,85.50184239000001,1
+1602,Idaho,02,asian_cvap_pct_119,1.08397307,Asian,racial_margin_asian,-30.69230996,19.30769004,0
+1602,Idaho,02,black_cvap_pct_119,0.62259869,Black,racial_margin_black,-30.69230996,19.30769004,0
+1602,Idaho,02,latino_cvap_pct_119,10.02363352,Latino,racial_margin_latino,-30.69230996,19.30769004,1.725539167725447e-285
+1602,Idaho,02,white_cvap_pct_119,84.99836428,White,racial_margin_white,30.69230996,80.69230996,1
+1701,Illinois,01,asian_cvap_pct_119,1.56521487,Asian,racial_margin_asian,-32.92154676,17.07845324,0
+1701,Illinois,01,black_cvap_pct_119,50.28997875,Black,racial_margin_black,32.91443791,82.91443791,1
+1701,Illinois,01,latino_cvap_pct_119,7.36424628,Latino,racial_margin_latino,-32.92154676,17.07845324,0
+1701,Illinois,01,white_cvap_pct_119,38.6794145,White,racial_margin_white,-32.91443791,17.085562090000003,1.1675519376404438e-130
+1702,Illinois,02,asian_cvap_pct_119,0.92693838,Asian,racial_margin_asian,-33.772939145,16.227060854999998,0
+1702,Illinois,02,black_cvap_pct_119,47.44573895,Black,racial_margin_black,17.556573735,67.556573735,0.9999999999814372
+1702,Illinois,02,latino_cvap_pct_119,10.6355541,Latino,racial_margin_latino,-17.556573735,32.443426265,4.7008160266822474e-217
+1702,Illinois,02,white_cvap_pct_119,39.11420954,White,racial_margin_white,-33.767246410000006,16.232753589999994,4.248665747060543e-136
+1703,Illinois,03,asian_cvap_pct_119,7.04360537,Asian,racial_margin_asian,-33.632092895,16.367907105,0
+1703,Illinois,03,black_cvap_pct_119,6.08274141,Black,racial_margin_black,-33.632092895,16.367907105,0
+1703,Illinois,03,latino_cvap_pct_119,35.71032524,Latino,racial_margin_latino,17.282653865,67.282653865,0.16285182792715033
+1703,Illinois,03,white_cvap_pct_119,49.22248779,White,racial_margin_white,-33.61362482,16.38637518,9.043112708780303e-104
+1704,Illinois,04,asian_cvap_pct_119,4.35631861,Asian,racial_margin_asian,-33.756225895,16.243774105,0
+1704,Illinois,04,black_cvap_pct_119,6.32420357,Black,racial_margin_black,-33.756225895,16.243774105,0
+1704,Illinois,04,latino_cvap_pct_119,56.36630408,Latino,racial_margin_latino,31.163152385,81.163152385,1
+1704,Illinois,04,white_cvap_pct_119,31.94162063,White,racial_margin_white,-31.163152385,18.836847615,2.0744268272715917e-143
+1705,Illinois,05,asian_cvap_pct_119,8.3576658,Asian,racial_margin_asian,-34.484771885,15.515228115,0
+1705,Illinois,05,black_cvap_pct_119,3.00810128,Black,racial_margin_black,-34.484771885,15.515228115,0
+1705,Illinois,05,latino_cvap_pct_119,10.34290887,Latino,racial_margin_latino,-34.484771885,15.515228115,2.4633663033957904e-305
+1705,Illinois,05,white_cvap_pct_119,76.12144048,White,racial_margin_white,34.484771885,84.484771885,1
+1706,Illinois,06,asian_cvap_pct_119,5.26375916,Asian,racial_margin_asian,-27.097635655,22.902364345,0
+1706,Illinois,06,black_cvap_pct_119,5.3934783,Black,racial_margin_black,-27.097635655,22.902364345,0
+1706,Illinois,06,latino_cvap_pct_119,12.2238171,Latino,racial_margin_latino,-27.097635655,22.902364345,5.575298125955327e-243
+1706,Illinois,06,white_cvap_pct_119,75.4576561,White,racial_margin_white,27.097635655,77.097635655,1
+1707,Illinois,07,asian_cvap_pct_119,7.11646978,Asian,racial_margin_asian,-41.62574115,8.374258849999997,0
+1707,Illinois,07,black_cvap_pct_119,43.11345091,Black,racial_margin_black,33.278807570000005,83.27880757,1
+1707,Illinois,07,latino_cvap_pct_119,12.02470448,Latino,racial_margin_latino,-41.62574115,8.374258849999997,0
+1707,Illinois,07,white_cvap_pct_119,35.4568705,White,racial_margin_white,-33.278807570000005,16.721192429999995,2.0684138534565104e-145
+1708,Illinois,08,asian_cvap_pct_119,12.4391061,Asian,racial_margin_asian,7.055560870000001,57.05556087,5.526959657794464e-121
+1708,Illinois,08,black_cvap_pct_119,4.60533485,Black,racial_margin_black,-28.527780435,21.472219565,0
+1708,Illinois,08,latino_cvap_pct_119,17.46923521,Latino,racial_margin_latino,-28.527780435,21.472219565,2.2658946435634935e-206
+1708,Illinois,08,white_cvap_pct_119,63.39282471,White,racial_margin_white,-7.055560870000001,42.94443913,0.9852346636070582
+1709,Illinois,09,asian_cvap_pct_119,12.03572265,Asian,racial_margin_asian,-34.194635625,15.805364375000003,2.3072942669578822e-287
+1709,Illinois,09,black_cvap_pct_119,8.2826174,Black,racial_margin_black,-34.194635625,15.805364375000003,0
+1709,Illinois,09,latino_cvap_pct_119,10.21353549,Latino,racial_margin_latino,-34.194635625,15.805364375000003,1.005931985293141e-304
+1709,Illinois,09,white_cvap_pct_119,66.97127691,White,racial_margin_white,34.194635625,84.19463562499999,1
+1710,Illinois,10,asian_cvap_pct_119,6.70504664,Asian,racial_margin_asian,-9.970819939999998,40.02918006,4.709569408335379e-248
+1710,Illinois,10,black_cvap_pct_119,6.74368682,Black,racial_margin_black,-29.96724874,20.03275126,0
+1710,Illinois,10,latino_cvap_pct_119,16.74505289,Latino,racial_margin_latino,-29.96724874,20.03275126,1.261386104204346e-220
+1710,Illinois,10,white_cvap_pct_119,67.74013505,White,racial_margin_white,9.970819939999998,59.97081994,1
+1711,Illinois,11,asian_cvap_pct_119,6.56898629,Asian,racial_margin_asian,-27.777855005,22.222144995,0
+1711,Illinois,11,black_cvap_pct_119,6.01318571,Black,racial_margin_black,-27.777855005,22.222144995,0
+1711,Illinois,11,latino_cvap_pct_119,13.80947744,Latino,racial_margin_latino,-27.777855005,22.222144995,9.537120815057638e-232
+1711,Illinois,11,white_cvap_pct_119,71.96748824,White,racial_margin_white,27.777855005,77.77785500499999,1
+1712,Illinois,12,asian_cvap_pct_119,0.65464891,Asian,racial_margin_asian,-37.096366175,12.903633825,0
+1712,Illinois,12,black_cvap_pct_119,5.03524167,Black,racial_margin_black,-37.096366175,12.903633825,0
+1712,Illinois,12,latino_cvap_pct_119,2.09927198,Latino,racial_margin_latino,-37.096366175,12.903633825,0
+1712,Illinois,12,white_cvap_pct_119,89.87275619,White,racial_margin_white,37.096366175,87.096366175,1
+1713,Illinois,13,asian_cvap_pct_119,2.40258064,Asian,racial_margin_asian,-29.03474962,20.96525038,0
+1713,Illinois,13,black_cvap_pct_119,17.98757092,Black,racial_margin_black,-29.03474962,20.96525038,1.1092461194208632e-205
+1713,Illinois,13,latino_cvap_pct_119,3.58964723,Latino,racial_margin_latino,-29.03474962,20.96525038,0
+1713,Illinois,13,white_cvap_pct_119,72.92557479,White,racial_margin_white,29.03474962,79.03474962,1
+1714,Illinois,14,asian_cvap_pct_119,4.57582556,Asian,racial_margin_asian,-27.550318535,22.449681465,0
+1714,Illinois,14,black_cvap_pct_119,9.44696836,Black,racial_margin_black,5.103490534999999,55.103490535,4.993827736945441e-163
+1714,Illinois,14,latino_cvap_pct_119,17.83982082,Latino,racial_margin_latino,-27.550318535,22.449681465,7.131673936149453e-198
+1714,Illinois,14,white_cvap_pct_119,66.09881611,White,racial_margin_white,-5.103490534999999,44.896509465,0.9999961926241743
+1715,Illinois,15,asian_cvap_pct_119,0.62160934,Asian,racial_margin_asian,-49.77291335,0.22708664999999684,0
+1715,Illinois,15,black_cvap_pct_119,2.87401486,Black,racial_margin_black,-49.77291335,0.22708664999999684,0
+1715,Illinois,15,latino_cvap_pct_119,2.16535603,Latino,racial_margin_latino,-49.77291335,0.22708664999999684,0
+1715,Illinois,15,white_cvap_pct_119,92.38627865,White,racial_margin_white,49.77291335,99.77291335000001,1
+1716,Illinois,16,asian_cvap_pct_119,1.34595387,Asian,racial_margin_asian,-49.97058899,0.029411009999996907,0
+1716,Illinois,16,black_cvap_pct_119,2.2693863,Black,racial_margin_black,-49.97058899,0.029411009999996907,0
+1716,Illinois,16,latino_cvap_pct_119,5.17673199,Latino,racial_margin_latino,-49.97058899,0.029411009999996907,0
+1716,Illinois,16,white_cvap_pct_119,89.48122473,White,racial_margin_white,49.97058899,99.97058899000001,1
+1717,Illinois,17,asian_cvap_pct_119,1.30326995,Asian,racial_margin_asian,-27.21319703,22.78680297,0
+1717,Illinois,17,black_cvap_pct_119,11.62269782,Black,racial_margin_black,-27.21319703,22.78680297,1.2034030983296585e-249
+1717,Illinois,17,latino_cvap_pct_119,8.07841751,Latino,racial_margin_latino,-27.21319703,22.78680297,6.548887252285332e-291
+1717,Illinois,17,white_cvap_pct_119,76.24057842,White,racial_margin_white,27.21319703,77.21319703,1
+1801,Indiana,01,asian_cvap_pct_119,1.12790888,Asian,racial_margin_asian,-26.7205932,23.2794068,0
+1801,Indiana,01,black_cvap_pct_119,17.16540727,Black,racial_margin_black,-26.7205932,23.2794068,3.634681694432601e-198
+1801,Indiana,01,latino_cvap_pct_119,14.01085313,Latino,racial_margin_latino,-26.7205932,23.2794068,3.72158195862217e-224
+1801,Indiana,01,white_cvap_pct_119,65.84678534,White,racial_margin_white,26.7205932,76.7205932,1
+1802,Indiana,02,asian_cvap_pct_119,0.97809905,Asian,racial_margin_asian,-31.37079201,18.62920799,0
+1802,Indiana,02,black_cvap_pct_119,5.96042333,Black,racial_margin_black,-31.37079201,18.62920799,0
+1802,Indiana,02,latino_cvap_pct_119,7.03789651,Latino,racial_margin_latino,-31.37079201,18.62920799,0
+1802,Indiana,02,white_cvap_pct_119,83.61173424,White,racial_margin_white,31.37079201,81.37079201,1
+1803,Indiana,03,asian_cvap_pct_119,1.78411825,Asian,racial_margin_asian,-32.52449934,17.47550066,0
+1803,Indiana,03,black_cvap_pct_119,5.50596153,Black,racial_margin_black,-32.52449934,17.47550066,0
+1803,Indiana,03,latino_cvap_pct_119,4.28470627,Latino,racial_margin_latino,-32.52449934,17.47550066,0
+1803,Indiana,03,white_cvap_pct_119,86.10374337,White,racial_margin_white,32.52449934,82.52449934,1
+1804,Indiana,04,asian_cvap_pct_119,2.12098518,Asian,racial_margin_asian,-32.416137455,17.583862545000002,0
+1804,Indiana,04,black_cvap_pct_119,4.01235004,Black,racial_margin_black,-32.416137455,17.583862545000002,0
+1804,Indiana,04,latino_cvap_pct_119,4.40871003,Latino,racial_margin_latino,-32.416137455,17.583862545000002,0
+1804,Indiana,04,white_cvap_pct_119,87.6344162,White,racial_margin_white,32.416137455,82.416137455,1
+1805,Indiana,05,asian_cvap_pct_119,2.41047898,Asian,racial_margin_asian,-28.297708265,21.702291735,0
+1805,Indiana,05,black_cvap_pct_119,4.97873414,Black,racial_margin_black,-28.297708265,21.702291735,0
+1805,Indiana,05,latino_cvap_pct_119,3.36252859,Latino,racial_margin_latino,-28.297708265,21.702291735,0
+1805,Indiana,05,white_cvap_pct_119,86.39141364,White,racial_margin_white,28.297708265,78.297708265,1
+1806,Indiana,06,asian_cvap_pct_119,2.62843076,Asian,racial_margin_asian,-31.97066454,18.02933546,0
+1806,Indiana,06,black_cvap_pct_119,4.25508705,Black,racial_margin_black,-31.97066454,18.02933546,0
+1806,Indiana,06,latino_cvap_pct_119,3.2518581,Latino,racial_margin_latino,-31.97066454,18.02933546,0
+1806,Indiana,06,white_cvap_pct_119,87.73053539,White,racial_margin_white,31.97066454,81.97066454,1
+1807,Indiana,07,asian_cvap_pct_119,1.62101461,Asian,racial_margin_asian,-34.17019416,15.829805839999999,0
+1807,Indiana,07,black_cvap_pct_119,31.83506094,Black,racial_margin_black,19.694247250000004,69.69424725,0.0018855341686366356
+1807,Indiana,07,latino_cvap_pct_119,7.18528495,Latino,racial_margin_latino,-34.17019416,15.829805839999999,0
+1807,Indiana,07,white_cvap_pct_119,55.72230418,White,racial_margin_white,-19.694247250000004,30.305752749999996,2.6423120155937473e-19
+1808,Indiana,08,asian_cvap_pct_119,0.69573965,Asian,racial_margin_asian,-33.98000204,16.019997959999998,0
+1808,Indiana,08,black_cvap_pct_119,3.50030509,Black,racial_margin_black,-33.98000204,16.019997959999998,0
+1808,Indiana,08,latino_cvap_pct_119,1.90883304,Latino,racial_margin_latino,-33.98000204,16.019997959999998,0
+1808,Indiana,08,white_cvap_pct_119,91.46029271,White,racial_margin_white,33.98000204,83.98000204,1
+1809,Indiana,09,asian_cvap_pct_119,1.14123195,Asian,racial_margin_asian,-32.233078225,17.766921775,0
+1809,Indiana,09,black_cvap_pct_119,2.57167201,Black,racial_margin_black,-32.233078225,17.766921775,0
+1809,Indiana,09,latino_cvap_pct_119,2.48184092,Latino,racial_margin_latino,-32.233078225,17.766921775,0
+1809,Indiana,09,white_cvap_pct_119,91.55467782,White,racial_margin_white,32.233078225,82.233078225,1
+1901,Iowa,01,asian_cvap_pct_119,1.54387285,Asian,racial_margin_asian,-24.989856985,25.010143015,0
+1901,Iowa,01,black_cvap_pct_119,3.46175293,Black,racial_margin_black,-24.989856985,25.010143015,0
+1901,Iowa,01,latino_cvap_pct_119,4.36138305,Latino,racial_margin_latino,-24.989856985,25.010143015,0
+1901,Iowa,01,white_cvap_pct_119,88.49997855,White,racial_margin_white,24.989856985,74.989856985,1
+1902,Iowa,02,asian_cvap_pct_119,1.08452638,Asian,racial_margin_asian,-28.539488555,21.460511445,0
+1902,Iowa,02,black_cvap_pct_119,3.09269972,Black,racial_margin_black,-28.539488555,21.460511445,0
+1902,Iowa,02,latino_cvap_pct_119,2.51237279,Latino,racial_margin_latino,-28.539488555,21.460511445,0
+1902,Iowa,02,white_cvap_pct_119,91.25811031,White,racial_margin_white,28.539488555,78.53948855499999,1
+1903,Iowa,03,asian_cvap_pct_119,2.69964756,Asian,racial_margin_asian,-1.9113355349999992,48.088664465,0
+1903,Iowa,03,black_cvap_pct_119,3.92925933,Black,racial_margin_black,-25.88319347,24.11680653,0
+1903,Iowa,03,latino_cvap_pct_119,5.02294957,Latino,racial_margin_latino,-25.88319347,24.11680653,0
+1903,Iowa,03,white_cvap_pct_119,86.34108109,White,racial_margin_white,1.9113355349999992,51.911335535,1
+1904,Iowa,04,asian_cvap_pct_119,1.25868551,Asian,racial_margin_asian,-33.508014465,16.491985534999998,0
+1904,Iowa,04,black_cvap_pct_119,1.61675249,Black,racial_margin_black,-33.508014465,16.491985534999998,0
+1904,Iowa,04,latino_cvap_pct_119,5.76280021,Latino,racial_margin_latino,-33.508014465,16.491985534999998,0
+1904,Iowa,04,white_cvap_pct_119,89.23090551,White,racial_margin_white,33.508014465,83.508014465,1
+2001,Kansas,01,asian_cvap_pct_119,1.27102748,Asian,racial_margin_asian,-34.56847907,15.431520929999998,0
+2001,Kansas,01,black_cvap_pct_119,2.76173181,Black,racial_margin_black,-34.56847907,15.431520929999998,0
+2001,Kansas,01,latino_cvap_pct_119,10.27927143,Latino,racial_margin_latino,-34.56847907,15.431520929999998,1.5981546763480735e-306
+2001,Kansas,01,white_cvap_pct_119,82.28325809,White,racial_margin_white,34.56847907,84.56847907,1
+2002,Kansas,02,asian_cvap_pct_119,1.39230851,Asian,racial_margin_asian,-28.54512305,21.45487695,0
+2002,Kansas,02,black_cvap_pct_119,7.94620334,Black,racial_margin_black,-28.54512305,21.45487695,4.7145695431142723e-299
+2002,Kansas,02,latino_cvap_pct_119,8.45014576,Latino,racial_margin_latino,-28.54512305,21.45487695,1.523533303259925e-292
+2002,Kansas,02,white_cvap_pct_119,77.69663006,White,racial_margin_white,28.54512305,78.54512305,1
+2003,Kansas,03,asian_cvap_pct_119,3.20460148,Asian,racial_margin_asian,-5.377250320000002,44.62274968,0
+2003,Kansas,03,black_cvap_pct_119,4.38130992,Black,racial_margin_black,-26.67853956,23.32146044,0
+2003,Kansas,03,latino_cvap_pct_119,7.07360549,Latino,racial_margin_latino,-26.67853956,23.32146044,1.749859089452811e-302
+2003,Kansas,03,white_cvap_pct_119,82.91324372,White,racial_margin_white,5.377250320000002,55.37725032,1
+2004,Kansas,04,asian_cvap_pct_119,2.82970625,Asian,racial_margin_asian,-32.524901915,17.475098085,0
+2004,Kansas,04,black_cvap_pct_119,6.01057838,Black,racial_margin_black,-32.524901915,17.475098085,0
+2004,Kansas,04,latino_cvap_pct_119,9.27070341,Latino,racial_margin_latino,-32.524901915,17.475098085,2.3479028258858516e-304
+2004,Kansas,04,white_cvap_pct_119,77.85069884,White,racial_margin_white,32.524901915,82.524901915,1
+2101,Kentucky,01,asian_cvap_pct_119,0.42809486,Asian,racial_margin_asian,-37.35798352,12.642016480000002,0
+2101,Kentucky,01,black_cvap_pct_119,6.75397945,Black,racial_margin_black,-37.35798352,12.642016480000002,0
+2101,Kentucky,01,latino_cvap_pct_119,2.35243344,Latino,racial_margin_latino,-37.35798352,12.642016480000002,0
+2101,Kentucky,01,white_cvap_pct_119,88.02778788,White,racial_margin_white,37.35798352,87.35798352,1
+2102,Kentucky,02,asian_cvap_pct_119,1.23914154,Asian,racial_margin_asian,-36.550866695,13.449133304999997,0
+2102,Kentucky,02,black_cvap_pct_119,4.88376814,Black,racial_margin_black,-36.550866695,13.449133304999997,0
+2102,Kentucky,02,latino_cvap_pct_119,2.57645544,Latino,racial_margin_latino,-36.550866695,13.449133304999997,0
+2102,Kentucky,02,white_cvap_pct_119,88.87135047,White,racial_margin_white,36.550866695,86.550866695,1
+2103,Kentucky,03,asian_cvap_pct_119,1.85402281,Asian,racial_margin_asian,-30.973208405,19.026791595,0
+2103,Kentucky,03,black_cvap_pct_119,20.24284208,Black,racial_margin_black,-30.973208405,19.026791595,5.947641026694896e-203
+2103,Kentucky,03,latino_cvap_pct_119,3.99744957,Latino,racial_margin_latino,-30.973208405,19.026791595,0
+2103,Kentucky,03,white_cvap_pct_119,69.75039598,White,racial_margin_white,30.973208405,80.97320840500001,1
+2104,Kentucky,04,asian_cvap_pct_119,0.78320175,Asian,racial_margin_asian,-49.797686725,0.20231327500000162,0
+2104,Kentucky,04,black_cvap_pct_119,2.85821202,Black,racial_margin_black,-49.797686725,0.20231327500000162,0
+2104,Kentucky,04,latino_cvap_pct_119,2.46748957,Latino,racial_margin_latino,-49.797686725,0.20231327500000162,0
+2104,Kentucky,04,white_cvap_pct_119,91.76425944,White,racial_margin_white,49.797686725,99.797686725,1
+2105,Kentucky,05,asian_cvap_pct_119,0.27240435,Asian,racial_margin_asian,-50,0,0
+2105,Kentucky,05,black_cvap_pct_119,1.53858975,Black,racial_margin_black,-50,0,0
+2105,Kentucky,05,latino_cvap_pct_119,1.08093656,Latino,racial_margin_latino,-50,0,0
+2105,Kentucky,05,white_cvap_pct_119,95.57225747,White,racial_margin_white,50,100,1
+2106,Kentucky,06,asian_cvap_pct_119,1.3461063,Asian,racial_margin_asian,-31.518582795,18.481417205,0
+2106,Kentucky,06,black_cvap_pct_119,7.8041674,Black,racial_margin_black,-31.518582795,18.481417205,0
+2106,Kentucky,06,latino_cvap_pct_119,3.048914,Latino,racial_margin_latino,-31.518582795,18.481417205,0
+2106,Kentucky,06,white_cvap_pct_119,85.29931132,White,racial_margin_white,31.518582795,81.518582795,1
+2201,Louisiana,01,asian_cvap_pct_119,1.74520039,Asian,racial_margin_asian,-30.88812479,19.11187521,0
+2201,Louisiana,01,black_cvap_pct_119,11.8503184,Black,racial_margin_black,-33.383931565,16.616068435000003,1.3389149063785496e-283
+2201,Louisiana,01,latino_cvap_pct_119,7.77281771,Latino,racial_margin_latino,-33.383931565,16.616068435000003,0
+2201,Louisiana,01,white_cvap_pct_119,75.59151846,White,racial_margin_white,30.88812479,80.88812479,1
+2202,Louisiana,02,asian_cvap_pct_119,2.45524909,Asian,racial_margin_asian,-30.14722266,19.85277734,0
+2202,Louisiana,02,black_cvap_pct_119,51.36141731,Black,racial_margin_black,23.324944950000003,73.32494495,1
+2202,Louisiana,02,latino_cvap_pct_119,5.7748816100000004,Latino,racial_margin_latino,-30.14722266,19.85277734,0
+2202,Louisiana,02,white_cvap_pct_119,37.68954719,White,racial_margin_white,-23.324944950000003,26.675055049999997,4.755059312114287e-75
+2203,Louisiana,03,asian_cvap_pct_119,1.19498118,Asian,racial_margin_asian,-35.28090133,14.719098670000001,0
+2203,Louisiana,03,black_cvap_pct_119,21.02007667,Black,racial_margin_black,-35.28090133,14.719098670000001,9.817145100737145e-231
+2203,Louisiana,03,latino_cvap_pct_119,3.60537962,Latino,racial_margin_latino,-25.951721645,24.048278355,0
+2203,Louisiana,03,white_cvap_pct_119,71.16348146,White,racial_margin_white,25.951721645,75.95172164499999,1
+2204,Louisiana,04,asian_cvap_pct_119,0.87937577,Asian,racial_margin_asian,-42.90983125,7.090168749999997,0
+2204,Louisiana,04,black_cvap_pct_119,20.78966202,Black,racial_margin_black,-42.90983125,7.090168749999997,0
+2204,Louisiana,04,latino_cvap_pct_119,3.40344541,Latino,racial_margin_latino,-35.81966250000001,14.180337499999993,0
+2204,Louisiana,04,white_cvap_pct_119,72.05239338,White,racial_margin_white,35.81966250000001,85.8196625,1
+2205,Louisiana,05,asian_cvap_pct_119,0.99315972,Asian,racial_margin_asian,-31.42666429,18.57333571,0
+2205,Louisiana,05,black_cvap_pct_119,27.44230973,Black,racial_margin_black,-18.454843035000003,31.545156964999997,2.1743214075348743e-94
+2205,Louisiana,05,latino_cvap_pct_119,3.2824451,Latino,racial_margin_latino,-25.825149835,24.174850165,0
+2205,Louisiana,05,white_cvap_pct_119,65.94398983,White,racial_margin_white,18.454843035000003,68.45484303500001,1
+2206,Louisiana,06,asian_cvap_pct_119,1.04475495,Asian,racial_margin_asian,-25.389568055,24.610431945,0
+2206,Louisiana,06,black_cvap_pct_119,53.38288347,Black,racial_margin_black,24.729168710000003,74.72916871000001,1
+2206,Louisiana,06,latino_cvap_pct_119,2.38616427,Latino,racial_margin_latino,-25.389568055,24.610431945,0
+2206,Louisiana,06,white_cvap_pct_119,40.74777734,White,racial_margin_white,-24.729168710000003,25.270831289999997,4.874793945497133e-72
+2301,Maine,01,asian_cvap_pct_119,1.17078793,Asian,racial_margin_asian,-11.156557705,38.843442295,0
+2301,Maine,01,black_cvap_pct_119,1.0111513,Black,racial_margin_black,-29.35139708,20.64860292,0
+2301,Maine,01,latino_cvap_pct_119,1.83546331,Latino,racial_margin_latino,-29.35139708,20.64860292,0
+2301,Maine,01,white_cvap_pct_119,93.87797104,White,racial_margin_white,11.156557705,61.156557705,1
+2302,Maine,02,asian_cvap_pct_119,0.57739049,Asian,racial_margin_asian,-25.172754575,24.827245425,0
+2302,Maine,02,black_cvap_pct_119,0.84853177,Black,racial_margin_black,-25.172754575,24.827245425,0
+2302,Maine,02,latino_cvap_pct_119,1.54258863,Latino,racial_margin_latino,-25.172754575,24.827245425,0
+2302,Maine,02,white_cvap_pct_119,94.62380498,White,racial_margin_white,25.172754575,75.172754575,1
+2401,Maryland,01,asian_cvap_pct_119,2.01996465,Asian,racial_margin_asian,-29.70435034,20.29564966,0
+2401,Maryland,01,black_cvap_pct_119,14.35376742,Black,racial_margin_black,-29.70435034,20.29564966,3.838051340084341e-238
+2401,Maryland,01,latino_cvap_pct_119,3.65151329,Latino,racial_margin_latino,-29.70435034,20.29564966,0
+2401,Maryland,01,white_cvap_pct_119,77.57375959,White,racial_margin_white,29.70435034,79.70435034,1
+2402,Maryland,02,asian_cvap_pct_119,4.25558211,Asian,racial_margin_asian,-29.0801052,20.9198948,0
+2402,Maryland,02,black_cvap_pct_119,23.32675915,Black,racial_margin_black,-9.31901225,40.68098775,2.0422420713022446e-82
+2402,Maryland,02,latino_cvap_pct_119,4.24026362,Latino,racial_margin_latino,-29.0801052,20.9198948,0
+2402,Maryland,02,white_cvap_pct_119,65.62703993,White,racial_margin_white,9.31901225,59.31901225,1
+2403,Maryland,03,asian_cvap_pct_119,8.58605932,Asian,racial_margin_asian,-29.64441383,20.35558617,1.9435747560997289e-296
+2403,Maryland,03,black_cvap_pct_119,17.44359355,Black,racial_margin_black,-29.64441383,20.35558617,2.065707366308035e-213
+2403,Maryland,03,latino_cvap_pct_119,5.96091471,Latino,racial_margin_latino,-29.64441383,20.35558617,0
+2403,Maryland,03,white_cvap_pct_119,64.52071371,White,racial_margin_white,29.64441383,79.64441383,1
+2404,Maryland,04,asian_cvap_pct_119,4.68207245,Asian,racial_margin_asian,-44.210798245,5.789201755000001,0
+2404,Maryland,04,black_cvap_pct_119,65.86897081,Black,racial_margin_black,38.59135698,88.59135698,1
+2404,Maryland,04,latino_cvap_pct_119,12.11309378,Latino,racial_margin_latino,-44.210798245,5.789201755000001,0
+2404,Maryland,04,white_cvap_pct_119,14.02879608,White,racial_margin_white,-38.59135698,11.40864302,1.3193529669192772e-305
+2405,Maryland,05,asian_cvap_pct_119,2.54578446,Asian,racial_margin_asian,-33.876847515,16.123152485,0
+2405,Maryland,05,black_cvap_pct_119,41.78773441,Black,racial_margin_black,-17.873020500000003,32.1269795,5.201122933365768e-41
+2405,Maryland,05,latino_cvap_pct_119,5.39081264,Latino,racial_margin_latino,-33.876847515,16.123152485,0
+2405,Maryland,05,white_cvap_pct_119,46.48678,White,racial_margin_white,17.873020500000003,67.8730205,0.9999999996610262
+2406,Maryland,06,asian_cvap_pct_119,7.55039423,Asian,racial_margin_asian,-26.52353541,23.47646459,6.055159269786553e-295
+2406,Maryland,06,black_cvap_pct_119,12.53112847,Black,racial_margin_black,-26.52353541,23.47646459,6.055931478392687e-237
+2406,Maryland,06,latino_cvap_pct_119,8.69759892,Latino,racial_margin_latino,-26.52353541,23.47646459,1.356622183403107e-279
+2406,Maryland,06,white_cvap_pct_119,68.47497235,White,racial_margin_white,26.52353541,76.52353541,1
+2407,Maryland,07,asian_cvap_pct_119,2.19837748,Asian,racial_margin_asian,-40.12742256,9.87257744,0
+2407,Maryland,07,black_cvap_pct_119,55.89906324,Black,racial_margin_black,31.545442325,81.545442325,1
+2407,Maryland,07,latino_cvap_pct_119,4.81878894,Latino,racial_margin_latino,-40.12742256,9.87257744,0
+2407,Maryland,07,white_cvap_pct_119,34.12773968,White,racial_margin_white,-31.545442325,18.454557675,3.3720791756744296e-137
+2408,Maryland,08,asian_cvap_pct_119,12.96032349,Asian,racial_margin_asian,-38.402003575,11.597996424999998,0
+2408,Maryland,08,black_cvap_pct_119,17.3075333,Black,racial_margin_black,-38.402003575,11.597996424999998,1.754802140054645e-281
+2408,Maryland,08,latino_cvap_pct_119,13.68479284,Latino,racial_margin_latino,-38.402003575,11.597996424999998,1.8305681322574046e-306
+2408,Maryland,08,white_cvap_pct_119,52.98863292,White,racial_margin_white,38.402003575,88.40200357500001,1
+2501,Massachusetts,01,asian_cvap_pct_119,1.59428557,Asian,racial_margin_asian,-31.185590045,18.814409955,0
+2501,Massachusetts,01,black_cvap_pct_119,4.96523558,Black,racial_margin_black,-31.185590045,18.814409955,0
+2501,Massachusetts,01,latino_cvap_pct_119,15.9117703,Latino,racial_margin_latino,-31.185590045,18.814409955,8.42715016214867e-235
+2501,Massachusetts,01,white_cvap_pct_119,75.71682499,White,racial_margin_white,31.185590045,81.185590045,1
+2502,Massachusetts,02,asian_cvap_pct_119,4.42669862,Asian,racial_margin_asian,-18.75040947,31.24959053,0
+2502,Massachusetts,02,black_cvap_pct_119,3.99487598,Black,racial_margin_black,-34.319107465,15.680892534999998,0
+2502,Massachusetts,02,latino_cvap_pct_119,9.04554799,Latino,racial_margin_latino,-34.319107465,15.680892534999998,0
+2502,Massachusetts,02,white_cvap_pct_119,80.46174719,White,racial_margin_white,18.75040947,68.75040947,1
+2503,Massachusetts,03,asian_cvap_pct_119,6.58216862,Asian,racial_margin_asian,-48.73673861,1.2632613899999967,0
+2503,Massachusetts,03,black_cvap_pct_119,3.49918609,Black,racial_margin_black,-48.73673861,1.2632613899999967,0
+2503,Massachusetts,03,latino_cvap_pct_119,17.01399125,Latino,racial_margin_latino,48.73673861,98.73673861,9.993398163660542e-20
+2503,Massachusetts,03,white_cvap_pct_119,71.2828701,White,racial_margin_white,-48.73673861,1.2632613899999967,0
+2504,Massachusetts,04,asian_cvap_pct_119,5.0683396,Asian,racial_margin_asian,-48.592996895,1.4070031050000011,0
+2504,Massachusetts,04,black_cvap_pct_119,3.38335346,Black,racial_margin_black,-48.592996895,1.4070031050000011,0
+2504,Massachusetts,04,latino_cvap_pct_119,4.6392729,Latino,racial_margin_latino,-48.592996895,1.4070031050000011,0
+2504,Massachusetts,04,white_cvap_pct_119,84.90446358,White,racial_margin_white,48.592996895,98.592996895,1
+2505,Massachusetts,05,asian_cvap_pct_119,10.12610922,Asian,racial_margin_asian,-49.10908219,0.8909178099999977,0
+2505,Massachusetts,05,black_cvap_pct_119,4.53555966,Black,racial_margin_black,-49.10908219,0.8909178099999977,0
+2505,Massachusetts,05,latino_cvap_pct_119,7.54375704,Latino,racial_margin_latino,-49.10908219,0.8909178099999977,0
+2505,Massachusetts,05,white_cvap_pct_119,75.47363366,White,racial_margin_white,49.10908219,99.10908219000001,1
+2506,Massachusetts,06,asian_cvap_pct_119,3.83228549,Asian,racial_margin_asian,-48.90506948,1.0949305199999984,0
+2506,Massachusetts,06,black_cvap_pct_119,2.6809624,Black,racial_margin_black,-48.90506948,1.0949305199999984,0
+2506,Massachusetts,06,latino_cvap_pct_119,7.60487274,Latino,racial_margin_latino,-48.90506948,1.0949305199999984,0
+2506,Massachusetts,06,white_cvap_pct_119,84.22533866,White,racial_margin_white,48.90506948,98.90506948000001,1
+2507,Massachusetts,07,asian_cvap_pct_119,9.1198583,Asian,racial_margin_asian,-48.555026965,1.4449730349999967,0
+2507,Massachusetts,07,black_cvap_pct_119,22.66567429,Black,racial_margin_black,48.555026965,98.555026965,0.0031026051045621047
+2507,Massachusetts,07,latino_cvap_pct_119,16.0782725,Latino,racial_margin_latino,-48.555026965,1.4449730349999967,0
+2507,Massachusetts,07,white_cvap_pct_119,48.95875337,White,racial_margin_white,-48.555026965,1.4449730349999967,0
+2508,Massachusetts,08,asian_cvap_pct_119,7.73385677,Asian,racial_margin_asian,-35.2190643,14.7809357,0
+2508,Massachusetts,08,black_cvap_pct_119,10.30149929,Black,racial_margin_black,-35.2190643,14.7809357,0
+2508,Massachusetts,08,latino_cvap_pct_119,5.65814414,Latino,racial_margin_latino,-35.2190643,14.7809357,0
+2508,Massachusetts,08,white_cvap_pct_119,74.40046584,White,racial_margin_white,35.2190643,85.2190643,1
+2509,Massachusetts,09,asian_cvap_pct_119,1.12992886,Asian,racial_margin_asian,-28.218394025,21.781605975,0
+2509,Massachusetts,09,black_cvap_pct_119,2.71918497,Black,racial_margin_black,-28.218394025,21.781605975,0
+2509,Massachusetts,09,latino_cvap_pct_119,4.09846291,Latino,racial_margin_latino,-28.218394025,21.781605975,0
+2509,Massachusetts,09,white_cvap_pct_119,89.97726857,White,racial_margin_white,28.218394025,78.218394025,1
+2601,Michigan,01,asian_cvap_pct_119,0.44487017,Asian,racial_margin_asian,-29.576012605,20.423987395,0
+2601,Michigan,01,black_cvap_pct_119,1.19124078,Black,racial_margin_black,-29.576012605,20.423987395,0
+2601,Michigan,01,latino_cvap_pct_119,1.75090097,Latino,racial_margin_latino,-29.576012605,20.423987395,0
+2601,Michigan,01,white_cvap_pct_119,92.29399433,White,racial_margin_white,29.576012605,79.576012605,1
+2602,Michigan,02,asian_cvap_pct_119,0.44591287,Asian,racial_margin_asian,-32.57111189,17.428888110000003,0
+2602,Michigan,02,black_cvap_pct_119,2.18926415,Black,racial_margin_black,-32.57111189,17.428888110000003,0
+2602,Michigan,02,latino_cvap_pct_119,3.56387665,Latino,racial_margin_latino,-32.57111189,17.428888110000003,0
+2602,Michigan,02,white_cvap_pct_119,90.9161364,White,racial_margin_white,32.57111189,82.57111189,1
+2603,Michigan,03,asian_cvap_pct_119,2.03002119,Asian,racial_margin_asian,-26.827968375,23.172031625,0
+2603,Michigan,03,black_cvap_pct_119,9.74164959,Black,racial_margin_black,-26.827968375,23.172031625,2.647246244354031e-268
+2603,Michigan,03,latino_cvap_pct_119,6.95479306,Latino,racial_margin_latino,-4.943979025000001,45.056020974999996,3.7123309191423674e-229
+2603,Michigan,03,white_cvap_pct_119,78.37335575,White,racial_margin_white,4.943979025000001,54.943979025000004,1
+2604,Michigan,04,asian_cvap_pct_119,1.78622176,Asian,racial_margin_asian,-27.53401109,22.46598891,0
+2604,Michigan,04,black_cvap_pct_119,7.59613579,Black,racial_margin_black,-27.53401109,22.46598891,5.995982449794321e-299
+2604,Michigan,04,latino_cvap_pct_119,6.18555281,Latino,racial_margin_latino,-27.53401109,22.46598891,0
+2604,Michigan,04,white_cvap_pct_119,81.84154279,White,racial_margin_white,27.53401109,77.53401109,1
+2605,Michigan,05,asian_cvap_pct_119,0.57093848,Asian,racial_margin_asian,-32.84102997,17.15897003,0
+2605,Michigan,05,black_cvap_pct_119,3.83172445,Black,racial_margin_black,-32.84102997,17.15897003,0
+2605,Michigan,05,latino_cvap_pct_119,3.84125402,Latino,racial_margin_latino,-32.84102997,17.15897003,0
+2605,Michigan,05,white_cvap_pct_119,89.30397333,White,racial_margin_white,32.84102997,82.84102997,1
+2606,Michigan,06,asian_cvap_pct_119,7.18309736,Asian,racial_margin_asian,-30.40319343,19.59680657,0
+2606,Michigan,06,black_cvap_pct_119,9.88159442,Black,racial_margin_black,-30.134059554999997,19.865940445000003,6.208729610695998e-284
+2606,Michigan,06,latino_cvap_pct_119,4.04791984,Latino,racial_margin_latino,-31.01238457,18.98761543,0
+2606,Michigan,06,white_cvap_pct_119,75.70150294,White,racial_margin_white,30.134059554999997,80.134059555,1
+2607,Michigan,07,asian_cvap_pct_119,1.9325074,Asian,racial_margin_asian,-25.14038216,24.85961784,0
+2607,Michigan,07,black_cvap_pct_119,5.27927251,Black,racial_margin_black,-25.14038216,24.85961784,0
+2607,Michigan,07,latino_cvap_pct_119,4.80390439,Latino,racial_margin_latino,-25.14038216,24.85961784,0
+2607,Michigan,07,white_cvap_pct_119,85.23989488,White,racial_margin_white,25.14038216,75.14038216,1
+2608,Michigan,08,asian_cvap_pct_119,0.84528774,Asian,racial_margin_asian,-25.626251915,24.373748085,0
+2608,Michigan,08,black_cvap_pct_119,14.08137924,Black,racial_margin_black,-25.626251915,24.373748085,9.884057948946977e-218
+2608,Michigan,08,latino_cvap_pct_119,4.54105779,Latino,racial_margin_latino,-25.626251915,24.373748085,0
+2608,Michigan,08,white_cvap_pct_119,78.07607088,White,racial_margin_white,25.626251915,75.626251915,1
+2609,Michigan,09,asian_cvap_pct_119,1.04641673,Asian,racial_margin_asian,-33.37971288,16.62028712,0
+2609,Michigan,09,black_cvap_pct_119,2.32083673,Black,racial_margin_black,-33.37971288,16.62028712,0
+2609,Michigan,09,latino_cvap_pct_119,3.18821511,Latino,racial_margin_latino,-33.37971288,16.62028712,0
+2609,Michigan,09,white_cvap_pct_119,91.54139533,White,racial_margin_white,33.37971288,83.37971288,1
+2610,Michigan,10,asian_cvap_pct_119,5.08778552,Asian,racial_margin_asian,-25.56271911,24.43728089,0
+2610,Michigan,10,black_cvap_pct_119,13.26937234,Black,racial_margin_black,3.0653584149999986,53.065358415,4.724416309483457e-122
+2610,Michigan,10,latino_cvap_pct_119,2.31612353,Latino,racial_margin_latino,-25.56271911,24.43728089,0
+2610,Michigan,10,white_cvap_pct_119,76.55112809,White,racial_margin_white,-3.0653584149999986,46.934641585,1
+2611,Michigan,11,asian_cvap_pct_119,5.73037424,Asian,racial_margin_asian,-29.109784005,20.890215995,0
+2611,Michigan,11,black_cvap_pct_119,13.31609423,Black,racial_margin_black,-29.109784005,20.890215995,9.461806860281311e-244
+2611,Michigan,11,latino_cvap_pct_119,3.78214982,Latino,racial_margin_latino,-29.109784005,20.890215995,0
+2611,Michigan,11,white_cvap_pct_119,74.36223025,White,racial_margin_white,9.303789700000005,59.3037897,1
+2612,Michigan,12,asian_cvap_pct_119,1.35128389,Asian,racial_margin_asian,-34.84933934,15.15066066,0
+2612,Michigan,12,black_cvap_pct_119,44.71556892,Black,racial_margin_black,-33.71398546,16.286014539999996,1.6836493520948825e-117
+2612,Michigan,12,latino_cvap_pct_119,2.59202602,Latino,racial_margin_latino,-34.84933934,15.15066066,0
+2612,Michigan,12,white_cvap_pct_119,48.29248637,White,racial_margin_white,33.71398546,83.71398546,1
+2613,Michigan,13,asian_cvap_pct_119,1.94483255,Asian,racial_margin_asian,22.053698285000003,72.053698285,0
+2613,Michigan,13,black_cvap_pct_119,46.32858633,Black,racial_margin_black,-22.053698285000003,27.946301714999997,6.058674066847452e-45
+2613,Michigan,13,latino_cvap_pct_119,6.77564477,Latino,racial_margin_latino,-34.32126324,15.67873676,0
+2613,Michigan,13,white_cvap_pct_119,41.82691352,White,racial_margin_white,-32.243377095,17.756622905,7.614761504885678e-115
+2701,Minnesota,01,asian_cvap_pct_119,2.30515423,Asian,racial_margin_asian,-29.25429223,20.74570777,0
+2701,Minnesota,01,black_cvap_pct_119,2.72073027,Black,racial_margin_black,-29.25429223,20.74570777,0
+2701,Minnesota,01,latino_cvap_pct_119,4.48215065,Latino,racial_margin_latino,-29.25429223,20.74570777,0
+2701,Minnesota,01,white_cvap_pct_119,88.72529824,White,racial_margin_white,29.25429223,79.25429223,1
+2702,Minnesota,02,asian_cvap_pct_119,4.58374708,Asian,racial_margin_asian,-27.766648535,22.233351465,0
+2702,Minnesota,02,black_cvap_pct_119,5.41422135,Black,racial_margin_black,-6.725071230000001,43.27492877,4.999132373070621e-264
+2702,Minnesota,02,latino_cvap_pct_119,5.01132551,Latino,racial_margin_latino,-27.766648535,22.233351465,0
+2702,Minnesota,02,white_cvap_pct_119,82.25967225,White,racial_margin_white,6.725071230000001,56.72507123,1
+2703,Minnesota,03,asian_cvap_pct_119,6.70476265,Asian,racial_margin_asian,-29.212555335,20.787444665,0
+2703,Minnesota,03,black_cvap_pct_119,7.22190094,Black,racial_margin_black,-29.212555335,20.787444665,0
+2703,Minnesota,03,latino_cvap_pct_119,3.32513257,Latino,racial_margin_latino,-29.212555335,20.787444665,0
+2703,Minnesota,03,white_cvap_pct_119,79.84415279,White,racial_margin_white,29.212555335,79.212555335,1
+2704,Minnesota,04,asian_cvap_pct_119,10.7667421,Asian,racial_margin_asian,-17.336439150000004,32.663560849999996,1.2313331433118403e-214
+2704,Minnesota,04,black_cvap_pct_119,8.54958816,Black,racial_margin_black,-33.62508067,16.374919329999997,0
+2704,Minnesota,04,latino_cvap_pct_119,4.82629523,Latino,racial_margin_latino,-33.62508067,16.374919329999997,0
+2704,Minnesota,04,white_cvap_pct_119,72.47345186,White,racial_margin_white,17.336439150000004,67.33643915,1
+2705,Minnesota,05,asian_cvap_pct_119,4.44390089,Asian,racial_margin_asian,-37.183909845,12.816090154999998,0
+2705,Minnesota,05,black_cvap_pct_119,14.14759659,Black,racial_margin_black,24.904499965000003,74.904499965,1.8241599513423685e-68
+2705,Minnesota,05,latino_cvap_pct_119,6.30303168,Latino,racial_margin_latino,-37.183909845,12.816090154999998,0
+2705,Minnesota,05,white_cvap_pct_119,70.70214658,White,racial_margin_white,-24.904499965000003,25.095500034999997,1.6700944396139866e-15
+2706,Minnesota,06,asian_cvap_pct_119,2.63663303,Asian,racial_margin_asian,-31.22418943,18.77581057,0
+2706,Minnesota,06,black_cvap_pct_119,3.56877602,Black,racial_margin_black,-31.22418943,18.77581057,0
+2706,Minnesota,06,latino_cvap_pct_119,2.60962527,Latino,racial_margin_latino,-31.22418943,18.77581057,0
+2706,Minnesota,06,white_cvap_pct_119,88.99902472,White,racial_margin_white,31.22418943,81.22418943,1
+2707,Minnesota,07,asian_cvap_pct_119,0.76410564,Asian,racial_margin_asian,-35.222913625,14.777086375000003,0
+2707,Minnesota,07,black_cvap_pct_119,1.07584883,Black,racial_margin_black,-35.222913625,14.777086375000003,0
+2707,Minnesota,07,latino_cvap_pct_119,3.27162951,Latino,racial_margin_latino,-35.222913625,14.777086375000003,0
+2707,Minnesota,07,white_cvap_pct_119,92.5778707,White,racial_margin_white,35.222913625,85.22291362499999,1
+2708,Minnesota,08,asian_cvap_pct_119,0.82526147,Asian,racial_margin_asian,-28.99602947,21.00397053,0
+2708,Minnesota,08,black_cvap_pct_119,1.00759487,Black,racial_margin_black,-28.99602947,21.00397053,0
+2708,Minnesota,08,latino_cvap_pct_119,1.50698386,Latino,racial_margin_latino,-28.99602947,21.00397053,0
+2708,Minnesota,08,white_cvap_pct_119,91.34780362,White,racial_margin_white,28.99602947,78.99602947,1
+2801,Mississippi,01,asian_cvap_pct_119,0.62507676,Asian,racial_margin_asian,-34.904585275,15.095414724999998,0
+2801,Mississippi,01,black_cvap_pct_119,27.71909278,Black,racial_margin_black,-19.809170550000005,30.190829449999995,7.274204912039266e-99
+2801,Mississippi,01,latino_cvap_pct_119,2.22888275,Latino,racial_margin_latino,-34.904585275,15.095414724999998,0
+2801,Mississippi,01,white_cvap_pct_119,67.30894846,White,racial_margin_white,19.809170550000005,69.80917055,1
+2802,Mississippi,02,asian_cvap_pct_119,0.27201834,Asian,racial_margin_asian,-31.007596545,18.992403455,0
+2802,Mississippi,02,black_cvap_pct_119,62.81839989,Black,racial_margin_black,12.015193089999997,62.01519309,1
+2802,Mississippi,02,latino_cvap_pct_119,1.25362552,Latino,racial_margin_latino,-31.007596545,18.992403455,0
+2802,Mississippi,02,white_cvap_pct_119,33.94636556,White,racial_margin_white,-12.015193089999997,37.98480691,2.1527367999015528e-45
+2803,Mississippi,03,asian_cvap_pct_119,0.78243022,Asian,racial_margin_asian,-50,0,0
+2803,Mississippi,03,black_cvap_pct_119,33.2427884,Black,racial_margin_black,-50,0,0
+2803,Mississippi,03,latino_cvap_pct_119,1.59446396,Latino,racial_margin_latino,-50,0,0
+2803,Mississippi,03,white_cvap_pct_119,61.74972998,White,racial_margin_white,50,100,1
+2804,Mississippi,04,asian_cvap_pct_119,1.32898843,Asian,racial_margin_asian,-36.974930035,13.025069965,0
+2804,Mississippi,04,black_cvap_pct_119,21.33292223,Black,racial_margin_black,-36.974930035,13.025069965,6.916474483318756e-244
+2804,Mississippi,04,latino_cvap_pct_119,3.58135801,Latino,racial_margin_latino,-36.974930035,13.025069965,0
+2804,Mississippi,04,white_cvap_pct_119,70.72681491,White,racial_margin_white,36.974930035,86.974930035,1
+2901,Missouri,01,asian_cvap_pct_119,2.20011917,Asian,racial_margin_asian,-37.96592518,12.03407482,0
+2901,Missouri,01,black_cvap_pct_119,44.57638891,Black,racial_margin_black,37.12772363,87.12772362999999,1
+2901,Missouri,01,latino_cvap_pct_119,2.8920637,Latino,racial_margin_latino,-37.96592518,12.03407482,0
+2901,Missouri,01,white_cvap_pct_119,47.2651884,White,racial_margin_white,-37.12772363,12.872276370000002,6.740667464009779e-142
+2902,Missouri,02,asian_cvap_pct_119,3.11412545,Asian,racial_margin_asian,-27.24654055,22.75345945,0
+2902,Missouri,02,black_cvap_pct_119,3.00146085,Black,racial_margin_black,-27.24654055,22.75345945,0
+2902,Missouri,02,latino_cvap_pct_119,2.32495642,Latino,racial_margin_latino,-27.24654055,22.75345945,0
+2902,Missouri,02,white_cvap_pct_119,89.78628179,White,racial_margin_white,27.24654055,77.24654054999999,1
+2903,Missouri,03,asian_cvap_pct_119,1.46257228,Asian,racial_margin_asian,-30.65511908,19.34488092,0
+2903,Missouri,03,black_cvap_pct_119,4.62310191,Black,racial_margin_black,-30.65511908,19.34488092,0
+2903,Missouri,03,latino_cvap_pct_119,2.56070413,Latino,racial_margin_latino,-30.65511908,19.34488092,0
+2903,Missouri,03,white_cvap_pct_119,88.9856712,White,racial_margin_white,30.65511908,80.65511907999999,1
+2904,Missouri,04,asian_cvap_pct_119,0.75838302,Asian,racial_margin_asian,-35.533065715,14.466934285,0
+2904,Missouri,04,black_cvap_pct_119,4.13620545,Black,racial_margin_black,-35.533065715,14.466934285,0
+2904,Missouri,04,latino_cvap_pct_119,3.86205455,Latino,racial_margin_latino,-35.533065715,14.466934285,0
+2904,Missouri,04,white_cvap_pct_119,88.30323181,White,racial_margin_white,35.533065715,85.53306571499999,1
+2905,Missouri,05,asian_cvap_pct_119,1.71820582,Asian,racial_margin_asian,-30.11186127,19.88813873,0
+2905,Missouri,05,black_cvap_pct_119,21.17237326,Black,racial_margin_black,11.891549094999998,61.891549095,1.2623504781242417e-43
+2905,Missouri,05,latino_cvap_pct_119,7.30040091,Latino,racial_margin_latino,-30.11186127,19.88813873,0
+2905,Missouri,05,white_cvap_pct_119,66.26242423,White,racial_margin_white,-11.891549094999998,38.108450905,0.5990750195718447
+2906,Missouri,06,asian_cvap_pct_119,0.90573422,Asian,racial_margin_asian,-35.343802805,14.656197194999997,0
+2906,Missouri,06,black_cvap_pct_119,3.46741535,Black,racial_margin_black,-35.343802805,14.656197194999997,0
+2906,Missouri,06,latino_cvap_pct_119,3.17883274,Latino,racial_margin_latino,-35.343802805,14.656197194999997,0
+2906,Missouri,06,white_cvap_pct_119,90.15075719,White,racial_margin_white,35.343802805,85.343802805,1
+2907,Missouri,07,asian_cvap_pct_119,1.01282871,Asian,racial_margin_asian,-35.777914905,14.222085094999997,0
+2907,Missouri,07,black_cvap_pct_119,1.70245013,Black,racial_margin_black,-35.777914905,14.222085094999997,0
+2907,Missouri,07,latino_cvap_pct_119,4.16169479,Latino,racial_margin_latino,-35.777914905,14.222085094999997,0
+2907,Missouri,07,white_cvap_pct_119,89.63103735,White,racial_margin_white,35.777914905,85.777914905,1
+2908,Missouri,08,asian_cvap_pct_119,0.54023291,Asian,racial_margin_asian,-38.089922035,11.910077965,0
+2908,Missouri,08,black_cvap_pct_119,3.49403532,Black,racial_margin_black,-38.089922035,11.910077965,0
+2908,Missouri,08,latino_cvap_pct_119,1.90052554,Latino,racial_margin_latino,-38.089922035,11.910077965,0
+2908,Missouri,08,white_cvap_pct_119,91.21357354,White,racial_margin_white,38.089922035,88.089922035,1
+3001,Montana,01,asian_cvap_pct_119,0.77597058,Asian,racial_margin_asian,-26.14749927,23.85250073,0
+3001,Montana,01,black_cvap_pct_119,0.29994376,Black,racial_margin_black,-26.14749927,23.85250073,0
+3001,Montana,01,latino_cvap_pct_119,3.47144732,Latino,racial_margin_latino,-26.14749927,23.85250073,0
+3001,Montana,01,white_cvap_pct_119,89.18015372,White,racial_margin_white,26.14749927,76.14749927,1
+3002,Montana,02,asian_cvap_pct_119,0.49111711,Asian,racial_margin_asian,-32.9949736,17.0050264,0
+3002,Montana,02,black_cvap_pct_119,0.51120612,Black,racial_margin_black,-32.9949736,17.0050264,0
+3002,Montana,02,latino_cvap_pct_119,3.54062824,Latino,racial_margin_latino,-32.9949736,17.0050264,0
+3002,Montana,02,white_cvap_pct_119,86.62166729,White,racial_margin_white,32.9949736,82.99497360000001,1
+3101,Nebraska,01,asian_cvap_pct_119,2.13282921,Asian,racial_margin_asian,-30.052041775,19.947958225,0
+3101,Nebraska,01,black_cvap_pct_119,2.7628508,Black,racial_margin_black,-30.052041775,19.947958225,0
+3101,Nebraska,01,latino_cvap_pct_119,7.11949382,Latino,racial_margin_latino,-30.052041775,19.947958225,0
+3101,Nebraska,01,white_cvap_pct_119,85.2230164,White,racial_margin_white,30.052041775,80.05204177499999,1
+3102,Nebraska,02,asian_cvap_pct_119,2.3923946,Asian,racial_margin_asian,-25.46325584,24.53674416,0
+3102,Nebraska,02,black_cvap_pct_119,8.65598775,Black,racial_margin_black,-25.46325584,24.53674416,3.3492215770211453e-275
+3102,Nebraska,02,latino_cvap_pct_119,7.54235828,Latino,racial_margin_latino,-0.9265116799999972,49.07348832,4.325223623134624e-208
+3102,Nebraska,02,white_cvap_pct_119,78.47041192,White,racial_margin_white,0.9265116799999972,50.92651168,1
+3103,Nebraska,03,asian_cvap_pct_119,0.63998552,Asian,racial_margin_asian,-40.20917006,9.790829940000002,0
+3103,Nebraska,03,black_cvap_pct_119,1.10024476,Black,racial_margin_black,-40.20917006,9.790829940000002,0
+3103,Nebraska,03,latino_cvap_pct_119,7.77179392,Latino,racial_margin_latino,-40.20917006,9.790829940000002,0
+3103,Nebraska,03,white_cvap_pct_119,87.8402751,White,racial_margin_white,40.20917006,90.20917005999999,1
+3201,Nevada,01,asian_cvap_pct_119,8.40116967,Asian,racial_margin_asian,-25.482271545,24.517728455,1.2616484086216748e-278
+3201,Nevada,01,black_cvap_pct_119,10.40174364,Black,racial_margin_black,-25.996519035,24.003480965,1.2598415439084795e-256
+3201,Nevada,01,latino_cvap_pct_119,25.81335733,Latino,racial_margin_latino,-25.996519035,24.003480965,2.0323000354763827e-139
+3201,Nevada,01,white_cvap_pct_119,50.46654851,White,racial_margin_white,25.482271545,75.482271545,1
+3202,Nevada,02,asian_cvap_pct_119,3.68245304,Asian,racial_margin_asian,-25.042919634999997,24.957080365000003,0
+3202,Nevada,02,black_cvap_pct_119,2.16308794,Black,racial_margin_black,-27.518494235,22.481505765,0
+3202,Nevada,02,latino_cvap_pct_119,16.8288035,Latino,racial_margin_latino,-25.539310885,24.460689115,2.769339549934877e-194
+3202,Nevada,02,white_cvap_pct_119,72.29993073,White,racial_margin_white,25.042919634999997,75.042919635,1
+3203,Nevada,03,asian_cvap_pct_119,16.60244719,Asian,racial_margin_asian,-25.686112335,24.313887665,7.637885554176718e-197
+3203,Nevada,03,black_cvap_pct_119,9.9763081,Black,racial_margin_black,-25.686112335,24.313887665,5.225601876739476e-260
+3203,Nevada,03,latino_cvap_pct_119,17.19741926,Latino,racial_margin_latino,-25.686112335,24.313887665,3.129603991265196e-192
+3203,Nevada,03,white_cvap_pct_119,49.88067773,White,racial_margin_white,25.686112335,75.686112335,1
+3204,Nevada,04,asian_cvap_pct_119,5.90605717,Asian,racial_margin_asian,-26.327941095,23.672058905,0
+3204,Nevada,04,black_cvap_pct_119,16.61675144,Black,racial_margin_black,4.043424859999998,54.04342486,1.422522013503613e-89
+3204,Nevada,04,latino_cvap_pct_119,26.00391657,Latino,racial_margin_latino,-26.327941095,23.672058905,2.617538913422872e-140
+3204,Nevada,04,white_cvap_pct_119,46.09830836,White,racial_margin_white,-4.043424859999998,45.95657514,3.554427608282206e-5
+3301,New Hampshire,01,asian_cvap_pct_119,2.05878876,Asian,racial_margin_asian,-26.997613685,23.002386315,0
+3301,New Hampshire,01,black_cvap_pct_119,1.13694572,Black,racial_margin_black,-26.997613685,23.002386315,0
+3301,New Hampshire,01,latino_cvap_pct_119,3.31644989,Latino,racial_margin_latino,-26.997613685,23.002386315,0
+3301,New Hampshire,01,white_cvap_pct_119,91.57732413,White,racial_margin_white,26.997613685,76.997613685,1
+3302,New Hampshire,02,asian_cvap_pct_119,1.76920035,Asian,racial_margin_asian,-2.9802310050000003,47.019768995,0
+3302,New Hampshire,02,black_cvap_pct_119,1.13175853,Black,racial_margin_black,-26.46716756,23.53283244,0
+3302,New Hampshire,02,latino_cvap_pct_119,3.38928938,Latino,racial_margin_latino,-26.46716756,23.53283244,0
+3302,New Hampshire,02,white_cvap_pct_119,91.59443898,White,racial_margin_white,2.9802310050000003,52.980231005,1
+3401,New Jersey,01,asian_cvap_pct_119,4.15593637,Asian,racial_margin_asian,-28.915969645,21.084030355,0
+3401,New Jersey,01,black_cvap_pct_119,15.82639869,Black,racial_margin_black,-8.920678005,41.079321995,6.9972529645683975e-133
+3401,New Jersey,01,latino_cvap_pct_119,11.51095832,Latino,racial_margin_latino,-28.915969645,21.084030355,6.064066279207987e-260
+3401,New Jersey,01,white_cvap_pct_119,66.22429275,White,racial_margin_white,8.920678005,58.920678005,1
+3402,New Jersey,02,asian_cvap_pct_119,3.13979592,Asian,racial_margin_asian,-29.05467951,20.94532049,0
+3402,New Jersey,02,black_cvap_pct_119,10.65588789,Black,racial_margin_black,-29.05467951,20.94532049,1.3525162695326872e-269
+3402,New Jersey,02,latino_cvap_pct_119,12.16003096,Latino,racial_margin_latino,-29.05467951,20.94532049,2.77563990239073e-254
+3402,New Jersey,02,white_cvap_pct_119,71.65947187,White,racial_margin_white,29.05467951,79.05467951,1
+3403,New Jersey,03,asian_cvap_pct_119,6.63808559,Asian,racial_margin_asian,-4.2926711,45.7073289,3.7671964030527716e-233
+3403,New Jersey,03,black_cvap_pct_119,12.62469578,Black,racial_margin_black,4.2926711,54.2926711,1.0535325690488582e-125
+3403,New Jersey,03,latino_cvap_pct_119,8.99697733,Latino,racial_margin_latino,-26.619567625,23.380432375,2.7889253461351475e-276
+3403,New Jersey,03,white_cvap_pct_119,69.28174882,White,racial_margin_white,-26.36250804,23.63749196,7.702854618510712e-22
+3404,New Jersey,04,asian_cvap_pct_119,2.1880721,Asian,racial_margin_asian,-33.69268545,16.30731455,0
+3404,New Jersey,04,black_cvap_pct_119,3.44704971,Black,racial_margin_black,-33.69268545,16.30731455,0
+3404,New Jersey,04,latino_cvap_pct_119,8.02334178,Latino,racial_margin_latino,-33.69268545,16.30731455,0
+3404,New Jersey,04,white_cvap_pct_119,85.00528095,White,racial_margin_white,33.69268545,83.69268545,1
+3405,New Jersey,05,asian_cvap_pct_119,13.45643291,Asian,racial_margin_asian,-27.280047345,22.719952655,3.285573824249989e-232
+3405,New Jersey,05,black_cvap_pct_119,5.82918714,Black,racial_margin_black,-27.280047345,22.719952655,0
+3405,New Jersey,05,latino_cvap_pct_119,14.37344461,Latino,racial_margin_latino,-27.280047345,22.719952655,5.300008593968024e-224
+3405,New Jersey,05,white_cvap_pct_119,64.75866544,White,racial_margin_white,27.280047345,77.280047345,1
+3406,New Jersey,06,asian_cvap_pct_119,13.68624857,Asian,racial_margin_asian,-28.03517507,21.96482493,2.731776894941198e-234
+3406,New Jersey,06,black_cvap_pct_119,12.64954807,Black,racial_margin_black,-28.03517507,21.96482493,6.795075182855856e-244
+3406,New Jersey,06,latino_cvap_pct_119,18.51856112,Latino,racial_margin_latino,-28.03517507,21.96482493,7.563912143203318e-196
+3406,New Jersey,06,white_cvap_pct_119,53.23652606,White,racial_margin_white,27.23318219,77.23318219000001,1
+3407,New Jersey,07,asian_cvap_pct_119,6.13985917,Asian,racial_margin_asian,-25.88456599,24.11543401,0
+3407,New Jersey,07,black_cvap_pct_119,5.40336672,Black,racial_margin_black,-25.88456599,24.11543401,0
+3407,New Jersey,07,latino_cvap_pct_119,10.3536271,Latino,racial_margin_latino,-25.3910542,24.6089458,3.0754410166019268e-254
+3407,New Jersey,07,white_cvap_pct_119,76.31580768,White,racial_margin_white,25.3910542,75.3910542,1
+3408,New Jersey,08,asian_cvap_pct_119,7.990295,Asian,racial_margin_asian,-29.58707087,20.41292913,1.1704141530715499e-303
+3408,New Jersey,08,black_cvap_pct_119,10.33139311,Black,racial_margin_black,-29.58707087,20.41292913,5.405067822758607e-276
+3408,New Jersey,08,latino_cvap_pct_119,44.86579804,Latino,racial_margin_latino,12.26895027,62.26895027,0.9978542474805907
+3408,New Jersey,08,white_cvap_pct_119,34.84981745,White,racial_margin_white,-12.26895027,37.73104973,2.9985599564706174e-43
+3409,New Jersey,09,asian_cvap_pct_119,8.18071896,Asian,racial_margin_asian,-25.390544445,24.609455555,3.701235054872056e-281
+3409,New Jersey,09,black_cvap_pct_119,9.45227161,Black,racial_margin_black,-2.446374304999999,47.553625695,1.1094085232027878e-182
+3409,New Jersey,09,latino_cvap_pct_119,34.95045379,Latino,racial_margin_latino,2.446374304999999,52.446374305,3.3318579431217577e-13
+3409,New Jersey,09,white_cvap_pct_119,46.0033544,White,racial_margin_white,-24.41257835,25.58742165,8.713898083371488e-56
+3410,New Jersey,10,asian_cvap_pct_119,6.32811113,Asian,racial_margin_asian,-36.77533047,13.22466953,0
+3410,New Jersey,10,black_cvap_pct_119,51.35763446,Black,racial_margin_black,26.08892087,76.08892087,1
+3410,New Jersey,10,latino_cvap_pct_119,17.87803141,Latino,racial_margin_latino,-36.55740319,13.442596809999998,4.370666724196431e-261
+3410,New Jersey,10,white_cvap_pct_119,22.25175554,White,racial_margin_white,-26.08892087,23.91107913,4.4515782503614076e-160
+3411,New Jersey,11,asian_cvap_pct_119,9.70055267,Asian,racial_margin_asian,-27.65745357,22.34254643,6.368778696190095e-273
+3411,New Jersey,11,black_cvap_pct_119,5.69317174,Black,racial_margin_black,-28.264436155,21.735563845,0
+3411,New Jersey,11,latino_cvap_pct_119,13.89711481,Latino,racial_margin_latino,-28.264436155,21.735563845,1.064728113070828e-233
+3411,New Jersey,11,white_cvap_pct_119,68.836876,White,racial_margin_white,7.368489224999998,57.368489225,1
+3412,New Jersey,12,asian_cvap_pct_119,16.1767418,Asian,racial_margin_asian,-30.60234409,19.39765591,5.524476510639987e-229
+3412,New Jersey,12,black_cvap_pct_119,17.3454251,Black,racial_margin_black,29.879220295,79.879220295,1.0996281262792975e-37
+3412,New Jersey,12,latino_cvap_pct_119,14.71137732,Latino,racial_margin_latino,-30.14922589,19.85077411,7.636911789449517e-238
+3412,New Jersey,12,white_cvap_pct_119,49.85907644,White,racial_margin_white,-29.879220295,20.120779705,2.537745039033461e-75
+3501,New Mexico,01,asian_cvap_pct_119,2.07005178,Asian,racial_margin_asian,-28.184327305,21.815672695,0
+3501,New Mexico,01,black_cvap_pct_119,2.33998711,Black,racial_margin_black,-28.184327305,21.815672695,0
+3501,New Mexico,01,latino_cvap_pct_119,37.11254971,Latino,racial_margin_latino,-28.184327305,21.815672695,2.8917978077190955e-103
+3501,New Mexico,01,white_cvap_pct_119,51.75275456,White,racial_margin_white,28.184327305,78.184327305,1
+3502,New Mexico,02,asian_cvap_pct_119,0.90416278,Asian,racial_margin_asian,-26.039491635,23.960508365,0
+3502,New Mexico,02,black_cvap_pct_119,2.17443076,Black,racial_margin_black,-26.039491635,23.960508365,0
+3502,New Mexico,02,latino_cvap_pct_119,54.30688254,Latino,racial_margin_latino,2.078983270000002,52.07898327,0.9992668395040076
+3502,New Mexico,02,white_cvap_pct_119,35.46195049,White,racial_margin_white,-2.078983270000002,47.92101673,8.428194922268379e-19
+3503,New Mexico,03,asian_cvap_pct_119,0.70688289,Asian,racial_margin_asian,-28.142649615,21.857350385,0
+3503,New Mexico,03,black_cvap_pct_119,1.17898808,Black,racial_margin_black,-28.142649615,21.857350385,0
+3503,New Mexico,03,latino_cvap_pct_119,37.34299119,Latino,racial_margin_latino,6.28529923,56.28529923,1.6340113099754598e-5
+3503,New Mexico,03,white_cvap_pct_119,41.15062647,White,racial_margin_white,-6.28529923,43.71470077,1.6406747573216315e-14
+3601,New York,01,asian_cvap_pct_119,4.51587404,Asian,racial_margin_asian,-5.211533769999999,44.78846623,1.2047989166891918e-280
+3601,New York,01,black_cvap_pct_119,4.31399873,Black,racial_margin_black,-27.58900268,22.41099732,0
+3601,New York,01,latino_cvap_pct_119,10.39410831,Latino,racial_margin_latino,-27.58900268,22.41099732,1.068370719151509e-264
+3601,New York,01,white_cvap_pct_119,79.02881791,White,racial_margin_white,5.211533769999999,55.21153377,1
+3602,New York,02,asian_cvap_pct_119,2.96510609,Asian,racial_margin_asian,-29.867730875,20.132269125,0
+3602,New York,02,black_cvap_pct_119,9.93377364,Black,racial_margin_black,-29.867730875,20.132269125,6.8418368475609155e-282
+3602,New York,02,latino_cvap_pct_119,20.72901372,Latino,racial_margin_latino,-29.867730875,20.132269125,1.7359132945613872e-192
+3602,New York,02,white_cvap_pct_119,64.70371514,White,racial_margin_white,29.867730875,79.867730875,1
+3603,New York,03,asian_cvap_pct_119,20.29582042,Asian,racial_margin_asian,-25.83841883,24.16158117,4.620502258445009e-171
+3603,New York,03,black_cvap_pct_119,3.86320592,Black,racial_margin_black,-25.83841883,24.16158117,0
+3603,New York,03,latino_cvap_pct_119,12.03333046,Latino,racial_margin_latino,-25.83841883,24.16158117,2.202448293664304e-238
+3603,New York,03,white_cvap_pct_119,62.13986455,White,racial_margin_white,25.83841883,75.83841883,1
+3604,New York,04,asian_cvap_pct_119,7.24149765,Asian,racial_margin_asian,-25.53273079,24.46726921,5.44599489967358e-295
+3604,New York,04,black_cvap_pct_119,18.33463168,Black,racial_margin_black,-25.53273079,24.46726921,6.048011714585919e-183
+3604,New York,04,latino_cvap_pct_119,16.71832809,Latino,racial_margin_latino,-1.1454843749999988,48.854515625000005,4.267603414777458e-102
+3604,New York,04,white_cvap_pct_119,56.0329471,White,racial_margin_white,1.1454843749999988,51.145484374999995,0.9997949273073197
+3605,New York,05,asian_cvap_pct_119,15.8425955,Asian,racial_margin_asian,-36.339843615,13.660156385,4.3242187785940194e-273
+3605,New York,05,black_cvap_pct_119,46.74801057,Black,racial_margin_black,22.84841371,72.84841371,1
+3605,New York,05,latino_cvap_pct_119,17.57772223,Latino,racial_margin_latino,-36.339843615,13.660156385,3.448517341019631e-261
+3605,New York,05,white_cvap_pct_119,16.70678613,White,racial_margin_white,-22.84841371,27.15158629,1.814419422814715e-181
+3606,New York,06,asian_cvap_pct_119,37.29295073,Asian,racial_margin_asian,11.486738135,61.486738134999996,0.01723664230699058
+3606,New York,06,black_cvap_pct_119,5.78679305,Black,racial_margin_black,-30.24938346,19.75061654,0
+3606,New York,06,latino_cvap_pct_119,21.42353573,Latino,racial_margin_latino,-30.24938346,19.75061654,1.1375325841590332e-190
+3606,New York,06,white_cvap_pct_119,33.06878492,White,racial_margin_white,-11.486738135,38.513261865000004,9.121032815481099e-47
+3607,New York,07,asian_cvap_pct_119,11.19568697,Asian,racial_margin_asian,-38.956573885,11.043426115000003,0
+3607,New York,07,black_cvap_pct_119,12.7800307,Black,racial_margin_black,-38.956573885,11.043426115000003,0
+3607,New York,07,latino_cvap_pct_119,31.46954038,Latino,racial_margin_latino,28.036919634999997,78.036919635,0.3284806527426702
+3607,New York,07,white_cvap_pct_119,41.53053351,White,racial_margin_white,-28.036919634999997,21.963080365000003,1.5374102749693686e-87
+3608,New York,08,asian_cvap_pct_119,7.28725705,Asian,racial_margin_asian,-37.54088399,12.459116010000002,0
+3608,New York,08,black_cvap_pct_119,45.74591354,Black,racial_margin_black,25.283953819999997,75.28395382,1
+3608,New York,08,latino_cvap_pct_119,14.1629716,Latino,racial_margin_latino,-37.54088399,12.459116010000002,2.010381393410275e-295
+3608,New York,08,white_cvap_pct_119,30.13665297,White,racial_margin_white,-25.283953819999997,24.716046180000003,1.8716768304342474e-114
+3609,New York,09,asian_cvap_pct_119,7.13373297,Asian,racial_margin_asian,-36.73188504,13.268114959999998,0
+3609,New York,09,black_cvap_pct_119,46.98478827,Black,racial_margin_black,23.99415537,73.99415537,1
+3609,New York,09,latino_cvap_pct_119,9.96568595,Latino,racial_margin_latino,-36.73188504,13.268114959999998,0
+3609,New York,09,white_cvap_pct_119,33.52800227,White,racial_margin_white,-23.99415537,26.00584463,1.92712871771338e-93
+3610,New York,10,asian_cvap_pct_119,16.48652845,Asian,racial_margin_asian,-40.503072015,9.496927985,7.458031302333896e-308
+3610,New York,10,black_cvap_pct_119,6.87849329,Black,racial_margin_black,-40.503072015,9.496927985,0
+3610,New York,10,latino_cvap_pct_119,17.16667463,Latino,racial_margin_latino,-40.503072015,9.496927985,1.0496477098499442e-303
+3610,New York,10,white_cvap_pct_119,56.8335085,White,racial_margin_white,40.503072015,90.503072015,1
+3611,New York,11,asian_cvap_pct_119,16.85652643,Asian,racial_margin_asian,-31.922262805,18.077737195,1.291950154778682e-232
+3611,New York,11,black_cvap_pct_119,6.84809258,Black,racial_margin_black,-31.922262805,18.077737195,0
+3611,New York,11,latino_cvap_pct_119,15.48180838,Latino,racial_margin_latino,14.04377827,64.04377827,8.309774712300687e-77
+3611,New York,11,white_cvap_pct_119,58.92066294,White,racial_margin_white,-14.04377827,35.956221729999996,3.561577011819694e-5
+3612,New York,12,asian_cvap_pct_119,10.39156982,Asian,racial_margin_asian,-40.14644158,9.853558419999999,0
+3612,New York,12,black_cvap_pct_119,5.18562981,Black,racial_margin_black,-40.14644158,9.853558419999999,0
+3612,New York,12,latino_cvap_pct_119,10.87665723,Latino,racial_margin_latino,-40.14644158,9.853558419999999,0
+3612,New York,12,white_cvap_pct_119,70.81025012,White,racial_margin_white,40.14644158,90.14644158,1
+3613,New York,13,asian_cvap_pct_119,5.06703493,Asian,racial_margin_asian,-41.51196723,8.488032769999997,0
+3613,New York,13,black_cvap_pct_119,27.71416164,Black,racial_margin_black,33.332419980000005,83.33241998,0.026016193616099175
+3613,New York,13,latino_cvap_pct_119,44.92514074,Latino,racial_margin_latino,-33.332419980000005,16.667580019999995,9.602788594741154e-114
+3613,New York,13,white_cvap_pct_119,19.55671269,White,racial_margin_white,-41.51196723,8.488032769999997,7.760673896556047e-302
+3614,New York,14,asian_cvap_pct_119,11.36396985,Asian,racial_margin_asian,-34.46203863,15.537961369999998,2.3562834189276992e-295
+3614,New York,14,black_cvap_pct_119,16.77151923,Black,racial_margin_black,-34.46203863,15.537961369999998,1.429588924411302e-251
+3614,New York,14,latino_cvap_pct_119,45.64296326,Latino,racial_margin_latino,19.121167900000003,69.1211679,0.9999999996551897
+3614,New York,14,white_cvap_pct_119,24.17761046,White,racial_margin_white,-19.121167900000003,30.878832099999997,3.8259357735698755e-114
+3615,New York,15,asian_cvap_pct_119,2.91106915,Asian,racial_margin_asian,-38.105146265,11.894853734999998,0
+3615,New York,15,black_cvap_pct_119,35.63019873,Black,racial_margin_black,27.581752830000003,77.58175283,0.9950048719148091
+3615,New York,15,latino_cvap_pct_119,48.00164445,Latino,racial_margin_latino,-38.105146265,11.894853734999998,1.6008786339308775e-150
+3615,New York,15,white_cvap_pct_119,11.57053736,White,racial_margin_white,-27.581752830000003,22.418247169999997,4.031220766115005e-252
+3616,New York,16,asian_cvap_pct_119,5.66422752,Asian,racial_margin_asian,-35.67403853,14.325961470000003,0
+3616,New York,16,black_cvap_pct_119,21.90819252,Black,racial_margin_black,-35.67403853,14.325961470000003,5.862178798234836e-229
+3616,New York,16,latino_cvap_pct_119,24.05080718,Latino,racial_margin_latino,-35.67403853,14.325961470000003,3.0700687060601085e-217
+3616,New York,16,white_cvap_pct_119,46.37767803,White,racial_margin_white,35.67403853,85.67403852999999,1
+3617,New York,17,asian_cvap_pct_119,4.8331735,Asian,racial_margin_asian,-26.065985435,23.934014565,0
+3617,New York,17,black_cvap_pct_119,7.68627348,Black,racial_margin_black,-3.1548742050000023,46.845125795,1.254436228744739e-211
+3617,New York,17,latino_cvap_pct_119,14.97844646,Latino,racial_margin_latino,-26.065985435,23.934014565,3.4629923012087513e-212
+3617,New York,17,white_cvap_pct_119,70.96192426,White,racial_margin_white,3.1548742050000023,53.154874205,1
+3618,New York,18,asian_cvap_pct_119,2.4576642,Asian,racial_margin_asian,-28.56563561,21.43436439,0
+3618,New York,18,black_cvap_pct_119,9.88796121,Black,racial_margin_black,-28.56563561,21.43436439,1.9422973136018815e-275
+3618,New York,18,latino_cvap_pct_119,14.83923511,Latino,racial_margin_latino,-28.56563561,21.43436439,2.681800507217308e-227
+3618,New York,18,white_cvap_pct_119,70.38977412,White,racial_margin_white,28.56563561,78.56563561,1
+3619,New York,19,asian_cvap_pct_119,2.54785287,Asian,racial_margin_asian,-25.526775375,24.473224625,0
+3619,New York,19,black_cvap_pct_119,3.95984311,Black,racial_margin_black,-25.526775375,24.473224625,0
+3619,New York,19,latino_cvap_pct_119,5.58019458,Latino,racial_margin_latino,-25.526775375,24.473224625,0
+3619,New York,19,white_cvap_pct_119,85.90067244,White,racial_margin_white,25.526775375,75.526775375,1
+3620,New York,20,asian_cvap_pct_119,3.67563309,Asian,racial_margin_asian,-30.54065952,19.45934048,0
+3620,New York,20,black_cvap_pct_119,8.24252354,Black,racial_margin_black,-30.54065952,19.45934048,2.194005937921119e-305
+3620,New York,20,latino_cvap_pct_119,5.99501212,Latino,racial_margin_latino,-30.54065952,19.45934048,0
+3620,New York,20,white_cvap_pct_119,79.69113407,White,racial_margin_white,30.54065952,80.54065951999999,1
+3621,New York,21,asian_cvap_pct_119,0.69065155,Asian,racial_margin_asian,-11.982130565,38.017869435,0
+3621,New York,21,black_cvap_pct_119,2.34726197,Black,racial_margin_black,-30.976938965,19.023061035,0
+3621,New York,21,latino_cvap_pct_119,2.94734974,Latino,racial_margin_latino,-30.976938965,19.023061035,0
+3621,New York,21,white_cvap_pct_119,91.99948719,White,racial_margin_white,11.982130565,61.982130565,1
+3622,New York,22,asian_cvap_pct_119,2.53272895,Asian,racial_margin_asian,-27.249770175,22.750229825,0
+3622,New York,22,black_cvap_pct_119,7.29752631,Black,racial_margin_black,-27.249770175,22.750229825,8.015126657969967e-302
+3622,New York,22,latino_cvap_pct_119,4.49272255,Latino,racial_margin_latino,-27.249770175,22.750229825,0
+3622,New York,22,white_cvap_pct_119,83.08048582,White,racial_margin_white,27.249770175,77.249770175,1
+3623,New York,23,asian_cvap_pct_119,0.68093883,Asian,racial_margin_asian,-32.87712264,17.122877359999997,0
+3623,New York,23,black_cvap_pct_119,2.00123747,Black,racial_margin_black,-15.784597200000004,34.21540279999999,0
+3623,New York,23,latino_cvap_pct_119,2.79899352,Latino,racial_margin_latino,-32.87712264,17.122877359999997,0
+3623,New York,23,white_cvap_pct_119,92.69380852,White,racial_margin_white,15.784597200000004,65.78459720000001,1
+3624,New York,24,asian_cvap_pct_119,0.68370356,Asian,racial_margin_asian,-32.813356445,17.186643555000003,0
+3624,New York,24,black_cvap_pct_119,2.41214171,Black,racial_margin_black,-32.813356445,17.186643555000003,0
+3624,New York,24,latino_cvap_pct_119,3.02834744,Latino,racial_margin_latino,-32.813356445,17.186643555000003,0
+3624,New York,24,white_cvap_pct_119,91.98965472,White,racial_margin_white,32.813356445,82.813356445,1
+3625,New York,25,asian_cvap_pct_119,2.60647073,Asian,racial_margin_asian,-30.387540795,19.612459205,0
+3625,New York,25,black_cvap_pct_119,12.31996768,Black,racial_margin_black,-30.387540795,19.612459205,1.8489110852747166e-260
+3625,New York,25,latino_cvap_pct_119,7.96502037,Latino,racial_margin_latino,-30.387540795,19.612459205,4.360697273538536e-308
+3625,New York,25,white_cvap_pct_119,74.63488537,White,racial_margin_white,30.387540795,80.387540795,1
+3626,New York,26,asian_cvap_pct_119,3.42068844,Asian,racial_margin_asian,-32.544101535,17.455898464999997,0
+3626,New York,26,black_cvap_pct_119,15.11817586,Black,racial_margin_black,-32.544101535,17.455898464999997,4.5207965971737446e-250
+3626,New York,26,latino_cvap_pct_119,6.2141208,Latino,racial_margin_latino,-32.544101535,17.455898464999997,0
+3626,New York,26,white_cvap_pct_119,72.8079492,White,racial_margin_white,32.544101535,82.54410153500001,1
+3701,North Carolina,01,asian_cvap_pct_119,0.6307017,Asian,racial_margin_asian,-24.75805423,25.24194577,0
+3701,North Carolina,01,black_cvap_pct_119,40.42433525,Black,racial_margin_black,0.8379747249999987,50.837974724999995,1.5290033303463339e-6
+3701,North Carolina,01,latino_cvap_pct_119,3.85955479,Latino,racial_margin_latino,-24.75805423,25.24194577,0
+3701,North Carolina,01,white_cvap_pct_119,52.17827316,White,racial_margin_white,-0.8379747249999987,49.162025275000005,0.7414107169526273
+3702,North Carolina,02,asian_cvap_pct_119,4.30647182,Asian,racial_margin_asian,-17.323318135,32.676681865,0
+3702,North Carolina,02,black_cvap_pct_119,23.98733731,Black,racial_margin_black,-32.05426653,17.94573347,2.1037924773536723e-188
+3702,North Carolina,02,latino_cvap_pct_119,7.22427823,Latino,racial_margin_latino,-33.125861555,16.874138445,0
+3702,North Carolina,02,white_cvap_pct_119,61.50372161,White,racial_margin_white,17.323318135,67.323318135,1
+3703,North Carolina,03,asian_cvap_pct_119,1.26374391,Asian,racial_margin_asian,-38.69143906,11.30856094,0
+3703,North Carolina,03,black_cvap_pct_119,20.04453723,Black,racial_margin_black,-38.69143906,11.30856094,7.910055880316458e-268
+3703,North Carolina,03,latino_cvap_pct_119,6.70911621,Latino,racial_margin_latino,-38.69143906,11.30856094,0
+3703,North Carolina,03,white_cvap_pct_119,68.44850383,White,racial_margin_white,38.69143906,88.69143906,1
+3704,North Carolina,04,asian_cvap_pct_119,7.28991937,Asian,racial_margin_asian,-22.853211440000003,27.146788559999997,4.76941135256521e-283
+3704,North Carolina,04,black_cvap_pct_119,21.56611231,Black,racial_margin_black,22.853211440000003,72.85321144,1.8432494299250065e-25
+3704,North Carolina,04,latino_cvap_pct_119,6.14924628,Latino,racial_margin_latino,-34.916740520000005,15.083259479999995,0
+3704,North Carolina,04,white_cvap_pct_119,61.97967379,White,racial_margin_white,-35.92331732,14.076682679999998,2.328082285303315e-93
+3705,North Carolina,05,asian_cvap_pct_119,1.55284894,Asian,racial_margin_asian,-29.736407335,20.263592665,0
+3705,North Carolina,05,black_cvap_pct_119,17.42541291,Black,racial_margin_black,-29.736407335,20.263592665,4.020974319911902e-214
+3705,North Carolina,05,latino_cvap_pct_119,4.42835368,Latino,racial_margin_latino,-29.736407335,20.263592665,0
+3705,North Carolina,05,white_cvap_pct_119,74.3893632,White,racial_margin_white,29.736407335,79.736407335,1
+3706,North Carolina,06,asian_cvap_pct_119,2.56881389,Asian,racial_margin_asian,-34.58185106,15.418148940000002,0
+3706,North Carolina,06,black_cvap_pct_119,19.77023387,Black,racial_margin_black,-34.58185106,15.418148940000002,1.4084620143204528e-232
+3706,North Carolina,06,latino_cvap_pct_119,5.77662023,Latino,racial_margin_latino,-34.58185106,15.418148940000002,0
+3706,North Carolina,06,white_cvap_pct_119,69.27930499,White,racial_margin_white,34.58185106,84.58185105999999,1
+3707,North Carolina,07,asian_cvap_pct_119,0.9776319,Asian,racial_margin_asian,-29.29666416,20.70333584,0
+3707,North Carolina,07,black_cvap_pct_119,18.318888,Black,racial_margin_black,-8.593328319999998,41.40667168,5.263186020668805e-112
+3707,North Carolina,07,latino_cvap_pct_119,4.92295545,Latino,racial_margin_latino,-29.29666416,20.70333584,0
+3707,North Carolina,07,white_cvap_pct_119,71.22911617,White,racial_margin_white,8.593328319999998,58.59332832,1
+3708,North Carolina,08,asian_cvap_pct_119,2.70793002,Asian,racial_margin_asian,-29.803996015,20.196003985,0
+3708,North Carolina,08,black_cvap_pct_119,17.43297041,Black,racial_margin_black,-29.803996015,20.196003985,1.7132083707650827e-214
+3708,North Carolina,08,latino_cvap_pct_119,5.43769377,Latino,racial_margin_latino,-29.803996015,20.196003985,0
+3708,North Carolina,08,white_cvap_pct_119,66.39113696,White,racial_margin_white,29.803996015,79.803996015,1
+3709,North Carolina,09,asian_cvap_pct_119,1.54916112,Asian,racial_margin_asian,-28.14995296,21.85004704,0
+3709,North Carolina,09,black_cvap_pct_119,21.68450982,Black,racial_margin_black,-9.272884685,40.727115315,9.233847094263626e-92
+3709,North Carolina,09,latino_cvap_pct_119,7.50678706,Latino,racial_margin_latino,-28.14995296,21.85004704,4.4560984144738644e-303
+3709,North Carolina,09,white_cvap_pct_119,65.23261497,White,racial_margin_white,9.272884685,59.272884685,1
+3710,North Carolina,10,asian_cvap_pct_119,1.9325974400000001,Asian,racial_margin_asian,-28.74562018,21.25437982,0
+3710,North Carolina,10,black_cvap_pct_119,16.10450786,Black,racial_margin_black,-28.74562018,21.25437982,4.4989151867055787e-218
+3710,North Carolina,10,latino_cvap_pct_119,6.06527681,Latino,racial_margin_latino,-28.74562018,21.25437982,0
+3710,North Carolina,10,white_cvap_pct_119,73.73443646,White,racial_margin_white,28.74562018,78.74562018,1
+3711,North Carolina,11,asian_cvap_pct_119,0.7390886,Asian,racial_margin_asian,-28.3853113,21.6146887,0
+3711,North Carolina,11,black_cvap_pct_119,3.32897337,Black,racial_margin_black,-28.3853113,21.6146887,0
+3711,North Carolina,11,latino_cvap_pct_119,3.88208487,Latino,racial_margin_latino,-28.3853113,21.6146887,0
+3711,North Carolina,11,white_cvap_pct_119,88.72503478,White,racial_margin_white,28.3853113,78.3853113,1
+3712,North Carolina,12,asian_cvap_pct_119,3.82586463,Asian,racial_margin_asian,-37.00973614,12.990263859999999,0
+3712,North Carolina,12,black_cvap_pct_119,41.46611938,Black,racial_margin_black,37.00973614,87.00973614,1
+3712,North Carolina,12,latino_cvap_pct_119,8.16038135,Latino,racial_margin_latino,-37.00973614,12.990263859999999,0
+3712,North Carolina,12,white_cvap_pct_119,43.77873442,White,racial_margin_white,-37.00973614,12.990263859999999,4.600276510566821e-151
+3713,North Carolina,13,asian_cvap_pct_119,0.91389525,Asian,racial_margin_asian,-29.321403645,20.678596355,0
+3713,North Carolina,13,black_cvap_pct_119,19.97089595,Black,racial_margin_black,-29.321403645,20.678596355,7.310094655108208e-194
+3713,North Carolina,13,latino_cvap_pct_119,7.52012766,Latino,racial_margin_latino,-29.321403645,20.678596355,0
+3713,North Carolina,13,white_cvap_pct_119,68.86200709,White,racial_margin_white,29.321403645,79.321403645,1
+3714,North Carolina,14,asian_cvap_pct_119,2.50301361,Asian,racial_margin_asian,-29.03221385,20.96778615,0
+3714,North Carolina,14,black_cvap_pct_119,15.54349917,Black,racial_margin_black,-29.03221385,20.96778615,2.9784288038678326e-224
+3714,North Carolina,14,latino_cvap_pct_119,5.34824575,Latino,racial_margin_latino,-29.03221385,20.96778615,0
+3714,North Carolina,14,white_cvap_pct_119,73.80695627,White,racial_margin_white,29.03221385,79.03221385,1
+3800,North Dakota,00,asian_cvap_pct_119,0.77303107,Asian,racial_margin_asian,-34.617843335,15.382156664999997,0
+3800,North Dakota,00,black_cvap_pct_119,2.12226852,Black,racial_margin_black,-34.617843335,15.382156664999997,0
+3800,North Dakota,00,latino_cvap_pct_119,3.38813482,Latino,racial_margin_latino,-34.617843335,15.382156664999997,0
+3800,North Dakota,00,white_cvap_pct_119,87.59351321,White,racial_margin_white,34.617843335,84.617843335,1
+3901,Ohio,01,asian_cvap_pct_119,2.58142377,Asian,racial_margin_asian,-4.5830792400000036,45.416920759999996,0
+3901,Ohio,01,black_cvap_pct_119,17.2843231,Black,racial_margin_black,-27.291539620000002,22.708460379999998,1.6827774151497664e-200
+3901,Ohio,01,latino_cvap_pct_119,2.85006639,Latino,racial_margin_latino,-27.291539620000002,22.708460379999998,0
+3901,Ohio,01,white_cvap_pct_119,74.07002095,White,racial_margin_white,4.5830792400000036,54.583079240000004,1
+3902,Ohio,02,asian_cvap_pct_119,0.48311881,Asian,racial_margin_asian,-36.779927375,13.220072625,0
+3902,Ohio,02,black_cvap_pct_119,2.09603796,Black,racial_margin_black,-36.779927375,13.220072625,0
+3902,Ohio,02,latino_cvap_pct_119,1.17620344,Latino,racial_margin_latino,-36.779927375,13.220072625,0
+3902,Ohio,02,white_cvap_pct_119,94.23696517,White,racial_margin_white,36.779927375,86.779927375,1
+3903,Ohio,03,asian_cvap_pct_119,4.01110676,Asian,racial_margin_asian,-35.37043678,14.629563220000001,0
+3903,Ohio,03,black_cvap_pct_119,25.89117073,Black,racial_margin_black,20.740873559999997,70.74087356,2.940262090572165e-13
+3903,Ohio,03,latino_cvap_pct_119,3.76327003,Latino,racial_margin_latino,-35.37043678,14.629563220000001,0
+3903,Ohio,03,white_cvap_pct_119,62.71487126,White,racial_margin_white,-20.740873559999997,29.259126440000003,3.937712600886526e-13
+3904,Ohio,04,asian_cvap_pct_119,1.75294998,Asian,racial_margin_asian,-34.230414675,15.769585325000001,0
+3904,Ohio,04,black_cvap_pct_119,4.38421243,Black,racial_margin_black,-18.460829349999997,31.539170650000003,0
+3904,Ohio,04,latino_cvap_pct_119,2.08970881,Latino,racial_margin_latino,-34.230414675,15.769585325000001,0
+3904,Ohio,04,white_cvap_pct_119,89.09743288,White,racial_margin_white,18.460829349999997,68.46082935,1
+3905,Ohio,05,asian_cvap_pct_119,0.59493234,Asian,racial_margin_asian,-33.755219105,16.244780894999998,0
+3905,Ohio,05,black_cvap_pct_119,3.57289738,Black,racial_margin_black,-33.755219105,16.244780894999998,0
+3905,Ohio,05,latino_cvap_pct_119,6.20235958,Latino,racial_margin_latino,-33.755219105,16.244780894999998,0
+3905,Ohio,05,white_cvap_pct_119,87.48973899,White,racial_margin_white,33.755219105,83.75521910500001,1
+3906,Ohio,06,asian_cvap_pct_119,0.37012807,Asian,racial_margin_asian,-33.370885645,16.629114355,0
+3906,Ohio,06,black_cvap_pct_119,5.59380393,Black,racial_margin_black,-33.370885645,16.629114355,0
+3906,Ohio,06,latino_cvap_pct_119,2.55826676,Latino,racial_margin_latino,-33.370885645,16.629114355,0
+3906,Ohio,06,white_cvap_pct_119,89.39891527,White,racial_margin_white,33.370885645,83.370885645,1
+3907,Ohio,07,asian_cvap_pct_119,2.15055548,Asian,racial_margin_asian,-25.538063445,24.461936555,0
+3907,Ohio,07,black_cvap_pct_119,3.19130748,Black,racial_margin_black,-25.538063445,24.461936555,0
+3907,Ohio,07,latino_cvap_pct_119,3.36343823,Latino,racial_margin_latino,-7.478188979999999,42.52181102,0
+3907,Ohio,07,white_cvap_pct_119,89.45421106,White,racial_margin_white,7.478188979999999,57.47818898,1
+3908,Ohio,08,asian_cvap_pct_119,2.08800574,Asian,racial_margin_asian,-31.405106205,18.594893795,0
+3908,Ohio,08,black_cvap_pct_119,12.15125146,Black,racial_margin_black,-12.810212409999998,37.18978759,5.700934895250786e-182
+3908,Ohio,08,latino_cvap_pct_119,2.51136905,Latino,racial_margin_latino,-31.405106205,18.594893795,0
+3908,Ohio,08,white_cvap_pct_119,80.14954006,White,racial_margin_white,12.810212409999998,62.81021241,1
+3909,Ohio,09,asian_cvap_pct_119,0.97074282,Asian,racial_margin_asian,-24.1338504,25.8661496,0
+3909,Ohio,09,black_cvap_pct_119,11.14963662,Black,racial_margin_black,-24.1338504,25.8661496,2.262222815585669e-239
+3909,Ohio,09,latino_cvap_pct_119,6.02563334,Latino,racial_margin_latino,-24.1338504,25.8661496,2.5630969816706363e-308
+3909,Ohio,09,white_cvap_pct_119,79.55228255,White,racial_margin_white,24.1338504,74.1338504,1
+3910,Ohio,10,asian_cvap_pct_119,1.53637717,Asian,racial_margin_asian,-28.819596165,21.180403835,0
+3910,Ohio,10,black_cvap_pct_119,15.97738474,Black,racial_margin_black,-28.819596165,21.180403835,1.6191510002648973e-219
+3910,Ohio,10,latino_cvap_pct_119,2.78135514,Latino,racial_margin_latino,-28.819596165,21.180403835,0
+3910,Ohio,10,white_cvap_pct_119,76.49011336,White,racial_margin_white,28.819596165,78.81959616500001,1
+3911,Ohio,11,asian_cvap_pct_119,1.95613265,Asian,racial_margin_asian,-39.165478995,10.834521005,0
+3911,Ohio,11,black_cvap_pct_119,42.36508848,Black,racial_margin_black,29.345464645,79.34546464499999,0.9999999999999992
+3911,Ohio,11,latino_cvap_pct_119,6.69745373,Latino,racial_margin_latino,-39.165478995,10.834521005,0
+3911,Ohio,11,white_cvap_pct_119,46.22129542,White,racial_margin_white,-29.345464645,20.654535355,1.212349106937476e-81
+3912,Ohio,12,asian_cvap_pct_119,1.3774739,Asian,racial_margin_asian,-34.252790725,15.747209275000003,0
+3912,Ohio,12,black_cvap_pct_119,3.71284727,Black,racial_margin_black,-34.252790725,15.747209275000003,0
+3912,Ohio,12,latino_cvap_pct_119,1.58816573,Latino,racial_margin_latino,-34.252790725,15.747209275000003,0
+3912,Ohio,12,white_cvap_pct_119,91.07232437,White,racial_margin_white,34.252790725,84.252790725,1
+3913,Ohio,13,asian_cvap_pct_119,2.13649665,Asian,racial_margin_asian,-25.552679935,24.447320065,0
+3913,Ohio,13,black_cvap_pct_119,11.51349946,Black,racial_margin_black,1.105359870000001,51.10535987,1.9300007654184882e-146
+3913,Ohio,13,latino_cvap_pct_119,2.01196014,Latino,racial_margin_latino,-25.552679935,24.447320065,0
+3913,Ohio,13,white_cvap_pct_119,81.26652965,White,racial_margin_white,-1.105359870000001,48.89464013,1
+3914,Ohio,14,asian_cvap_pct_119,0.71072964,Asian,racial_margin_asian,-31.707949295,18.292050705,0
+3914,Ohio,14,black_cvap_pct_119,4.86082824,Black,racial_margin_black,-31.707949295,18.292050705,0
+3914,Ohio,14,latino_cvap_pct_119,2.43138396,Latino,racial_margin_latino,-31.707949295,18.292050705,0
+3914,Ohio,14,white_cvap_pct_119,90.10134807,White,racial_margin_white,31.707949295,81.70794929499999,1
+3915,Ohio,15,asian_cvap_pct_119,2.80366327,Asian,racial_margin_asian,-28.22984394,21.77015606,0
+3915,Ohio,15,black_cvap_pct_119,10.57187049,Black,racial_margin_black,-28.22984394,21.77015606,4.387000485871512e-266
+3915,Ohio,15,latino_cvap_pct_119,3.43003586,Latino,racial_margin_latino,-28.22984394,21.77015606,0
+3915,Ohio,15,white_cvap_pct_119,79.96044146,White,racial_margin_white,28.22984394,78.22984394,1
+4001,Oklahoma,01,asian_cvap_pct_119,2.53929952,Asian,racial_margin_asian,-30.21302332,19.78697668,0
+4001,Oklahoma,01,black_cvap_pct_119,8.37672509,Black,racial_margin_black,-30.21302332,19.78697668,5.427508741839268e-302
+4001,Oklahoma,01,latino_cvap_pct_119,7.78511557,Latino,racial_margin_latino,-30.21302332,19.78697668,0
+4001,Oklahoma,01,white_cvap_pct_119,68.68702904,White,racial_margin_white,30.21302332,80.21302332,1
+4002,Oklahoma,02,asian_cvap_pct_119,0.72641098,Asian,racial_margin_asian,-37.0879215,12.9120785,0
+4002,Oklahoma,02,black_cvap_pct_119,3.13999128,Black,racial_margin_black,-37.0879215,12.9120785,0
+4002,Oklahoma,02,latino_cvap_pct_119,3.73787326,Latino,racial_margin_latino,-26.365859355,23.634140645,0
+4002,Oklahoma,02,white_cvap_pct_119,67.95546742,White,racial_margin_white,26.365859355,76.365859355,1
+4003,Oklahoma,03,asian_cvap_pct_119,1.15179442,Asian,racial_margin_asian,0,50,0
+4003,Oklahoma,03,black_cvap_pct_119,5.11868662,Black,racial_margin_black,0,50,1.0387583767737144e-253
+4003,Oklahoma,03,latino_cvap_pct_119,12.54006281,Latino,racial_margin_latino,0,50,8.32197853729687e-138
+4003,Oklahoma,03,white_cvap_pct_119,70.79848634,White,racial_margin_white,0,50,1
+4004,Oklahoma,04,asian_cvap_pct_119,2.092479,Asian,racial_margin_asian,-32.6231022,17.376897800000002,0
+4004,Oklahoma,04,black_cvap_pct_119,6.94564172,Black,racial_margin_black,-32.6231022,17.376897800000002,0
+4004,Oklahoma,04,latino_cvap_pct_119,7.80552137,Latino,racial_margin_latino,-32.6231022,17.376897800000002,0
+4004,Oklahoma,04,white_cvap_pct_119,71.6091891,White,racial_margin_white,32.6231022,82.6231022,1
+4005,Oklahoma,05,asian_cvap_pct_119,2.6419545,Asian,racial_margin_asian,-30.34664593,19.65335407,0
+4005,Oklahoma,05,black_cvap_pct_119,11.11827455,Black,racial_margin_black,-30.34664593,19.65335407,5.32646361404778e-272
+4005,Oklahoma,05,latino_cvap_pct_119,6.60666301,Latino,racial_margin_latino,-30.34664593,19.65335407,0
+4005,Oklahoma,05,white_cvap_pct_119,70.12491455,White,racial_margin_white,30.34664593,80.34664593,1
+4101,Oregon,01,asian_cvap_pct_119,7.18306791,Asian,racial_margin_asian,-34.312809135,15.687190864999998,0
+4101,Oregon,01,black_cvap_pct_119,2.2147315,Black,racial_margin_black,-34.312809135,15.687190864999998,0
+4101,Oregon,01,latino_cvap_pct_119,10.96817589,Latino,racial_margin_latino,-34.312809135,15.687190864999998,4.3534589262181644e-298
+4101,Oregon,01,white_cvap_pct_119,74.38325747,White,racial_margin_white,32.77299704,82.77299704,1
+4102,Oregon,02,asian_cvap_pct_119,0.73240065,Asian,racial_margin_asian,-31.949933,18.050067,0
+4102,Oregon,02,black_cvap_pct_119,0.6413615,Black,racial_margin_black,-31.949933,18.050067,0
+4102,Oregon,02,latino_cvap_pct_119,9.93515783,Latino,racial_margin_latino,-31.949933,18.050067,1.0445497978877322e-293
+4102,Oregon,02,white_cvap_pct_119,83.46264608,White,racial_margin_white,31.949933,81.949933,1
+4103,Oregon,03,asian_cvap_pct_119,6.70430217,Asian,racial_margin_asian,-33.855560775,16.144439225,0
+4103,Oregon,03,black_cvap_pct_119,5.06379639,Black,racial_margin_black,-33.855560775,16.144439225,0
+4103,Oregon,03,latino_cvap_pct_119,9.66084118,Latino,racial_margin_latino,-33.855560775,16.144439225,3.019108444948798e-308
+4103,Oregon,03,white_cvap_pct_119,73.2095283,White,racial_margin_white,33.48785324,83.48785323999999,1
+4104,Oregon,04,asian_cvap_pct_119,2.03093146,Asian,racial_margin_asian,-25.102372185,24.897627815,0
+4104,Oregon,04,black_cvap_pct_119,0.79015817,Black,racial_margin_black,-25.855345665,24.144654335,0
+4104,Oregon,04,latino_cvap_pct_119,6.60193322,Latino,racial_margin_latino,-25.855345665,24.144654335,5.0582691518847645e-306
+4104,Oregon,04,white_cvap_pct_119,85.18295255,White,racial_margin_white,25.102372185,75.10237218500001,1
+4105,Oregon,05,asian_cvap_pct_119,2.567813,Asian,racial_margin_asian,-23.84355072,26.15644928,0
+4105,Oregon,05,black_cvap_pct_119,0.82545372,Black,racial_margin_black,1.3637167850000012,51.363716785,0
+4105,Oregon,05,latino_cvap_pct_119,6.89836911,Latino,racial_margin_latino,-1.3637167850000012,48.636283215,1.3304318755901925e-220
+4105,Oregon,05,white_cvap_pct_119,85.74618629,White,racial_margin_white,-23.071920015,26.928079985,0.02569843060318345
+4106,Oregon,06,asian_cvap_pct_119,2.99781651,Asian,racial_margin_asian,-26.67172961,23.32827039,0
+4106,Oregon,06,black_cvap_pct_119,1.24751433,Black,racial_margin_black,-26.67172961,23.32827039,0
+4106,Oregon,06,latino_cvap_pct_119,13.93866729,Latino,racial_margin_latino,3.426334184999998,53.426334185,1.7458005331158156e-114
+4106,Oregon,06,white_cvap_pct_119,76.89105938,White,racial_margin_white,-3.426334184999998,46.573665815,1
+4201,Pennsylvania,01,asian_cvap_pct_119,4.69142693,Asian,racial_margin_asian,-28.201548445,21.798451555,0
+4201,Pennsylvania,01,black_cvap_pct_119,3.54251994,Black,racial_margin_black,-28.201548445,21.798451555,0
+4201,Pennsylvania,01,latino_cvap_pct_119,4.73515754,Latino,racial_margin_latino,-28.201548445,21.798451555,0
+4201,Pennsylvania,01,white_cvap_pct_119,85.11678796,White,racial_margin_white,28.201548445,78.201548445,1
+4202,Pennsylvania,02,asian_cvap_pct_119,8.04133687,Asian,racial_margin_asian,-21.460563890000003,28.539436109999997,2.0630130700250956e-266
+4202,Pennsylvania,02,black_cvap_pct_119,25.0614549,Black,racial_margin_black,-35.730281945,14.269718054999998,1.6875818202422862e-212
+4202,Pennsylvania,02,latino_cvap_pct_119,21.12912482,Latino,racial_margin_latino,-35.730281945,14.269718054999998,6.319498447315821e-234
+4202,Pennsylvania,02,white_cvap_pct_119,43.47696641,White,racial_margin_white,21.460563890000003,71.46056389,0.9999999952513398
+4203,Pennsylvania,03,asian_cvap_pct_119,4.68056522,Asian,racial_margin_asian,-50,0,0
+4203,Pennsylvania,03,black_cvap_pct_119,51.1870204,Black,racial_margin_black,50,100,1
+4203,Pennsylvania,03,latino_cvap_pct_119,4.71021074,Latino,racial_margin_latino,-50,0,0
+4203,Pennsylvania,03,white_cvap_pct_119,36.14560235,White,racial_margin_white,-50,0,0
+4204,Pennsylvania,04,asian_cvap_pct_119,4.31505942,Asian,racial_margin_asian,-9.067489459999996,40.93251054,2.536404425378615e-295
+4204,Pennsylvania,04,black_cvap_pct_119,8.16249283,Black,racial_margin_black,-29.53374473,20.46625527,3.5528348706505646e-301
+4204,Pennsylvania,04,latino_cvap_pct_119,4.66947073,Latino,racial_margin_latino,-29.53374473,20.46625527,0
+4204,Pennsylvania,04,white_cvap_pct_119,80.9590492,White,racial_margin_white,9.067489459999996,59.06748946,1
+4205,Pennsylvania,05,asian_cvap_pct_119,5.37311357,Asian,racial_margin_asian,-15.288496469999998,34.71150353,1.684017251282865e-289
+4205,Pennsylvania,05,black_cvap_pct_119,23.02174564,Black,racial_margin_black,-32.644248235,17.355751765,3.524940915227545e-198
+4205,Pennsylvania,05,latino_cvap_pct_119,4.26122586,Latino,racial_margin_latino,-32.644248235,17.355751765,0
+4205,Pennsylvania,05,white_cvap_pct_119,64.99693322,White,racial_margin_white,15.288496469999998,65.28849647,1
+4206,Pennsylvania,06,asian_cvap_pct_119,3.1095127,Asian,racial_margin_asian,-28.09990388,21.90009612,0
+4206,Pennsylvania,06,black_cvap_pct_119,5.25212169,Black,racial_margin_black,-28.09990388,21.90009612,0
+4206,Pennsylvania,06,latino_cvap_pct_119,11.75953433,Latino,racial_margin_latino,-28.09990388,21.90009612,5.67774797517706e-253
+4206,Pennsylvania,06,white_cvap_pct_119,77.78656155,White,racial_margin_white,28.09990388,78.09990388,1
+4207,Pennsylvania,07,asian_cvap_pct_119,2.42037189,Asian,racial_margin_asian,-25.25178893,24.74821107,0
+4207,Pennsylvania,07,black_cvap_pct_119,4.95227375,Black,racial_margin_black,-25.25178893,24.74821107,0
+4207,Pennsylvania,07,latino_cvap_pct_119,15.48104591,Latino,racial_margin_latino,-25.25178893,24.74821107,1.2316893503343547e-203
+4207,Pennsylvania,07,white_cvap_pct_119,75.45894582,White,racial_margin_white,25.25178893,75.25178893,1
+4208,Pennsylvania,08,asian_cvap_pct_119,1.47605229,Asian,racial_margin_asian,-25.40589601,24.59410399,0
+4208,Pennsylvania,08,black_cvap_pct_119,5.88505506,Black,racial_margin_black,-25.40589601,24.59410399,0
+4208,Pennsylvania,08,latino_cvap_pct_119,10.06539515,Latino,racial_margin_latino,-25.40589601,24.59410399,1.2471051256726054e-257
+4208,Pennsylvania,08,white_cvap_pct_119,80.77029996,White,racial_margin_white,25.40589601,75.40589600999999,1
+4209,Pennsylvania,09,asian_cvap_pct_119,0.65273395,Asian,racial_margin_asian,-35.25495552,14.745044479999997,0
+4209,Pennsylvania,09,black_cvap_pct_119,2.27108397,Black,racial_margin_black,-35.25495552,14.745044479999997,0
+4209,Pennsylvania,09,latino_cvap_pct_119,4.86183384,Latino,racial_margin_latino,-35.25495552,14.745044479999997,0
+4209,Pennsylvania,09,white_cvap_pct_119,90.77303886,White,racial_margin_white,35.25495552,85.25495552000001,1
+4210,Pennsylvania,10,asian_cvap_pct_119,3.16021208,Asian,racial_margin_asian,-25.31607065,24.68392935,0
+4210,Pennsylvania,10,black_cvap_pct_119,9.1152564,Black,racial_margin_black,-25.31607065,24.68392935,1.1253639230205049e-268
+4210,Pennsylvania,10,latino_cvap_pct_119,7.64062697,Latino,racial_margin_latino,-25.31607065,24.68392935,2.7004056798161734e-288
+4210,Pennsylvania,10,white_cvap_pct_119,77.69718763,White,racial_margin_white,25.31607065,75.31607065,1
+4211,Pennsylvania,11,asian_cvap_pct_119,1.77419962,Asian,racial_margin_asian,-31.44852757,18.55147243,0
+4211,Pennsylvania,11,black_cvap_pct_119,3.16424303,Black,racial_margin_black,-31.44852757,18.55147243,0
+4211,Pennsylvania,11,latino_cvap_pct_119,7.49737453,Latino,racial_margin_latino,-31.44852757,18.55147243,0
+4211,Pennsylvania,11,white_cvap_pct_119,85.90629052,White,racial_margin_white,31.44852757,81.44852757,1
+4212,Pennsylvania,12,asian_cvap_pct_119,2.61303436,Asian,racial_margin_asian,-28.20593521,21.79406479,0
+4212,Pennsylvania,12,black_cvap_pct_119,13.50465324,Black,racial_margin_black,28.20593521,78.20593521,6.961323753532229e-69
+4212,Pennsylvania,12,latino_cvap_pct_119,2.36836264,Latino,racial_margin_latino,-28.20593521,21.79406479,0
+4212,Pennsylvania,12,white_cvap_pct_119,79.15950211,White,racial_margin_white,-28.20593521,21.79406479,1.2875398944304274e-17
+4213,Pennsylvania,13,asian_cvap_pct_119,0.48755406,Asian,racial_margin_asian,-37.09975559,12.900244409999999,0
+4213,Pennsylvania,13,black_cvap_pct_119,2.11861375,Black,racial_margin_black,-37.09975559,12.900244409999999,0
+4213,Pennsylvania,13,latino_cvap_pct_119,2.59684937,Latino,racial_margin_latino,-37.09975559,12.900244409999999,0
+4213,Pennsylvania,13,white_cvap_pct_119,93.23165141,White,racial_margin_white,37.09975559,87.09975559,1
+4214,Pennsylvania,14,asian_cvap_pct_119,0.56074339,Asian,racial_margin_asian,-33.286616145000004,16.713383854999996,0
+4214,Pennsylvania,14,black_cvap_pct_119,2.97572614,Black,racial_margin_black,-33.286616145000004,16.713383854999996,0
+4214,Pennsylvania,14,latino_cvap_pct_119,1.25024887,Latino,racial_margin_latino,-33.286616145000004,16.713383854999996,0
+4214,Pennsylvania,14,white_cvap_pct_119,93.87604895,White,racial_margin_white,33.286616145000004,83.28661614500001,1
+4215,Pennsylvania,15,asian_cvap_pct_119,0.91995077,Asian,racial_margin_asian,-35.73283645,14.26716355,0
+4215,Pennsylvania,15,black_cvap_pct_119,1.92754729,Black,racial_margin_black,-35.73283645,14.26716355,0
+4215,Pennsylvania,15,latino_cvap_pct_119,1.87762875,Latino,racial_margin_latino,-35.73283645,14.26716355,0
+4215,Pennsylvania,15,white_cvap_pct_119,93.82855373,White,racial_margin_white,35.73283645,85.73283645000001,1
+4216,Pennsylvania,16,asian_cvap_pct_119,0.69034708,Asian,racial_margin_asian,-31.826391365,18.173608635,0
+4216,Pennsylvania,16,black_cvap_pct_119,3.69882095,Black,racial_margin_black,-31.826391365,18.173608635,0
+4216,Pennsylvania,16,latino_cvap_pct_119,2.1320664,Latino,racial_margin_latino,-31.826391365,18.173608635,0
+4216,Pennsylvania,16,white_cvap_pct_119,91.85297581,White,racial_margin_white,31.826391365,81.826391365,1
+4217,Pennsylvania,17,asian_cvap_pct_119,1.67465049,Asian,racial_margin_asian,-26.93782197,23.06217803,0
+4217,Pennsylvania,17,black_cvap_pct_119,6.85827831,Black,racial_margin_black,-26.93782197,23.06217803,8.086846068423903e-307
+4217,Pennsylvania,17,latino_cvap_pct_119,1.91815271,Latino,racial_margin_latino,-26.93782197,23.06217803,0
+4217,Pennsylvania,17,white_cvap_pct_119,87.7363117,White,racial_margin_white,26.93782197,76.93782197,1
+4401,Rhode Island,01,asian_cvap_pct_119,2.64424578,Asian,racial_margin_asian,-31.51077705,18.48922295,0
+4401,Rhode Island,01,black_cvap_pct_119,7.24432421,Black,racial_margin_black,29.144845735,79.144845735,5.865226522557812e-150
+4401,Rhode Island,01,latino_cvap_pct_119,13.25070378,Latino,racial_margin_latino,-31.51077705,18.48922295,7.627528879893423e-259
+4401,Rhode Island,01,white_cvap_pct_119,73.82881094,White,racial_margin_white,-29.144845735,20.855154265,2.634225870950544e-27
+4402,Rhode Island,02,asian_cvap_pct_119,2.35054565,Asian,racial_margin_asian,-29.11776985,20.88223015,0
+4402,Rhode Island,02,black_cvap_pct_119,3.89411754,Black,racial_margin_black,-29.11776985,20.88223015,0
+4402,Rhode Island,02,latino_cvap_pct_119,10.2804703,Latino,racial_margin_latino,-29.11776985,20.88223015,5.36781906348469e-274
+4402,Rhode Island,02,white_cvap_pct_119,81.30964334,White,racial_margin_white,29.11776985,79.11776985,1
+4501,South Carolina,01,asian_cvap_pct_119,1.58288581,Asian,racial_margin_asian,-29.108929135,20.891070865,0
+4501,South Carolina,01,black_cvap_pct_119,17.17314402,Black,racial_margin_black,-29.108929135,20.891070865,4.3259374119347514e-212
+4501,South Carolina,01,latino_cvap_pct_119,5.13439401,Latino,racial_margin_latino,-29.108929135,20.891070865,0
+4501,South Carolina,01,white_cvap_pct_119,73.72547867,White,racial_margin_white,29.108929135,79.108929135,1
+4502,South Carolina,02,asian_cvap_pct_119,1.62837904,Asian,racial_margin_asian,-29.76680693,20.23319307,0
+4502,South Carolina,02,black_cvap_pct_119,26.32841213,Black,racial_margin_black,-9.64422928,40.35577072,3.851165911222039e-68
+4502,South Carolina,02,latino_cvap_pct_119,4.2892273,Latino,racial_margin_latino,-29.76680693,20.23319307,0
+4502,South Carolina,02,white_cvap_pct_119,65.25302024,White,racial_margin_white,9.64422928,59.64422928,1
+4503,South Carolina,03,asian_cvap_pct_119,0.74777941,Asian,racial_margin_asian,-35.829490095,14.170509905000003,0
+4503,South Carolina,03,black_cvap_pct_119,16.55497142,Black,racial_margin_black,-23.177094599999997,26.822905400000003,2.6968964483863784e-184
+4503,South Carolina,03,latino_cvap_pct_119,3.25293591,Latino,racial_margin_latino,-35.829490095,14.170509905000003,0
+4503,South Carolina,03,white_cvap_pct_119,76.63358635,White,racial_margin_white,23.177094599999997,73.1770946,1
+4504,South Carolina,04,asian_cvap_pct_119,2.13095219,Asian,racial_margin_asian,-29.865421145,20.134578855,0
+4504,South Carolina,04,black_cvap_pct_119,18.12855091,Black,racial_margin_black,-29.865421145,20.134578855,7.026162673475707e-210
+4504,South Carolina,04,latino_cvap_pct_119,6.19370887,Latino,racial_margin_latino,-29.865421145,20.134578855,0
+4504,South Carolina,04,white_cvap_pct_119,70.78460236,White,racial_margin_white,29.865421145,79.865421145,1
+4505,South Carolina,05,asian_cvap_pct_119,1.39744147,Asian,racial_margin_asian,-31.754908755,18.245091245,0
+4505,South Carolina,05,black_cvap_pct_119,23.76251091,Black,racial_margin_black,-13.587305829999998,36.41269417,1.8799322664764908e-94
+4505,South Carolina,05,latino_cvap_pct_119,3.78604007,Latino,racial_margin_latino,-31.754908755,18.245091245,0
+4505,South Carolina,05,white_cvap_pct_119,68.43170714,White,racial_margin_white,13.587305829999998,63.58730583,1
+4506,South Carolina,06,asian_cvap_pct_119,1.12663033,Asian,racial_margin_asian,-29.749948525,20.250051475,0
+4506,South Carolina,06,black_cvap_pct_119,47.20793126,Black,racial_margin_black,28.887301985,78.887301985,1
+4506,South Carolina,06,latino_cvap_pct_119,3.32792208,Latino,racial_margin_latino,-29.749948525,20.250051475,0
+4506,South Carolina,06,white_cvap_pct_119,45.84961345,White,racial_margin_white,-28.887301985,21.112698015,7.273708373293563e-80
+4507,South Carolina,07,asian_cvap_pct_119,0.841089,Asian,racial_margin_asian,-32.4476344,17.5523656,0
+4507,South Carolina,07,black_cvap_pct_119,24.50306884,Black,racial_margin_black,-32.4476344,17.5523656,1.604717912519587e-188
+4507,South Carolina,07,latino_cvap_pct_119,2.99462452,Latino,racial_margin_latino,-32.4476344,17.5523656,0
+4507,South Carolina,07,white_cvap_pct_119,69.29373262,White,racial_margin_white,32.4476344,82.4476344,1
+4600,South Dakota,00,asian_cvap_pct_119,0.89513952,Asian,racial_margin_asian,-36.02223762,13.977762380000001,0
+4600,South Dakota,00,black_cvap_pct_119,1.49418869,Black,racial_margin_black,-36.02223762,13.977762380000001,0
+4600,South Dakota,00,latino_cvap_pct_119,2.69975274,Latino,racial_margin_latino,-36.02223762,13.977762380000001,0
+4600,South Dakota,00,white_cvap_pct_119,85.99282097,White,racial_margin_white,36.02223762,86.02223762,1
+4701,Tennessee,01,asian_cvap_pct_119,0.59383562,Asian,racial_margin_asian,-39.040851125,10.959148874999997,0
+4701,Tennessee,01,black_cvap_pct_119,2.14281649,Black,racial_margin_black,-29.346545570000004,20.653454429999996,0
+4701,Tennessee,01,latino_cvap_pct_119,2.55176956,Latino,racial_margin_latino,-39.040851125,10.959148874999997,0
+4701,Tennessee,01,white_cvap_pct_119,92.76486418,White,racial_margin_white,29.346545570000004,79.34654557,1
+4702,Tennessee,02,asian_cvap_pct_119,1.19694875,Asian,racial_margin_asian,-34.62902308,15.370976919999997,0
+4702,Tennessee,02,black_cvap_pct_119,5.37626473,Black,racial_margin_black,-34.62902308,15.370976919999997,0
+4702,Tennessee,02,latino_cvap_pct_119,2.8821568,Latino,racial_margin_latino,-34.62902308,15.370976919999997,0
+4702,Tennessee,02,white_cvap_pct_119,88.23716577,White,racial_margin_white,34.62902308,84.62902308,1
+4703,Tennessee,03,asian_cvap_pct_119,1.10900721,Asian,racial_margin_asian,-33.756793635,16.243206365,0
+4703,Tennessee,03,black_cvap_pct_119,9.61442502,Black,racial_margin_black,-33.756793635,16.243206365,4.0785710818468705e-308
+4703,Tennessee,03,latino_cvap_pct_119,3.12114813,Latino,racial_margin_latino,-19.078977415,30.921022585,0
+4703,Tennessee,03,white_cvap_pct_119,83.81959797,White,racial_margin_white,19.078977415,69.078977415,1
+4704,Tennessee,04,asian_cvap_pct_119,1.65949296,Asian,racial_margin_asian,-34.228344320000005,15.771655679999995,0
+4704,Tennessee,04,black_cvap_pct_119,9.28817116,Black,racial_margin_black,-34.97677611,15.023223889999997,0
+4704,Tennessee,04,latino_cvap_pct_119,4.08294731,Latino,racial_margin_latino,-34.97677611,15.023223889999997,0
+4704,Tennessee,04,white_cvap_pct_119,82.208807,White,racial_margin_white,34.228344320000005,84.22834432,1
+4705,Tennessee,05,asian_cvap_pct_119,2.52976511,Asian,racial_margin_asian,-28.42626014,21.57373986,0
+4705,Tennessee,05,black_cvap_pct_119,12.61258352,Black,racial_margin_black,-28.068636095,21.931363905,1.972504500141644e-244
+4705,Tennessee,05,latino_cvap_pct_119,5.02400586,Latino,racial_margin_latino,-28.42626014,21.57373986,0
+4705,Tennessee,05,white_cvap_pct_119,77.32558974,White,racial_margin_white,28.068636095,78.068636095,1
+4706,Tennessee,06,asian_cvap_pct_119,0.86003511,Asian,racial_margin_asian,-33.999372905,16.000627095,0
+4706,Tennessee,06,black_cvap_pct_119,8.66390217,Black,racial_margin_black,-33.999372905,16.000627095,0
+4706,Tennessee,06,latino_cvap_pct_119,3.72167661,Latino,racial_margin_latino,-33.999372905,16.000627095,0
+4706,Tennessee,06,white_cvap_pct_119,84.51266074,White,racial_margin_white,33.999372905,83.999372905,1
+4707,Tennessee,07,asian_cvap_pct_119,1.43874673,Asian,racial_margin_asian,-29.751809975,20.248190025,0
+4707,Tennessee,07,black_cvap_pct_119,15.80744333,Black,racial_margin_black,-29.751809975,20.248190025,1.6275692371776172e-226
+4707,Tennessee,07,latino_cvap_pct_119,4.71313,Latino,racial_margin_latino,-29.751809975,20.248190025,0
+4707,Tennessee,07,white_cvap_pct_119,74.87249471,White,racial_margin_white,29.751809975,79.751809975,1
+4708,Tennessee,08,asian_cvap_pct_119,1.3417942,Asian,racial_margin_asian,-36.172155935,13.827844065,0
+4708,Tennessee,08,black_cvap_pct_119,17.186166,Black,racial_margin_black,-36.172155935,13.827844065,2.1847548817263253e-262
+4708,Tennessee,08,latino_cvap_pct_119,2.20843762,Latino,racial_margin_latino,-36.172155935,13.827844065,0
+4708,Tennessee,08,white_cvap_pct_119,76.7074765,White,racial_margin_white,36.172155935,86.172155935,1
+4709,Tennessee,09,asian_cvap_pct_119,1.41418273,Asian,racial_margin_asian,-35.654863815,14.345136185000001,0
+4709,Tennessee,09,black_cvap_pct_119,64.13638598,Black,racial_margin_black,-22.82289464,27.17710536,7.902933284325741e-17
+4709,Tennessee,09,latino_cvap_pct_119,3.52372982,Latino,racial_margin_latino,-35.654863815,14.345136185000001,0
+4709,Tennessee,09,white_cvap_pct_119,29.01054117,White,racial_margin_white,22.82289464,72.82289464,2.7112495221673714e-5
+4801,Texas,01,asian_cvap_pct_119,0.79691637,Asian,racial_margin_asian,-50,0,0
+4801,Texas,01,black_cvap_pct_119,17.98487599,Black,racial_margin_black,-50,0,0
+4801,Texas,01,latino_cvap_pct_119,10.71756552,Latino,racial_margin_latino,-50,0,0
+4801,Texas,01,white_cvap_pct_119,67.57915354,White,racial_margin_white,50,100,1
+4802,Texas,02,asian_cvap_pct_119,3.7059421,Asian,racial_margin_asian,-32.82994221,17.17005779,0
+4802,Texas,02,black_cvap_pct_119,13.95969863,Black,racial_margin_black,-32.82994221,17.17005779,2.1455467710290027e-261
+4802,Texas,02,latino_cvap_pct_119,23.32003599,Latino,racial_margin_latino,-32.82994221,17.17005779,6.6564584741948545e-198
+4802,Texas,02,white_cvap_pct_119,56.57001958,White,racial_margin_white,32.82994221,82.82994221,1
+4803,Texas,03,asian_cvap_pct_119,10.10727953,Asian,racial_margin_asian,-12.454595830000002,37.54540417,7.137531399257613e-205
+4803,Texas,03,black_cvap_pct_119,10.81540924,Black,racial_margin_black,-31.227297915,18.772702085,3.193439759641483e-280
+4803,Texas,03,latino_cvap_pct_119,13.26647797,Latino,racial_margin_latino,-31.227297915,18.772702085,6.360758328024738e-257
+4803,Texas,03,white_cvap_pct_119,63.23820932,White,racial_margin_white,12.454595830000002,62.45459583,1
+4804,Texas,04,asian_cvap_pct_119,7.38985358,Asian,racial_margin_asian,-34.192426245,15.807573755,0
+4804,Texas,04,black_cvap_pct_119,9.63933092,Black,racial_margin_black,-34.192426245,15.807573755,0
+4804,Texas,04,latino_cvap_pct_119,10.87571512,Latino,racial_margin_latino,-34.192426245,15.807573755,3.5688983107579577e-298
+4804,Texas,04,white_cvap_pct_119,69.10318028,White,racial_margin_white,34.192426245,84.19242624500001,1
+4805,Texas,05,asian_cvap_pct_119,4.47313401,Asian,racial_margin_asian,-32.041834365,17.958165635,0
+4805,Texas,05,black_cvap_pct_119,15.64668711,Black,racial_margin_black,-32.041834365,17.958165635,1.5538375077620187e-242
+4805,Texas,05,latino_cvap_pct_119,20.23720455,Latino,racial_margin_latino,-14.08366873,35.91633127,9.28258700499196e-118
+4805,Texas,05,white_cvap_pct_119,56.87865065,White,racial_margin_white,14.08366873,64.08366873,1
+4806,Texas,06,asian_cvap_pct_119,2.82781929,Asian,racial_margin_asian,-32.83764724,17.162352759999997,0
+4806,Texas,06,black_cvap_pct_119,15.52232681,Black,racial_margin_black,-15.675294480000002,34.324705519999995,6.842518821124182e-160
+4806,Texas,06,latino_cvap_pct_119,23.56641025,Latino,racial_margin_latino,-32.83764724,17.162352759999997,1.3702587816338239e-196
+4806,Texas,06,white_cvap_pct_119,55.40142486,White,racial_margin_white,15.675294480000002,65.67529448,1
+4807,Texas,07,asian_cvap_pct_119,18.4534181,Asian,racial_margin_asian,-30.6416712,19.3583288,1.22157254922456e-212
+4807,Texas,07,black_cvap_pct_119,21.94865409,Black,racial_margin_black,-30.6416712,19.3583288,4.0068054942958457e-190
+4807,Texas,07,latino_cvap_pct_119,21.44569199,Latino,racial_margin_latino,-30.6416712,19.3583288,3.592135415055522e-193
+4807,Texas,07,white_cvap_pct_119,35.65484943,White,racial_margin_white,30.6416712,80.6416712,0.9998535573943302
+4808,Texas,08,asian_cvap_pct_119,5.96149546,Asian,racial_margin_asian,-34.108516935,15.891483065000003,0
+4808,Texas,08,black_cvap_pct_119,12.64479203,Black,racial_margin_black,-34.108516935,15.891483065000003,2.2939634251711995e-281
+4808,Texas,08,latino_cvap_pct_119,24.18015574,Latino,racial_margin_latino,-34.108516935,15.891483065000003,2.9647813322573654e-203
+4808,Texas,08,white_cvap_pct_119,54.75125133,White,racial_margin_white,34.108516935,84.108516935,1
+4809,Texas,09,asian_cvap_pct_119,9.43693516,Asian,racial_margin_asian,-50,0,0
+4809,Texas,09,black_cvap_pct_119,44.89310227,Black,racial_margin_black,50,100,1
+4809,Texas,09,latino_cvap_pct_119,25.97145888,Latino,racial_margin_latino,-50,0,0
+4809,Texas,09,white_cvap_pct_119,17.5029146,White,racial_margin_white,-50,0,0
+4810,Texas,10,asian_cvap_pct_119,3.81404601,Asian,racial_margin_asian,-31.802408155,18.197591845,0
+4810,Texas,10,black_cvap_pct_119,10.58627396,Black,racial_margin_black,-31.802408155,18.197591845,5.435468529991496e-286
+4810,Texas,10,latino_cvap_pct_119,18.93643493,Latino,racial_margin_latino,-31.802408155,18.197591845,3.1937009440829406e-217
+4810,Texas,10,white_cvap_pct_119,64.24696881,White,racial_margin_white,31.802408155,81.802408155,1
+4811,Texas,11,asian_cvap_pct_119,1.60699856,Asian,racial_margin_asian,-50,0,0
+4811,Texas,11,black_cvap_pct_119,11.6055949,Black,racial_margin_black,-50,0,0
+4811,Texas,11,latino_cvap_pct_119,33.63410813,Latino,racial_margin_latino,-50,0,0
+4811,Texas,11,white_cvap_pct_119,50.44366969,White,racial_margin_white,50,100,1
+4812,Texas,12,asian_cvap_pct_119,3.49194648,Asian,racial_margin_asian,-31.7269029,18.2730971,0
+4812,Texas,12,black_cvap_pct_119,11.85460539,Black,racial_margin_black,-13.453805799999998,36.5461942,1.4785048618327377e-187
+4812,Texas,12,latino_cvap_pct_119,18.94942554,Latino,racial_margin_latino,-31.7269029,18.2730971,1.308627856041472e-216
+4812,Texas,12,white_cvap_pct_119,63.03742315,White,racial_margin_white,13.453805799999998,63.4538058,1
+4813,Texas,13,asian_cvap_pct_119,1.6219385100000001,Asian,racial_margin_asian,-50,0,0
+4813,Texas,13,black_cvap_pct_119,6.56772914,Black,racial_margin_black,-50,0,0
+4813,Texas,13,latino_cvap_pct_119,21.94068091,Latino,racial_margin_latino,-50,0,0
+4813,Texas,13,white_cvap_pct_119,66.7444705,White,racial_margin_white,50,100,1
+4814,Texas,14,asian_cvap_pct_119,2.48208185,Asian,racial_margin_asian,-34.34412711,15.655872889999998,0
+4814,Texas,14,black_cvap_pct_119,16.09969365,Black,racial_margin_black,-34.34412711,15.655872889999998,1.6382912452072288e-255
+4814,Texas,14,latino_cvap_pct_119,20.09676339,Latino,racial_margin_latino,-34.34412711,15.655872889999998,1.1893470372626625e-228
+4814,Texas,14,white_cvap_pct_119,59.16318383,White,racial_margin_white,34.34412711,84.34412711,1
+4815,Texas,15,asian_cvap_pct_119,1.18325383,Asian,racial_margin_asian,-28.55712811,21.44287189,0
+4815,Texas,15,black_cvap_pct_119,1.73873492,Black,racial_margin_black,-28.55712811,21.44287189,0
+4815,Texas,15,latino_cvap_pct_119,74.61991953,Latino,racial_margin_latino,28.55712811,78.55712811000001,1
+4815,Texas,15,white_cvap_pct_119,21.55741253,White,racial_margin_white,-28.55712811,21.44287189,5.86817137451922e-179
+4816,Texas,16,asian_cvap_pct_119,1.16670496,Asian,racial_margin_asian,-29.74962414,20.25037586,0
+4816,Texas,16,black_cvap_pct_119,3.5632448,Black,racial_margin_black,-29.74962414,20.25037586,0
+4816,Texas,16,latino_cvap_pct_119,79.31496039,Latino,racial_margin_latino,29.71430253,79.71430253,1
+4816,Texas,16,white_cvap_pct_119,14.36045989,White,racial_margin_white,-29.71430253,20.28569747,3.8118648411120164e-238
+4817,Texas,17,asian_cvap_pct_119,1.57858577,Asian,racial_margin_asian,-33.17407797,16.82592203,0
+4817,Texas,17,black_cvap_pct_119,14.86792292,Black,racial_margin_black,-16.348155939999998,33.65184406,2.3044183767263934e-168
+4817,Texas,17,latino_cvap_pct_119,19.50841617,Latino,racial_margin_latino,-33.17407797,16.82592203,2.340786667539174e-223
+4817,Texas,17,white_cvap_pct_119,61.10747132,White,racial_margin_white,16.348155939999998,66.34815594,1
+4818,Texas,18,asian_cvap_pct_119,5.40828708,Asian,racial_margin_asian,-34.70967447,15.290325529999997,0
+4818,Texas,18,black_cvap_pct_119,38.62329157,Black,racial_margin_black,34.6955011,84.6955011,0.9999999999996867
+4818,Texas,18,latino_cvap_pct_119,30.47121938,Latino,racial_margin_latino,-34.70967447,15.290325529999997,6.610653679239446e-178
+4818,Texas,18,white_cvap_pct_119,23.1645535,White,racial_margin_white,-34.6955011,15.304498899999999,1.3070824030044949e-213
+4819,Texas,19,asian_cvap_pct_119,1.1390907,Asian,racial_margin_asian,-35.849084935,14.150915065,0
+4819,Texas,19,black_cvap_pct_119,5.90767466,Black,racial_margin_black,-40.34725481,9.652745189999997,0
+4819,Texas,19,latino_cvap_pct_119,33.81384442,Latino,racial_margin_latino,-40.34725481,9.652745189999997,4.569983742710353e-224
+4819,Texas,19,white_cvap_pct_119,56.88330758,White,racial_margin_white,35.849084935,85.84908493500001,1
+4820,Texas,20,asian_cvap_pct_119,2.12184379,Asian,racial_margin_asian,-50,0,0
+4820,Texas,20,black_cvap_pct_119,6.5393369,Black,racial_margin_black,-50,0,0
+4820,Texas,20,latino_cvap_pct_119,67.67906467,Latino,racial_margin_latino,50,100,1
+4820,Texas,20,white_cvap_pct_119,21.44928535,White,racial_margin_white,-50,0,0
+4821,Texas,21,asian_cvap_pct_119,1.84308858,Asian,racial_margin_asian,-29.87995488,20.12004512,0
+4821,Texas,21,black_cvap_pct_119,3.50482176,Black,racial_margin_black,-30.925161165,19.074838835,0
+4821,Texas,21,latino_cvap_pct_119,27.03323798,Latino,racial_margin_latino,-12.895528615,37.104471385,2.43001061791007e-75
+4821,Texas,21,white_cvap_pct_119,65.16283824,White,racial_margin_white,12.895528615,62.895528615,1
+4822,Texas,22,asian_cvap_pct_119,12.34917333,Asian,racial_margin_asian,-31.061417855,18.938582145,3.088897108162392e-264
+4822,Texas,22,black_cvap_pct_119,12.99804297,Black,racial_margin_black,-12.122835709999997,37.87716429,1.5741170398298458e-170
+4822,Texas,22,latino_cvap_pct_119,24.90219593,Latino,racial_margin_latino,-31.061417855,18.938582145,2.7681546713491637e-176
+4822,Texas,22,white_cvap_pct_119,47.34266569,White,racial_margin_white,12.122835709999997,62.12283571,0.9999883955033588
+4823,Texas,23,asian_cvap_pct_119,2.23291611,Asian,racial_margin_asian,-31.148631645,18.851368355,0
+4823,Texas,23,black_cvap_pct_119,4.1924979,Black,racial_margin_black,-31.148631645,18.851368355,0
+4823,Texas,23,latino_cvap_pct_119,57.70939957,Latino,racial_margin_latino,31.148631645,81.148631645,1
+4823,Texas,23,white_cvap_pct_119,33.43456827,White,racial_margin_white,-31.148631645,18.851368355,4.2695646143617405e-137
+4824,Texas,24,asian_cvap_pct_119,6.59253542,Asian,racial_margin_asian,-30.150334815,19.849665185,0
+4824,Texas,24,black_cvap_pct_119,7.39823271,Black,racial_margin_black,-30.150334815,19.849665185,0
+4824,Texas,24,latino_cvap_pct_119,13.55522011,Latino,racial_margin_latino,-30.150334815,19.849665185,9.35597621720563e-248
+4824,Texas,24,white_cvap_pct_119,69.36430141,White,racial_margin_white,30.150334815,80.15033481500001,1
+4825,Texas,25,asian_cvap_pct_119,2.51731234,Asian,racial_margin_asian,-49.68625214,0.31374785999999943,0
+4825,Texas,25,black_cvap_pct_119,11.8280495,Black,racial_margin_black,-49.68625214,0.31374785999999943,0
+4825,Texas,25,latino_cvap_pct_119,17.51934908,Latino,racial_margin_latino,-49.68625214,0.31374785999999943,0
+4825,Texas,25,white_cvap_pct_119,65.6392221,White,racial_margin_white,49.68625214,99.68625214,1
+4826,Texas,26,asian_cvap_pct_119,7.69622762,Asian,racial_margin_asian,-31.03491776,18.96508224,0
+4826,Texas,26,black_cvap_pct_119,9.79360682,Black,racial_margin_black,-31.03491776,18.96508224,6.012989989338427e-290
+4826,Texas,26,latino_cvap_pct_119,14.90895655,Latino,racial_margin_latino,-13.199133945,36.800866055,6.353140075911381e-156
+4826,Texas,26,white_cvap_pct_119,64.74469657,White,racial_margin_white,13.199133945,63.199133945,1
+4827,Texas,27,asian_cvap_pct_119,1.27900392,Asian,racial_margin_asian,-33.02150939,16.97849061,0
+4827,Texas,27,black_cvap_pct_119,4.5039261,Black,racial_margin_black,-33.02150939,16.97849061,0
+4827,Texas,27,latino_cvap_pct_119,48.88294553,Latino,racial_margin_latino,-33.02150939,16.97849061,5.781103734374941e-100
+4827,Texas,27,white_cvap_pct_119,43.67892168,White,racial_margin_white,33.02150939,83.02150939,1
+4828,Texas,28,asian_cvap_pct_119,1.11448003,Asian,racial_margin_asian,-26.397188345,23.602811655,0
+4828,Texas,28,black_cvap_pct_119,5.2219825,Black,racial_margin_black,-26.397188345,23.602811655,0
+4828,Texas,28,latino_cvap_pct_119,68.58722361,Latino,racial_margin_latino,2.79437669,52.79437669,1
+4828,Texas,28,white_cvap_pct_119,23.56296946,White,racial_margin_white,-2.79437669,47.20562331,1.5444739939065745e-62
+4829,Texas,29,asian_cvap_pct_119,2.84001441,Asian,racial_margin_asian,-32.645572865,17.354427135,0
+4829,Texas,29,black_cvap_pct_119,17.94216024,Black,racial_margin_black,-32.645572865,17.354427135,6.063733860762544e-230
+4829,Texas,29,latino_cvap_pct_119,64.87469768,Latino,racial_margin_latino,32.645572865,82.64557286499999,1
+4829,Texas,29,white_cvap_pct_119,13.12226625,White,racial_margin_white,-32.645572865,17.354427135,2.6866964286715142e-267
+4830,Texas,30,asian_cvap_pct_119,3.37609484,Asian,racial_margin_asian,-42.446043165,7.553956835000001,0
+4830,Texas,30,black_cvap_pct_119,45.59497479,Black,racial_margin_black,42.446043165,92.44604316499999,1
+4830,Texas,30,latino_cvap_pct_119,25.41508154,Latino,racial_margin_latino,-42.446043165,7.553956835000001,2.2982159293176816e-286
+4830,Texas,30,white_cvap_pct_119,23.04245677,White,racial_margin_white,-42.446043165,7.553956835000001,7.198144642681976e-297
+4831,Texas,31,asian_cvap_pct_119,3.68181587,Asian,racial_margin_asian,-32.2152285,17.784771499999998,0
+4831,Texas,31,black_cvap_pct_119,7.77209989,Black,racial_margin_black,-32.2152285,17.784771499999998,0
+4831,Texas,31,latino_cvap_pct_119,19.50698606,Latino,racial_margin_latino,-32.2152285,17.784771499999998,2.2887742498778257e-216
+4831,Texas,31,white_cvap_pct_119,65.45523997,White,racial_margin_white,32.2152285,82.2152285,1
+4832,Texas,32,asian_cvap_pct_119,7.27881724,Asian,racial_margin_asian,-30.22747608,19.77252392,0
+4832,Texas,32,black_cvap_pct_119,22.93807872,Black,racial_margin_black,-30.22747608,19.77252392,1.728347615868123e-181
+4832,Texas,32,latino_cvap_pct_119,23.62691117,Latino,racial_margin_latino,-30.22747608,19.77252392,1.5039836707611996e-177
+4832,Texas,32,white_cvap_pct_119,43.15280761,White,racial_margin_white,30.22747608,80.22747608,1
+4833,Texas,33,asian_cvap_pct_119,5.87330422,Asian,racial_margin_asian,-34.392698295,15.607301704999998,0
+4833,Texas,33,black_cvap_pct_119,24.92346539,Black,racial_margin_black,18.785396590000005,68.78539659,4.161675542631184e-18
+4833,Texas,33,latino_cvap_pct_119,45.12076024,Latino,racial_margin_latino,-34.392698295,15.607301704999998,4.871713287051628e-122
+4833,Texas,33,white_cvap_pct_119,21.90407999,White,racial_margin_white,-18.785396590000005,31.214603409999995,4.8474198954822646e-126
+4834,Texas,34,asian_cvap_pct_119,0.57653287,Asian,racial_margin_asian,-25.645888125,24.354111875,0
+4834,Texas,34,black_cvap_pct_119,0.7610778,Black,racial_margin_black,-25.645888125,24.354111875,0
+4834,Texas,34,latino_cvap_pct_119,86.76241541,Latino,racial_margin_latino,25.645888125,75.645888125,1
+4834,Texas,34,white_cvap_pct_119,11.353140550000001,White,racial_margin_white,-25.645888125,24.354111875,1.756482447869075e-244
+4835,Texas,35,asian_cvap_pct_119,2.91752773,Asian,racial_margin_asian,-33.6815885,16.318411500000003,0
+4835,Texas,35,black_cvap_pct_119,13.02933771,Black,racial_margin_black,-33.6815885,16.318411500000003,4.421026325093568e-275
+4835,Texas,35,latino_cvap_pct_119,45.67406351,Latino,racial_margin_latino,33.6815885,83.6815885,1
+4835,Texas,35,white_cvap_pct_119,35.56658515,White,racial_margin_white,-33.6815885,16.318411500000003,2.656264601156673e-148
+4836,Texas,36,asian_cvap_pct_119,3.59823869,Asian,racial_margin_asian,-34.67954804,15.32045196,0
+4836,Texas,36,black_cvap_pct_119,12.33426565,Black,racial_margin_black,-34.67954804,15.32045196,4.3775432641332145e-288
+4836,Texas,36,latino_cvap_pct_119,24.20694857,Latino,racial_margin_latino,-34.67954804,15.32045196,7.763751529442635e-208
+4836,Texas,36,white_cvap_pct_119,57.61414016,White,racial_margin_white,34.67954804,84.67954804,1
+4837,Texas,37,asian_cvap_pct_119,7.02113253,Asian,racial_margin_asian,-36.007621965,13.992378035000002,0
+4837,Texas,37,black_cvap_pct_119,6.89542998,Black,racial_margin_black,-37.10940365,12.890596350000003,0
+4837,Texas,37,latino_cvap_pct_119,22.72033747,Latino,racial_margin_latino,-25.320588984999997,24.679411015000003,5.605100621598362e-153
+4837,Texas,37,white_cvap_pct_119,60.13231475,White,racial_margin_white,25.320588984999997,75.320588985,1
+4838,Texas,38,asian_cvap_pct_119,9.03973995,Asian,racial_margin_asian,-31.36706305,18.63293695,2.56542929677589e-300
+4838,Texas,38,black_cvap_pct_119,10.98525005,Black,racial_margin_black,12.747838159999995,62.74783815999999,6.119772425319701e-125
+4838,Texas,38,latino_cvap_pct_119,20.19347722,Latino,racial_margin_latino,-31.36706305,18.63293695,5.672092143045445e-206
+4838,Texas,38,white_cvap_pct_119,57.15426441,White,racial_margin_white,-12.747838159999995,37.25216184000001,5.7249949448959e-5
+4901,Utah,01,asian_cvap_pct_119,1.6327798,Asian,racial_margin_asian,-31.56301671,18.43698329,0
+4901,Utah,01,black_cvap_pct_119,1.01821797,Black,racial_margin_black,-31.56301671,18.43698329,0
+4901,Utah,01,latino_cvap_pct_119,10.04253745,Latino,racial_margin_latino,-31.56301671,18.43698329,2.7600905424171794e-290
+4901,Utah,01,white_cvap_pct_119,84.22890477,White,racial_margin_white,31.56301671,81.56301671,1
+4902,Utah,02,asian_cvap_pct_119,2.33333621,Asian,racial_margin_asian,-29.00112481,20.99887519,0
+4902,Utah,02,black_cvap_pct_119,1.14382269,Black,racial_margin_black,-29.00112481,20.99887519,0
+4902,Utah,02,latino_cvap_pct_119,12.39566541,Latino,racial_margin_latino,-29.00112481,20.99887519,1.0430862516499232e-251
+4902,Utah,02,white_cvap_pct_119,79.81344345,White,racial_margin_white,29.00112481,79.00112481,1
+4903,Utah,03,asian_cvap_pct_119,1.8105315,Asian,racial_margin_asian,-33.19353037,16.806469630000002,0
+4903,Utah,03,black_cvap_pct_119,0.62727769,Black,racial_margin_black,-33.19353037,16.806469630000002,0
+4903,Utah,03,latino_cvap_pct_119,7.82627066,Latino,racial_margin_latino,-33.19353037,16.806469630000002,0
+4903,Utah,03,white_cvap_pct_119,84.89832925,White,racial_margin_white,33.19353037,83.19353036999999,1
+4904,Utah,04,asian_cvap_pct_119,2.17661243,Asian,racial_margin_asian,-29.32344886,20.67655114,0
+4904,Utah,04,black_cvap_pct_119,1.06195585,Black,racial_margin_black,16.60704269,66.60704269,0
+4904,Utah,04,latino_cvap_pct_119,11.99230425,Latino,racial_margin_latino,-31.708453865,18.291546135,1.4590539323021666e-271
+4904,Utah,04,white_cvap_pct_119,80.9864061,White,racial_margin_white,-16.60704269,33.39295731,0.9774441496554767
+5000,Vermont,00,asian_cvap_pct_119,1.24147897,Asian,racial_margin_asian,-31.144899265,18.855100735,0
+5000,Vermont,00,black_cvap_pct_119,1.00882144,Black,racial_margin_black,-31.144899265,18.855100735,0
+5000,Vermont,00,latino_cvap_pct_119,2.22040372,Latino,racial_margin_latino,-28.39459694,21.60540306,0
+5000,Vermont,00,white_cvap_pct_119,93.22092691,White,racial_margin_white,28.39459694,78.39459694,1
+5101,Virginia,01,asian_cvap_pct_119,4.0324203,Asian,racial_margin_asian,-28.15343721,21.84656279,0
+5101,Virginia,01,black_cvap_pct_119,13.3510121,Black,racial_margin_black,-6.390815735,43.609184264999996,7.130949013110172e-148
+5101,Virginia,01,latino_cvap_pct_119,4.1245272,Latino,racial_margin_latino,-28.15343721,21.84656279,0
+5101,Virginia,01,white_cvap_pct_119,75.5378029,White,racial_margin_white,6.390815735,56.390815735000004,1
+5102,Virginia,02,asian_cvap_pct_119,4.64443129,Asian,racial_margin_asian,-25.36909533,24.63090467,0
+5102,Virginia,02,black_cvap_pct_119,22.46647066,Black,racial_margin_black,-25.36909533,24.63090467,9.112857102296931e-155
+5102,Virginia,02,latino_cvap_pct_119,6.21635891,Latino,racial_margin_latino,-25.36909533,24.63090467,0
+5102,Virginia,02,white_cvap_pct_119,63.04207382,White,racial_margin_white,25.36909533,75.36909533,1
+5103,Virginia,03,asian_cvap_pct_119,2.57585695,Asian,racial_margin_asian,-34.975842645,15.024157355,0
+5103,Virginia,03,black_cvap_pct_119,43.41916669,Black,racial_margin_black,20.05823847,70.05823846999999,0.9999998719288923
+5103,Virginia,03,latino_cvap_pct_119,6.50608517,Latino,racial_margin_latino,-34.975842645,15.024157355,0
+5103,Virginia,03,white_cvap_pct_119,43.48355455,White,racial_margin_white,-20.05823847,29.94176153,2.49296230251182e-44
+5104,Virginia,04,asian_cvap_pct_119,1.84735863,Asian,racial_margin_asian,-33.67238514,16.327614859999997,0
+5104,Virginia,04,black_cvap_pct_119,42.32776773,Black,racial_margin_black,17.452491025000004,67.452491025,0.9997018160570339
+5104,Virginia,04,latino_cvap_pct_119,5.59050355,Latino,racial_margin_latino,-33.67238514,16.327614859999997,0
+5104,Virginia,04,white_cvap_pct_119,46.89682757,White,racial_margin_white,-17.452491025000004,32.547508975,4.0901811751234715e-28
+5105,Virginia,05,asian_cvap_pct_119,1.44093,Asian,racial_margin_asian,-28.630296965,21.369703035,0
+5105,Virginia,05,black_cvap_pct_119,20.30170867,Black,racial_margin_black,-7.495313634999999,42.504686365,8.265083740854389e-95
+5105,Virginia,05,latino_cvap_pct_119,2.84885065,Latino,racial_margin_latino,-28.630296965,21.369703035,0
+5105,Virginia,05,white_cvap_pct_119,72.97458918,White,racial_margin_white,7.495313634999999,57.495313635,1
+5106,Virginia,06,asian_cvap_pct_119,1.31092376,Asian,racial_margin_asian,-31.561536475,18.438463525,0
+5106,Virginia,06,black_cvap_pct_119,7.83010322,Black,racial_margin_black,-31.561536475,18.438463525,0
+5106,Virginia,06,latino_cvap_pct_119,4.50460297,Latino,racial_margin_latino,-31.561536475,18.438463525,0
+5106,Virginia,06,white_cvap_pct_119,84.0498204,White,racial_margin_white,31.561536475,81.561536475,1
+5107,Virginia,07,asian_cvap_pct_119,4.6659475,Asian,racial_margin_asian,-25.58979509,24.41020491,0
+5107,Virginia,07,black_cvap_pct_119,21.39320388,Black,racial_margin_black,-25.58979509,24.41020491,1.3356233123959399e-162
+5107,Virginia,07,latino_cvap_pct_119,11.95433297,Latino,racial_margin_latino,-25.58979509,24.41020491,6.150553280761985e-238
+5107,Virginia,07,white_cvap_pct_119,57.94192736,White,racial_margin_white,25.58979509,75.58979509,1
+5108,Virginia,08,asian_cvap_pct_119,10.76417916,Asian,racial_margin_asian,-35.76221299,14.237787009999998,0
+5108,Virginia,08,black_cvap_pct_119,13.49423964,Black,racial_margin_black,-35.76221299,14.237787009999998,2.772168546478913e-286
+5108,Virginia,08,latino_cvap_pct_119,13.28080919,Latino,racial_margin_latino,-35.76221299,14.237787009999998,5.147518009497971e-288
+5108,Virginia,08,white_cvap_pct_119,58.84830586,White,racial_margin_white,35.76221299,85.76221299,1
+5109,Virginia,09,asian_cvap_pct_119,1.04649881,Asian,racial_margin_asian,-36.24336909,13.756630909999998,0
+5109,Virginia,09,black_cvap_pct_119,5.78506586,Black,racial_margin_black,-36.24336909,13.756630909999998,0
+5109,Virginia,09,latino_cvap_pct_119,2.10498225,Latino,racial_margin_latino,-36.24336909,13.756630909999998,0
+5109,Virginia,09,white_cvap_pct_119,89.46038757,White,racial_margin_white,36.24336909,86.24336909,1
+5110,Virginia,10,asian_cvap_pct_119,13.59310117,Asian,racial_margin_asian,2.2745101850000005,52.274510185,8.035306130159e-121
+5110,Virginia,10,black_cvap_pct_119,9.52273128,Black,racial_margin_black,-26.044158525,23.955841475,4.24611630903277e-267
+5110,Virginia,10,latino_cvap_pct_119,12.2619605,Latino,racial_margin_latino,-26.044158525,23.955841475,3.9673878028220723e-237
+5110,Virginia,10,white_cvap_pct_119,61.27507042,White,racial_margin_white,-2.2745101850000005,47.725489815,0.9999772448355945
+5111,Virginia,11,asian_cvap_pct_119,20.20595461,Asian,racial_margin_asian,-33.34206921,16.65793079,3.379997170612293e-220
+5111,Virginia,11,black_cvap_pct_119,8.84832968,Black,racial_margin_black,-33.34206921,16.65793079,0
+5111,Virginia,11,latino_cvap_pct_119,10.46226832,Latino,racial_margin_latino,-33.34206921,16.65793079,9.757469422588474e-297
+5111,Virginia,11,white_cvap_pct_119,56.9054096,White,racial_margin_white,33.34206921,83.34206921,1
+5301,Washington,01,asian_cvap_pct_119,13.62872026,Asian,racial_margin_asian,-31.4997865,18.5002135,1.7844848088844586e-255
+5301,Washington,01,black_cvap_pct_119,2.64735049,Black,racial_margin_black,-31.4997865,18.5002135,0
+5301,Washington,01,latino_cvap_pct_119,7.13675364,Latino,racial_margin_latino,-31.4997865,18.5002135,0
+5301,Washington,01,white_cvap_pct_119,71.47434767,White,racial_margin_white,31.4997865,81.4997865,1
+5302,Washington,02,asian_cvap_pct_119,5.96381421,Asian,racial_margin_asian,-31.913992545,18.086007455,0
+5302,Washington,02,black_cvap_pct_119,2.3443806,Black,racial_margin_black,-31.913992545,18.086007455,0
+5302,Washington,02,latino_cvap_pct_119,7.93505028,Latino,racial_margin_latino,-31.913992545,18.086007455,0
+5302,Washington,02,white_cvap_pct_119,77.92273753,White,racial_margin_white,31.913992545,81.913992545,1
+5303,Washington,03,asian_cvap_pct_119,3.34109896,Asian,racial_margin_asian,-25.868589865,24.131410135,0
+5303,Washington,03,black_cvap_pct_119,1.64737235,Black,racial_margin_black,-25.868589865,24.131410135,0
+5303,Washington,03,latino_cvap_pct_119,7.30225032,Latino,racial_margin_latino,1.9383078749999996,51.938307875,6.028134181640365e-205
+5303,Washington,03,white_cvap_pct_119,82.64315086,White,racial_margin_white,-1.9383078749999996,48.061692125,1
+5304,Washington,04,asian_cvap_pct_119,1.66721124,Asian,racial_margin_asian,-26.008466305,23.991533695,0
+5304,Washington,04,black_cvap_pct_119,1.08601536,Black,racial_margin_black,-26.008466305,23.991533695,0
+5304,Washington,04,latino_cvap_pct_119,26.56959647,Latino,racial_margin_latino,-26.008466305,23.991533695,1.4635179860380412e-135
+5304,Washington,04,white_cvap_pct_119,65.95062081,White,racial_margin_white,26.008466305,76.008466305,1
+5305,Washington,05,asian_cvap_pct_119,1.83619011,Asian,racial_margin_asian,-30.282844095,19.717155905,0
+5305,Washington,05,black_cvap_pct_119,1.58147294,Black,racial_margin_black,-30.282844095,19.717155905,0
+5305,Washington,05,latino_cvap_pct_119,6.42691462,Latino,racial_margin_latino,-30.282844095,19.717155905,0
+5305,Washington,05,white_cvap_pct_119,84.92250484,White,racial_margin_white,30.282844095,80.282844095,1
+5306,Washington,06,asian_cvap_pct_119,3.70652014,Asian,racial_margin_asian,-28.35713711,21.64286289,0
+5306,Washington,06,black_cvap_pct_119,3.18696953,Black,racial_margin_black,-28.35713711,21.64286289,0
+5306,Washington,06,latino_cvap_pct_119,6.5732882,Latino,racial_margin_latino,6.803360919999999,56.80336092,5.798675877436574e-207
+5306,Washington,06,white_cvap_pct_119,79.25558881,White,racial_margin_white,-6.803360919999999,43.19663908,1
+5307,Washington,07,asian_cvap_pct_119,11.39853458,Asian,racial_margin_asian,34.070158805,84.070158805,3.687028462930623e-81
+5307,Washington,07,black_cvap_pct_119,4.62404592,Black,racial_margin_black,-41.956890945,8.043109055000002,0
+5307,Washington,07,latino_cvap_pct_119,7.2784085,Latino,racial_margin_latino,-41.956890945,8.043109055000002,0
+5307,Washington,07,white_cvap_pct_119,70.72105177,White,racial_margin_white,-34.070158805,15.929841195000002,5.326414134732297e-61
+5308,Washington,08,asian_cvap_pct_119,7.32752146,Asian,racial_margin_asian,-26.97806989,23.02193011,3.700433805259549e-300
+5308,Washington,08,black_cvap_pct_119,1.83888095,Black,racial_margin_black,-4.07565155,45.92434845,0
+5308,Washington,08,latino_cvap_pct_119,7.55895787,Latino,racial_margin_latino,-26.97806989,23.02193011,6.80792607580449e-297
+5308,Washington,08,white_cvap_pct_119,77.93695212,White,racial_margin_white,4.07565155,54.07565155,1
+5309,Washington,09,asian_cvap_pct_119,21.62093747,Asian,racial_margin_asian,-32.721322745,17.278677254999998,6.777523046684552e-207
+5309,Washington,09,black_cvap_pct_119,11.57442382,Black,racial_margin_black,-32.721322745,17.278677254999998,6.853385666546406e-282
+5309,Washington,09,latino_cvap_pct_119,8.77035467,Latino,racial_margin_latino,-32.721322745,17.278677254999998,0
+5309,Washington,09,white_cvap_pct_119,50.40442354,White,racial_margin_white,32.721322745,82.72132274500001,1
+5310,Washington,10,asian_cvap_pct_119,7.09504969,Asian,racial_margin_asian,-29.26813851,20.73186149,0
+5310,Washington,10,black_cvap_pct_119,6.88883828,Black,racial_margin_black,8.654078219999999,58.65407822,1.0200455807489657e-196
+5310,Washington,10,latino_cvap_pct_119,9.48307672,Latino,racial_margin_latino,-29.26813851,20.73186149,9.065684136337531e-284
+5310,Washington,10,white_cvap_pct_119,67.73709457,White,racial_margin_white,-8.654078219999999,41.34592178,0.998256528381926
+5401,West Virginia,01,asian_cvap_pct_119,0.43670511,Asian,racial_margin_asian,-33.180132375,16.819867625,0
+5401,West Virginia,01,black_cvap_pct_119,3.35819607,Black,racial_margin_black,-33.180132375,16.819867625,0
+5401,West Virginia,01,latino_cvap_pct_119,1.04167266,Latino,racial_margin_latino,-33.180132375,16.819867625,0
+5401,West Virginia,01,white_cvap_pct_119,92.91081083,White,racial_margin_white,33.180132375,83.180132375,1
+5402,West Virginia,02,asian_cvap_pct_119,0.66938919,Asian,racial_margin_asian,-35.38453419,14.615465810000003,0
+5402,West Virginia,02,black_cvap_pct_119,3.07893838,Black,racial_margin_black,-35.38453419,14.615465810000003,0
+5402,West Virginia,02,latino_cvap_pct_119,2.13216483,Latino,racial_margin_latino,-35.38453419,14.615465810000003,0
+5402,West Virginia,02,white_cvap_pct_119,92.08097048,White,racial_margin_white,35.38453419,85.38453419,1
+5501,Wisconsin,01,asian_cvap_pct_119,1.4046664,Asian,racial_margin_asian,-27.00365699,22.99634301,0
+5501,Wisconsin,01,black_cvap_pct_119,5.62446326,Black,racial_margin_black,-27.00365699,22.99634301,0
+5501,Wisconsin,01,latino_cvap_pct_119,8.70592413,Latino,racial_margin_latino,-27.00365699,22.99634301,8.986850248040342e-282
+5501,Wisconsin,01,white_cvap_pct_119,81.89732329,White,racial_margin_white,27.00365699,77.00365699,1
+5502,Wisconsin,02,asian_cvap_pct_119,3.31465023,Asian,racial_margin_asian,-35.02592634,14.974073660000002,0
+5502,Wisconsin,02,black_cvap_pct_119,3.43119192,Black,racial_margin_black,-35.02592634,14.974073660000002,0
+5502,Wisconsin,02,latino_cvap_pct_119,4.18809582,Latino,racial_margin_latino,-35.02592634,14.974073660000002,0
+5502,Wisconsin,02,white_cvap_pct_119,86.44643049,White,racial_margin_white,35.02592634,85.02592634,1
+5503,Wisconsin,03,asian_cvap_pct_119,1.80180959,Asian,racial_margin_asian,-25.66236105,24.33763895,0
+5503,Wisconsin,03,black_cvap_pct_119,1.14751829,Black,racial_margin_black,-25.66236105,24.33763895,0
+5503,Wisconsin,03,latino_cvap_pct_119,1.97861703,Latino,racial_margin_latino,-25.66236105,24.33763895,0
+5503,Wisconsin,03,white_cvap_pct_119,93.24810131,White,racial_margin_white,25.66236105,75.66236105,1
+5504,Wisconsin,04,asian_cvap_pct_119,3.60076824,Asian,racial_margin_asian,-37.38430427,12.615695729999999,0
+5504,Wisconsin,04,black_cvap_pct_119,30.68073922,Black,racial_margin_black,36.069246925,86.069246925,0.9173448926986578
+5504,Wisconsin,04,latino_cvap_pct_119,12.02601942,Latino,racial_margin_latino,-37.38430427,12.615695729999999,0
+5504,Wisconsin,04,white_cvap_pct_119,50.31403763,White,racial_margin_white,-36.069246925,13.930753074999998,1.1251279696721463e-122
+5505,Wisconsin,05,asian_cvap_pct_119,2.04092625,Asian,racial_margin_asian,-32.19762065,17.802379350000002,0
+5505,Wisconsin,05,black_cvap_pct_119,1.53060781,Black,racial_margin_black,-32.19762065,17.802379350000002,0
+5505,Wisconsin,05,latino_cvap_pct_119,4.48843921,Latino,racial_margin_latino,-32.19762065,17.802379350000002,0
+5505,Wisconsin,05,white_cvap_pct_119,90.23740146,White,racial_margin_white,32.19762065,82.19762065,1
+5506,Wisconsin,06,asian_cvap_pct_119,1.92461296,Asian,racial_margin_asian,-30.617431915,19.382568085,0
+5506,Wisconsin,06,black_cvap_pct_119,1.82008237,Black,racial_margin_black,-30.617431915,19.382568085,0
+5506,Wisconsin,06,latino_cvap_pct_119,3.61915445,Latino,racial_margin_latino,-30.617431915,19.382568085,0
+5506,Wisconsin,06,white_cvap_pct_119,90.78967474,White,racial_margin_white,30.617431915,80.617431915,1
+5507,Wisconsin,07,asian_cvap_pct_119,1.09721802,Asian,racial_margin_asian,-31.780107995,18.219892005,0
+5507,Wisconsin,07,black_cvap_pct_119,0.58685607,Black,racial_margin_black,-31.780107995,18.219892005,0
+5507,Wisconsin,07,latino_cvap_pct_119,1.57956077,Latino,racial_margin_latino,-31.780107995,18.219892005,0
+5507,Wisconsin,07,white_cvap_pct_119,93.33572843,White,racial_margin_white,13.595881815000002,63.595881815,1
+5508,Wisconsin,08,asian_cvap_pct_119,1.82779018,Asian,racial_margin_asian,-28.64589549,21.35410451,0
+5508,Wisconsin,08,black_cvap_pct_119,1.24650167,Black,racial_margin_black,-28.64589549,21.35410451,0
+5508,Wisconsin,08,latino_cvap_pct_119,3.7363247,Latino,racial_margin_latino,-28.64589549,21.35410451,0
+5508,Wisconsin,08,white_cvap_pct_119,89.47125714,White,racial_margin_white,28.64589549,78.64589549,1
+5600,Wyoming,00,asian_cvap_pct_119,0.57075759,Asian,racial_margin_asian,-23.686283205,26.313716795,0
+5600,Wyoming,00,black_cvap_pct_119,0.78402515,Black,racial_margin_black,-35.305182985,14.694817014999998,0
+5600,Wyoming,00,latino_cvap_pct_119,7.77688443,Latino,racial_margin_latino,-34.280132135,15.719867864999998,0
+5600,Wyoming,00,white_cvap_pct_119,86.90346406,White,racial_margin_white,23.686283205,73.686283205,1
