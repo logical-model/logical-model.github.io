@@ -27,9 +27,19 @@ for (i in seq_along(slugs)) {
                              "--mathjax", "--output", shQuote(fragment)))
   if (status != 0L) stop("Pandoc failed: ", slug)
   escape <- function(x) gsub('"', "&quot;", gsub("<", "&lt;", gsub("&", "&amp;", x, fixed = TRUE), fixed = TRUE), fixed = TRUE)
-  nav <- paste(vapply(seq_along(slugs), function(j) sprintf(
+  guide_nav <- paste(vapply(seq_len(2), function(j) sprintf(
     '<a%s href="%s.html">%s</a>', if (i == j) ' aria-current="page"' else "",
     slugs[[j]], labels[[j]]), character(1)), collapse = "")
+  application_nav <- paste(vapply(3:length(slugs), function(j) sprintf(
+    '<a%s href="%s.html">%s</a>', if (i == j) ' aria-current="page"' else "",
+    slugs[[j]], labels[[j]]), character(1)), collapse = "")
+  application_menu <- paste0(
+    '<details class="application-menu"', if (i >= 3) ' open' else "",
+    '><summary>Application</summary><div class="application-menu__links">',
+    application_nav, '</div></details>'
+  )
+  nav <- paste0(guide_nav, application_menu,
+                '<a href="../predictions-2026/">2026 Predictions</a>')
   html <- c('<!doctype html>', '<html lang="en"><head><meta charset="utf-8">',
     '<meta name="viewport" content="width=device-width, initial-scale=1">',
     sprintf('<title>%s · logical</title>', escape(title)),
